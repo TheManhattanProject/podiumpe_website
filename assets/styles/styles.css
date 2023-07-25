@@ -344,16 +344,122 @@ header > nav > ul {
 }
 
 /* footer */
-
+footer {
+  max-height: 250px;
+  overflow: hidden;
+}
 footer > img {
   width: 100vw;
 }
 
 /* media queries */
 
-@media (max-width: 1500px) {
+@media (max-width: 1280px) {
+  #game-section {
+    margin-bottom: 75px;
+    padding-bottom: 20px;
+  }
 }
 @media (max-width: 1200px) {
+    #drop-arrow{
+        margin-left: 10px;
+    }
+  /* ---------Portfolio Section------------ */
+  /* Download Card */
+  #download-card {
+    top: -45px;
+  }
+  #download-options-wrapper {
+    position: relative;
+    top: -4px;
+  }
+  #card-content {
+    gap: 2rem;
+  }
+  #card-content > h2 {
+    font-size: 1.4rem;
+    margin-left: 6rem;
+  }
+  .download-options {
+    height: 50px;
+  }
+  /* Porfolio Content */
+  #filler{
+    height: 180px;
+  }
+  #number-cards-wrapper {
+  }
+  #row-1 {
+    gap: 3rem;
+    justify-content: space-between;
+  }
+  #row-2{
+    margin-top: 120px;
+  }
+  .card {
+    font-size: 1.2rem;
+    max-width: 320px;
+    .card-num {
+      width: 100px;
+    }
+    .card-num > img {
+      width: 100px;
+      top: 16px;
+      left: -28px;
+    }
+    .text-card {
+      .card-title {
+        margin-left: 1.5rem;
+      }
+    }
+    .text-card > .text {
+      width: 90%;
+      word-break: break-all;
+    }
+  }
+
+   /* Game Box Section */
+   #game-section{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+   }
+   #game-section::after{
+    width: 20px;
+    height: 260px;
+   }
+   #game-content-wrapper{
+    margin-top: 60px;
+   }
+   #game-content-box{
+    margin-top: 60px;
+   }
+   #game-content-box::before{
+    height: 60px;
+    width: 70px;
+    bottom: -15px;
+    left: -25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   #game-content-box::after{
+    height: 65px;
+    width: 65px;
+    top: -25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+   #gm-car{
+    bottom: -140px;
+    width: 200px;
+   }
+   #final{
+    height: 180px;
+    margin-top: 50px;
+   }
+   #final-content-wrapper{
+    width: 80vw;
+    gap: 80px;
+   }
 }
 @media (max-width: 1000px) {
 }
