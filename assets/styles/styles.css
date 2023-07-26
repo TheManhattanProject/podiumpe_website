@@ -249,6 +249,9 @@ main {
   left: 0;
   z-index: 200;
 }
+#game-content-wrapper-m {
+    display: none;
+  }
 #game-content-box {
   max-width: 90%;
   border: 2px solid #272727;
@@ -462,9 +465,7 @@ footer {
   #game-content-wrapper {
     margin-top: 60px;
   }
-  #game-content-wrapper-m {
-    display: none;
-  }
+ 
   #game-content-box {
     margin-top: 60px;
   }

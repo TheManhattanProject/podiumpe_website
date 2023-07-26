@@ -44,6 +44,46 @@
   #download-card-img-m {
     width: 100%;
   }
+  #download-card-m-content{
+    width: 290px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #download-card-m-content h2{
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+  #download-card-m-content h2::before{
+    content: "";
+    display: inline;
+    width: 8px;
+    background-color: #0a0a0a;
+    height: 80px;
+  }
+  
+  #download-card-m-content span{
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+
+  #download-options-wrapper-m{
+
+  }
+  .download-options-m{
+    display: block;
+    margin-left: 30px;
+  }
+  .download-options-m:first-child{
+    width: 210px;
+    margin-top: 35px;
+  }
+  .download-options-m:last-child{
+    width: 230px;
+    margin-top: 15px;
+  }
 
   .strip-img {
     display: none;
@@ -68,8 +108,7 @@
     width: 100%;
     text-align: center;
   }
-  #upcoming {
-  }
+
   #grid-strip {
     margin-top: 25px;
     top: 0;
@@ -102,9 +141,8 @@
   }
   .gm-content-card > h4 {
     font-size: 36px;
-    
   }
-  .gm-content-card > h4::after{
+  .gm-content-card > h4::after {
     content: "";
     height: 8px;
     width: 70px;
@@ -119,19 +157,18 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
   }
-  .gm-content-card > h6{
+  .gm-content-card > h6 {
     font-family: "Poppins", sans-serif;
     font-style: italic;
     font-size: 32px;
     margin-top: 50px;
     font-weight: 700;
   }
-  .gm-content-card p:nth-child(2){
+  .gm-content-card p:nth-child(2) {
     margin-top: 50px;
   }
-  .gm-content-card p:nth-child(4){
+  .gm-content-card p:nth-child(4) {
     margin-top: 25px;
-
   }
   #top-game-card {
     margin-left: 30px;
@@ -143,10 +180,10 @@
     padding-top: 70px;
   }
   #formula-m {
-    display: block;
+    
     position: relative;
     top: 2px;
-    margin: auto;
+    width: 100%;
   }
   #bottom-game-card {
     padding-top: 60px;
@@ -162,6 +199,24 @@
     height: 70px;
     width: 100%;
     background-color: #d11616;
+    position: relative;
+  }
+  #stars{
+    margin-top: 46px;
+    margin-left: 20px;
+  }
+  #dark-filler{
+    height: 70px;
+    margin-left: auto;
+    width: 220px;
+    background-color: #0a0a0a;
+  }
+  #f1-car{
+    width: 260px;
+    position: absolute;
+    z-index: 200;
+    right: 0;
+    top: -45px;
   }
 
   #final {
@@ -184,9 +239,10 @@
     height: auto;
   }
   footer {
-    max-height: 520px;
+    max-height: 560px;
     height: auto;
     margin-top: 140px;
+    position: relative;
   }
   #footer-img {
     display: none;
@@ -200,5 +256,60 @@
   }
   #footer-content-m {
     display: block;
+    position: absolute;
+    top: 0;
+    width: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 17px;
+  }
+  #footer-content-m li {
+    list-style: none;
+    font-size: 16px;
+    margin-top: 28px;
+  }
+  #footer-card{
+    height: 170px;
+    background-color: #D41919;
+    border-radius: 20px;
+    padding: 16px 12px;
+    margin-top: 20px;
+  }
+  #footer-card-header{
+    height: 72px;
+    width: 100%;
+    border-radius: 16px;
+    background-color: #0a0a0a;
+  }
+  #footer-card p{
+      font-size: 16px;
+      color: #0a0a0a;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      line-height: 20px;
+      width: 80%;
+      margin: auto;
+      margin-top: 18px;
+  }
+  #footer-subcard{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 30px;
+  }
+  #footer-subcard-logo{
+    height: 70px;
+    width: 70px;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  #footer-subcard-content h4{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  #footer-subcard-content p{
+    font-size: 16px;
+    font-weight: 200;
   }
 }
