@@ -68,14 +68,13 @@
     width: 100%;
     text-align: center;
   }
-  #upcoming{
-    
+  #upcoming {
   }
-  #grid-strip{
+  #grid-strip {
     margin-top: 25px;
     top: 0;
   }
-  #phn-strip{
+  #phn-strip {
     border: none;
     margin-top: 80px;
   }
@@ -86,9 +85,86 @@
     display: none;
   }
   #game-section {
+    height: auto;
+  }
+  #game-section::after {
+    content: none;
+  }
+  #game-content-wrapper {
     display: none;
   }
-  #final{
+  #game-content-wrapper-m {
+    display: block;
+  }
+  .gm-content-card {
+    position: relative;
+    z-index: 10;
+  }
+  .gm-content-card > h4 {
+    font-size: 36px;
+    
+  }
+  .gm-content-card > h4::after{
+    content: "";
+    height: 8px;
+    width: 70px;
+    background-color: #d11616;
+    display: block;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  .gm-content-card > p {
+    font-size: 18px;
+    color: #989494;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+  }
+  .gm-content-card > h6{
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-size: 32px;
+    margin-top: 50px;
+    font-weight: 700;
+  }
+  .gm-content-card p:nth-child(2){
+    margin-top: 50px;
+  }
+  .gm-content-card p:nth-child(4){
+    margin-top: 25px;
+
+  }
+  #top-game-card {
+    margin-left: 30px;
+    border-left: 12px solid #d11616;
+    border-bottom: 12px solid #d11616;
+    border-bottom-left-radius: 48px;
+    padding-left: 30px;
+    padding-bottom: 75px;
+    padding-top: 70px;
+  }
+  #formula-m {
+    display: block;
+    position: relative;
+    top: 2px;
+    margin: auto;
+  }
+  #bottom-game-card {
+    padding-top: 60px;
+    border-top: 12px solid #d11616;
+    border-right: 12px solid #d11616;
+    border-top-right-radius: 48px;
+    padding-right: 55px;
+    margin-right: 25px;
+    padding-left: 35px;
+    padding-bottom: 70px;
+  }
+  #game-strip {
+    height: 70px;
+    width: 100%;
+    background-color: #d11616;
+  }
+
+  #final {
     margin-top: 35px;
     height: auto;
   }
@@ -96,18 +172,33 @@
     flex-direction: column;
     gap: 60px;
   }
-  #final-content-wrapper > p{
+  #final-content-wrapper > p {
     font-size: 18px;
   }
-  #download-options-wrapper{
+  #download-options-wrapper {
     flex-direction: column;
     gap: 20px;
   }
-  .download-options{
+  .download-options {
     width: 250px !important;
     height: auto;
   }
-  footer{
+  footer {
+    max-height: 520px;
+    height: auto;
+    margin-top: 140px;
+  }
+  #footer-img {
     display: none;
+  }
+  #footer-img-m {
+    display: block;
+    width: 100%;
+  }
+  #footer-content {
+    display: none;
+  }
+  #footer-content-m {
+    display: block;
   }
 }

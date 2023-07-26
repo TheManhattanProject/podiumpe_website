@@ -373,8 +373,16 @@ footer {
   max-height: 250px;
   overflow: hidden;
 }
-footer > img {
+#footer-img {
   width: 100%;
+}
+#footer-img-m {
+  display: none;
+}
+#footer-content-m {
+  display: none;
+}
+#footer-content {
 }
 
 /* media queries */
@@ -452,6 +460,9 @@ footer > img {
   }
   #game-content-wrapper {
     margin-top: 60px;
+  }
+  #game-content-wrapper-m {
+    display: none;
   }
   #game-content-box {
     margin-top: 60px;
