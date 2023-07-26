@@ -35,6 +35,9 @@ header > nav > ul {
   gap: 2rem;
   font-size: 0.8rem;
 }
+#hamburger-menu-wrapper {
+  display: none;
+}
 main {
 }
 
@@ -47,8 +50,11 @@ main {
   min-width: 100%;
 }
 
-#hero > img {
+#hero-img {
   width: 100%;
+}
+#hero-img-m {
+  display: none;
 }
 
 /* Portfolio section */
@@ -71,6 +77,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#download-card-m {
+  display: none;
 }
 #download-card-img {
   width: 100%;
@@ -187,7 +196,12 @@ main {
 .strip > img {
   width: 100%;
 }
-.strip > h2 {
+
+.strip-img-m {
+  display: none;
+}
+
+.strip-text {
   color: #0a0a0a;
   position: absolute;
   top: 50%;
@@ -196,6 +210,10 @@ main {
   z-index: 100;
   width: 100%;
   text-align: center;
+}
+
+.strip-text-m {
+  display: none;
 }
 
 /* Game section */
@@ -469,7 +487,4 @@ footer > img {
   }
 }
 @media (max-width: 1000px) {
-}
-
-@media (max-width: 600px) {
 }
