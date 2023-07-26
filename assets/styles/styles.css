@@ -292,10 +292,11 @@ main {
 
 #gm-car {
   position: absolute;
-  width: 220px;
+  max-width: 220px;
+  width: 14vw;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -180px;
+  top: calc(28vw);
   z-index: 300;
 }
 
