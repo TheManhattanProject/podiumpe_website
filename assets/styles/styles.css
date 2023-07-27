@@ -2,6 +2,10 @@
   font-family: "formula-bold";
   src: url("../font/formula1-bold.ttf") format("truetype");
 }
+@font-face {
+  font-family: "formula-reg";
+  src: url("../font/f1reg.otf") format("truetype");
+}
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
@@ -37,7 +41,7 @@ header > nav > ul {
 }
 #hamburger-menu-wrapper {
   display: none;
-}  
+}
 #drop-arrow {
   margin-left: 10px;
 }
@@ -253,8 +257,8 @@ main {
   z-index: 200;
 }
 #game-content-wrapper-m {
-    display: none;
-  }
+  display: none;
+}
 #game-content-box {
   max-width: 90%;
   border: 2px solid #272727;
@@ -379,6 +383,7 @@ main {
 footer {
   max-height: 250px;
   overflow: hidden;
+  position: relative;
 }
 #footer-img {
   width: 100%;
@@ -390,8 +395,90 @@ footer {
   display: none;
 }
 #footer-content {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 95%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 17px;
+  height: 200px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+#footer-content-logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+#pm-text small{
+  display: block;
+  font-size: 20px;
+}
+#pm-text span{
+  display: block;
+  font-size: 16px;
+  margin-top: 8px;
+  max-width: 210px;
+  font-family: formula-reg;
 }
 
+#pm-logo {
+  height: 80px;
+  width: 80px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pm-logo img{
+  display: block;
+  width: 60px;
+  height: 35px;
+}
+#footer-content-right{
+
+}
+#pm-card{
+  width: 720px;
+  height: 90px;
+  border-radius: 20px;
+  background-color: #D41919;
+  padding: 0 10px 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+}
+#pm-card-text{
+  color: #0a0a0a;
+  font-size: 16;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+#pm-subcard{
+  background-color: #0A0A0A;
+  height: 70px;
+  border-radius: 16px;
+  width: 330px;
+}
+#pm-nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 45px;
+  padding-top: 7px;
+}
+.pm-nav-items{
+  font-size: 20px;
+}
+#copyright{
+  font-size: 16px;
+  margin-top: 60px;
+  margin-left: 35px;
+}
 /* media queries */
 
 @media (max-width: 1280px) {
@@ -401,7 +488,6 @@ footer {
   }
 }
 @media (max-width: 1200px) {
-
   /* ---------Portfolio Section------------ */
   /* Download Card */
   #download-card {
@@ -466,7 +552,7 @@ footer {
   #game-content-wrapper {
     margin-top: 60px;
   }
- 
+
   #game-content-box {
     margin-top: 60px;
   }
