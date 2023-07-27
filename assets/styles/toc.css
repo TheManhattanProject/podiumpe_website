@@ -20,34 +20,9 @@ body {
   /* max-width: 1800px; */
   margin: auto;
 }
-header {
-  /* min-height: 30px; */
-  padding: 1.2rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-header > #logo {
-  height: 32px;
-}
-header > nav {
-  margin-right: 2rem;
-}
-header > nav > ul {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-  font-size: 0.8rem;
-}
-#category-dropmenu {
-  display: flex;
-  gap: 0.6rem;
-}
-#hamburger-menu-wrapper {
-  display: none;
-}
-#drop-arrow {
-  margin-left: 10px;
+#header-hr{
+  border: none;
+  border-top: 2px solid #D21717;
 }
 main {
   width: 80%;
@@ -149,6 +124,10 @@ main {
     background-color: #D21717;
     height: 86px;
     width: 4px;
+}
+
+#doc-nav-wrapper{
+  margin-top: 25px;
 }
 
 #doc-nav-wrapper h1{
