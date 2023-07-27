@@ -37,6 +37,9 @@ header > nav > ul {
 }
 #hamburger-menu-wrapper {
   display: none;
+}  
+#drop-arrow {
+  margin-left: 10px;
 }
 main {
 }
@@ -398,9 +401,7 @@ footer {
   }
 }
 @media (max-width: 1200px) {
-  #drop-arrow {
-    margin-left: 10px;
-  }
+
   /* ---------Portfolio Section------------ */
   /* Download Card */
   #download-card {

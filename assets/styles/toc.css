@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "formula-bold";
+  src: url("../font/formula1-bold.ttf") format("truetype");
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  /* font-family: formula-bold; */
+  /* max-width: 1800px; */
+  margin: auto;
+}
+header {
+  /* min-height: 30px; */
+  padding: 1.2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > #logo {
+  height: 32px;
+}
+header > nav {
+  margin-right: 2rem;
+}
+header > nav > ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-size: 0.8rem;
+}
+#category-dropmenu {
+    display: flex;
+    gap: 0.6rem;
+  }
+#hamburger-menu-wrapper {
+  display: none;
+}
+#drop-arrow {
+  margin-left: 10px;
+}
+main {
+  width: 80%;
+  margin: auto;
+}
+#toc {
+  background-color: #191919;
+
+  border-radius: 24px;
+  padding: 40px 55px;
+}
+#toc-section-header {
+  height: 30px;
+  width: 100%;
+  border-bottom: 3px solid #2d2d2d;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  font-size: 400;
+}
+#toc-section-header h1 {
+  color: #fafafa;
+  font-family: formula-bold;
+  font-size: 28px;
+}
+#updated-date small {
+  display: block;
+  color: #a5a5a5;
+  font-size: 12px;
+}
+#updated-date span {
+  display: block;
+  color: #e8e8e8;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.clause-wrapper {
+  margin-bottom: 115px;
+}
+#fch {
+  margin-top: 70px;
+}
+p {
+  font-size: 16px;
+  color: #bababa;
+  margin-top: 22px;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+.clause-wrapper h1 {
+  color: #d1d1d1;
+  font-weight: 600;
+}
+.clause-wrapper span {
+  width: 60px;
+  height: 3px;
+  background-color: #ffffff;
+}
+.clause-wrapper h4 {
+  margin-top: 28px;
+  margin-bottom: 6px;
+  font-size: 24px;
+  color: #bababa;
+  font-weight: 500;
+}
+.clause-wrapper h6 {
+  font-size: 20px;
+  color: #bababa;
+  margin-top: 25px;
+  font-weight: 500;
+}
+.clause-wrapper ul {
+  margin-top: 24px;
+}
+.clause-wrapper ul li {
+  font-size: 16px;
+  color: #bababa;
+  margin-left: 24px;
+}
+#last {
+  margin-bottom: 0;
+}
