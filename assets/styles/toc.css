@@ -133,3 +133,33 @@ p {
 #last {
   margin-bottom: 0;
 }
+#doc-nav-wrapper{
+    display: flex;
+    gap: 70px;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 28px 60px;
+}
+#red-line{
+    background-color: #D21717;
+    height: 86px;
+    width: 4px;
+}
+
+#doc-nav-wrapper h1{
+    color: #D21717;
+    font-size: 36px;
+    font-family: formula-bold;
+    width: 200px;
+}
+
+#doc-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.doc-nav-item{
+    /* font-family: formula-bold; */
+    font-size: 20px;
+}
