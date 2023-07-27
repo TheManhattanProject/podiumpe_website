@@ -36,9 +36,9 @@ header > nav > ul {
   font-size: 0.8rem;
 }
 #category-dropmenu {
-    display: flex;
-    gap: 0.6rem;
-  }
+  display: flex;
+  gap: 0.6rem;
+}
 #hamburger-menu-wrapper {
   display: none;
 }
@@ -97,8 +97,14 @@ p {
 .clause-wrapper h1 {
   color: #d1d1d1;
   font-weight: 600;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 330px;
 }
 .clause-wrapper span {
+  display: block;
   width: 60px;
   height: 3px;
   background-color: #ffffff;
