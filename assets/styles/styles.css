@@ -412,11 +412,11 @@ footer {
   align-items: center;
   gap: 18px;
 }
-#pm-text small{
+#pm-text small {
   display: block;
   font-size: 20px;
 }
-#pm-text span{
+#pm-text span {
   display: block;
   font-size: 16px;
   margin-top: 8px;
@@ -433,53 +433,71 @@ footer {
   justify-content: center;
   align-items: center;
 }
-#pm-logo img{
+#pm-logo img {
   display: block;
   width: 60px;
   height: 35px;
 }
-#footer-content-right{
-
+#footer-content-right {
 }
-#pm-card{
+#pm-card {
   width: 720px;
   height: 90px;
   border-radius: 20px;
-  background-color: #D41919;
+  background-color: #d41919;
   padding: 0 10px 0 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 28px;
 }
-#pm-card-text{
+#pm-card-text {
   color: #0a0a0a;
   font-size: 16;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
-#pm-subcard{
-  background-color: #0A0A0A;
+#pm-subcard {
+  background-color: #0a0a0a;
   height: 70px;
   border-radius: 16px;
   width: 330px;
 }
-#pm-nav{
+#pm-nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 45px;
   padding-top: 7px;
 }
-.pm-nav-items{
+.pm-nav-items {
   font-size: 20px;
   font-family: formula-reg;
 }
-#copyright{
+#copyright {
   font-size: 16px;
   margin-top: 60px;
   margin-left: 35px;
   font-family: formula-bold;
+}
+#pm-subcard {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 15px;
+}
+#subcard-footer-logo {
+  width: 45px;
+}
+#subcard-footer-text-heading {
+  font-size: 20px;
+}
+#subcard-footer-text {
+  font-size: 14px;
+}
+#subcard-footer-arrow {
+  width: 35px;
 }
 /* media queries */
 
