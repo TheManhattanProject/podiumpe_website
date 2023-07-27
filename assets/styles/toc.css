@@ -2,6 +2,10 @@
   font-family: "formula-bold";
   src: url("../font/formula1-bold.ttf") format("truetype");
 }
+@font-face {
+    font-family: "formula-reg";
+    src: url("../font/f1reg.otf") format("truetype");
+  }
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
@@ -161,6 +165,6 @@ p {
 }
 
 .doc-nav-item{
-    /* font-family: formula-bold; */
+    font-family: formula-reg;
     font-size: 20px;
 }

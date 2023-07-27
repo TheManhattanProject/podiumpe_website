@@ -473,11 +473,13 @@ footer {
 }
 .pm-nav-items{
   font-size: 20px;
+  font-family: formula-reg;
 }
 #copyright{
   font-size: 16px;
   margin-top: 60px;
   margin-left: 35px;
+  font-family: formula-bold;
 }
 /* media queries */
 
