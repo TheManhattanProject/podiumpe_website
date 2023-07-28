@@ -1,0 +1,26 @@
+.sub-headings h3{
+    color: #BABABA;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sub-headings{
+    margin-top: 45px;
+}
+.sub-headings li{
+    margin-bottom: 40px;
+}
+.sub-headings .last-li{
+    margin-bottom: 0;
+}
+#toc #first{
+    color: #ffffff;
+    font-size: 16px;
+}
+#toc #first #queries{
+    font-size: 20px;
+    display: block;
+    margin-top: 25px;
+}
+#toc #first #queries .email{
+    text-decoration: underline;
+}
