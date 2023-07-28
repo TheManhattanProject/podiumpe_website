@@ -43,6 +43,8 @@
     margin: auto;
     position: relative;
     top: -60px;
+    z-index: 200;
+    margin-bottom: 60px;
   }
   #download-card-img-m {
     width: 100%;
@@ -364,6 +366,8 @@
     flex-direction: column;
     gap: 40px;
     padding-bottom: 80px;
+    position: relative;
+    z-index: 200;
   }
   .num-card-m{
     width: 250px;
@@ -409,5 +413,13 @@
     margin: auto;
     margin-top: 10px;
 
+  }
+  #whats-it{
+    display: block;
+    position: absolute;
+    top: 320px;
+  }
+  #portfolio{
+    position: relative;
   }
 }

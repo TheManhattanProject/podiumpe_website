@@ -127,7 +127,9 @@ main {
   width: 70%;
   margin: auto;
 }
-
+#whats-it{
+  display: none;
+}
 #row-1 {
   display: flex;
   gap: 2rem;
