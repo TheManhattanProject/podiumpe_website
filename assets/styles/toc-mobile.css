@@ -1,7 +1,7 @@
 @media (max-width: 800px) {
     main{
         width: 90%;
-        padding-bottom: 0;
+        padding-bottom: 70px;
     }
     #red-line{
         display: none;
