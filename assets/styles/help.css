@@ -5,6 +5,7 @@
 }
 .sub-headings{
     margin-top: 45px;
+    list-style: none;
 }
 .sub-headings li{
     margin-bottom: 40px;
