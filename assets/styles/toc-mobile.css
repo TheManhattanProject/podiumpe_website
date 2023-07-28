@@ -59,4 +59,34 @@
         margin-top: 24px;
         color: #ffffff;
     }
+    #mobile-dropdown{
+        display: block;
+        width: 210px;
+        border-bottom: 3px solid white;
+        margin: auto;
+        margin-bottom: 18px;
+        margin-top: 15px;
+    }
+    #mobile-dropdown select{
+        display: block;
+        margin: auto;
+        font-family: formula-reg;
+        background-color: transparent;
+        color: #ffffff;
+        border: none;
+        font-size: 16px;
+        padding: 10px;
+        width: 85%;
+    }
+    #updated-date{
+        display: flex;
+        align-items: baseline;
+        position: relative;
+        top: 15px;
+    }
+    #semicolon{
+        display: block;
+        color: #A5A5A5;
+        margin-right: 5px;
+    }
 }
