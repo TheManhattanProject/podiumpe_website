@@ -114,6 +114,9 @@ main {
 #porfolio-content-wrapper {
   position: relative;
 }
+#porfolio-content-wrapper-m{
+  display: none;
+}
 #porfolio-content-wrapper > img {
   width: 100%;
   position: absolute;

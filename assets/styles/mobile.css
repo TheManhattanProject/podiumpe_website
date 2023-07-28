@@ -357,4 +357,57 @@
     top: 2px;
     
   }
+  #porfolio-content-wrapper-m{
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 80px;
+  }
+  .num-card-m{
+    width: 250px;
+    margin: auto;
+  }
+  .num-card-row1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .num-card-num-img{
+    max-width: 45px;
+    min-width: 45px;
+  }
+  .num-card-num-img img{
+    width: 100%;
+  }
+  .num-card-heading{
+    color: #E01717;
+    width: 190px;
+    position: relative;
+    top: 4px;
+    font-size: 18px;
+  }
+  .num-card-row2{
+    margin-top: 10px;
+    width: 225px;
+  }
+  #mid-num-card{
+    position: relative;
+    left: 32px;
+  }
+  #num-card-more-btn{
+    background-color: transparent;
+    border: 3px solid #D60D0D;
+    color:#D60D0D;
+    font-size: 26px;
+    border-radius: 12px;
+    width: 300px;
+    height: 55px;
+    font-family: formula-bold;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+
+  }
 }
