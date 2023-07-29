@@ -1,6 +1,7 @@
 @media (max-width: 780px) {
   #main{
     padding-bottom: 140px;
+    overflow: hidden;
   }
   header {
     height: 75px;
@@ -372,15 +373,32 @@
   .num-card-m{
     width: 250px;
     margin: auto;
+    
+  }
+  #right-x{
+    position: absolute;
+    right: 0;
+    width: 120px;
+    top: calc(10vw);
+  }
+  #left-x{
+    position: absolute;
+    left: 0;
+    width: 110px;
+    top: calc(60vw);
   }
   .num-card-row1{
     display: flex;
     align-items: center;
     gap: 15px;
+    position: relative;
+    z-index: 200;
   }
   .num-card-num-img{
     max-width: 45px;
     min-width: 45px;
+    position: relative;
+    z-index: 200;
   }
   .num-card-num-img img{
     width: 100%;
@@ -391,16 +409,22 @@
     position: relative;
     top: 4px;
     font-size: 18px;
+    position: relative;
+    z-index: 200;
   }
   .num-card-row2{
     margin-top: 10px;
     width: 225px;
+    position: relative;
+    z-index: 200;
   }
   #mid-num-card{
     position: relative;
     left: 32px;
   }
   #num-card-more-btn{
+    position: relative;
+    z-index: 200;
     background-color: transparent;
     border: 3px solid #D60D0D;
     color:#D60D0D;
@@ -417,7 +441,7 @@
   #whats-it{
     display: block;
     position: absolute;
-    top: 320px;
+    top: calc(85vw);
   }
   #portfolio{
     position: relative;
