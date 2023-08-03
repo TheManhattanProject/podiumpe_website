@@ -1114,7 +1114,7 @@ footer {
   }
 }
 
-@media (min-width:1800px) {
+@media (max-width:1800px) {
   .left-btm {
     margin-left: -84.5rem;
     margin-top: 9.5rem;
