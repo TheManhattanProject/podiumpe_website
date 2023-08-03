@@ -2,16 +2,19 @@
   font-family: "formula-bold";
   src: url("../font/formula1-bold.ttf") format("truetype");
 }
+
 @font-face {
-    font-family: "formula-reg";
-    src: url("../font/f1reg.otf") format("truetype");
-  }
+  font-family: "formula-reg";
+  src: url("../font/f1reg.otf") format("truetype");
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
 }
+
 body {
   background-color: #0a0a0a;
   color: #ffffff;
@@ -20,26 +23,32 @@ body {
   /* max-width: 1800px; */
   margin: auto;
 }
-#semicolon{
+
+#semicolon {
   display: none;
 }
-#header-hr{
+
+#header-hr {
   border: none;
   border-top: 2px solid #D21717;
 }
+
 main {
   width: 80%;
   margin: auto;
   padding-bottom: 160px;
 }
-#mobile-dropdown{
+
+#mobile-dropdown {
   display: none;
 }
+
 #toc {
   background-color: #191919;
   border-radius: 24px;
   padding: 40px 55px 60px 55px;
 }
+
 #toc-section-header {
   height: 30px;
   width: 100%;
@@ -49,16 +58,19 @@ main {
   padding-bottom: 16px;
   font-size: 400;
 }
+
 #toc-section-header h1 {
   color: #fafafa;
   font-family: formula-bold;
   font-size: 28px;
 }
+
 #updated-date small {
   display: block;
   color: #a5a5a5;
   font-size: 12px;
 }
+
 #updated-date span {
   display: block;
   color: #e8e8e8;
@@ -69,9 +81,11 @@ main {
 .clause-wrapper {
   margin-bottom: 115px;
 }
-#fch {
+
+.fch {
   margin-top: 70px;
 }
+
 #toc p {
   font-size: 16px;
   color: #bababa;
@@ -79,6 +93,7 @@ main {
   font-weight: 400;
   line-height: 19.5px;
 }
+
 .clause-wrapper h1 {
   color: #d1d1d1;
   font-weight: 600;
@@ -88,12 +103,33 @@ main {
   gap: 10px;
   max-width: 330px;
 }
+
+.main-heading {
+  text-align: center;
+}
+
 .clause-wrapper span {
   display: block;
   width: 60px;
   height: 3px;
   background-color: #ffffff;
 }
+
+.list li {
+  list-style: none;
+}
+
+.clause-wrapper a {
+  text-decoration: none;
+  color: blue;
+  font-size: 14px;
+  line-height: 1.4rem;
+}
+
+.clause-wrapper li:hover a:hover {
+  text-decoration: underline;
+}
+
 .clause-wrapper h4 {
   margin-top: 28px;
   margin-bottom: 6px;
@@ -101,101 +137,153 @@ main {
   color: #bababa;
   font-weight: 500;
 }
+
 .clause-wrapper h6 {
   font-size: 20px;
   color: #bababa;
   margin-top: 25px;
   font-weight: 500;
 }
+
 .clause-wrapper ul {
   margin-top: 24px;
 }
+
 .clause-wrapper ul li {
   font-size: 16px;
   color: #bababa;
   margin-left: 24px;
 }
+
+.clause-wrapper p {
+  word-spacing: 2px;
+}
+
+.list2 li {
+  list-style: none;
+}
+
+.list2 a {
+  color: white;
+}
+
+.color-change {
+  color: blue;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
 #last {
   margin-bottom: 0;
 }
-#doc-nav-wrapper{
-    display: flex;
-    gap: 70px;
-    /* justify-content: space-between; */
-    align-items: center;
-    padding: 28px 60px;
-    margin-top: 70px;
-}
-#red-line{
-    background-color: #D21717;
-    height: 86px;
-    width: 4px;
+
+#doc-nav-wrapper {
+  display: flex;
+  gap: 70px;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 28px 60px;
+  margin-top: 70px;
 }
 
-#doc-nav-wrapper{
+#red-line {
+  background-color: #D21717;
+  height: 86px;
+  width: 4px;
+}
+
+#doc-nav-wrapper {
   margin-top: 25px;
 }
 
-#doc-nav-wrapper h1{
-    color: #D21717;
-    font-size: 36px;
-    font-family: formula-bold;
-    width: 200px;
+#doc-nav-wrapper h1 {
+  color: #D21717;
+  font-size: 36px;
+  font-family: formula-bold;
+  width: 200px;
 }
 
-#doc-nav{
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-    gap: 1rem;
+#doc-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  gap: 1rem;
 }
 
-.doc-nav-item{
-    font-family: formula-reg;
-    font-size: 20px;
+.doc-nav-item {
+  font-family: formula-reg;
+  font-size: 20px;
+  color: gray;
+  line-height: 2.4rem;
+}
+
+.active {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }
 
 @media (max-width: 1200px) {
-  main{
+  main {
     padding-bottom: 90px;
   }
-  #doc-nav-wrapper{
+
+  #doc-nav-wrapper {
     gap: 50px;
   }
-  #doc-nav-wrapper h1{
+
+  #doc-nav-wrapper h1 {
     font-size: 30px;
   }
-  #doc-nav{
+
+  #doc-nav {
     width: 70%;
     gap: 2rem;
   }
-  .doc-nav-item{
+
+  .doc-nav-item {
     font-size: 16px;
   }
-  #red-line{
+
+  #red-line {
     height: 60px;
   }
 }
+
 @media (max-width: 900px) {
-  #doc-nav-wrapper{
+  #doc-nav-wrapper {
     gap: 45px;
   }
-  #doc-nav-wrapper h1{
+
+  #doc-nav-wrapper h1 {
     font-size: 22px;
     width: 150px;
   }
-  #doc-nav{
+
+  #doc-nav {
     width: 70%;
     gap: 2rem;
   }
+
   /* .doc-nav-item{
     font-size: 14px;
   } */
-  #red-line{
+  #red-line {
     height: 50px;
   }
-  main{
+
+  main {
     padding-bottom: 70px;
   }
-  
+
 }
