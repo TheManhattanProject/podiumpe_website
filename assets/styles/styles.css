@@ -45,6 +45,9 @@ header > nav > ul {
   gap: 2rem;
   font-size: 0.8rem;
 }
+.close{
+  display:none;
+}
 
 #hamburger-menu-wrapper {
   display: none;
@@ -59,7 +62,31 @@ header > nav > ul {
   left: 50%;
   transform: translateX(-50%);
 }
+.pp-title{
+  display:none;
+}
+/* nav>img{
+  display:none;
+} */
+.navbar-menu img{
+  display:none;
+}
 
+.navbar-menu ul{
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-size: 0.8rem;
+}
+.res-link{
+  display:none;
+}
+.res-x-logo{
+  display: none;
+}
+.res-footer{
+  display: none;
+}
 /* main {} */
 
 #category-dropmenu {
@@ -255,16 +282,39 @@ header > nav > ul {
   overflow: hidden;
 }
 
-.port-end h1 {
+/* .port-end h1 {
   margin-top: -1.5rem;
   font-size: 16rem;
   margin-right: -3rem;
+} */
+.port-end-first{
+  font-size: 17rem;
+  margin-top: 0.5rem;
+  margin-right:-1.5rem;
+}
+.port-end-second{
+  font-size: 17rem;
+  margin-top: -6.5rem;
+  margin-right:-1.5rem;
+}
+.port-x-first{
+  position: absolute;
+  font-size:17rem;
+  margin-top:0.5rem;
+  margin-left:-1.5rem;
+}
+.port-x-second{
+  position: absolute;
+  font-size:17rem;
+  margin-top:14.5rem;
+  margin-left:-1.5rem;
+
 }
 
-.port-X h1 {
+/* .port-X h1 {
   margin-top: -1.5rem;
   font-size: 16rem;
-}
+} */
 
 .port-text {
   position: absolute;
@@ -350,7 +400,7 @@ header > nav > ul {
 }
 
 .text-card > .card-title {
-  /* margin-left: 2rem; */
+  margin-left: 2rem;
   color: #e01717;
 }
 
@@ -900,6 +950,9 @@ footer {
   .port-text {
     margin-left: 10.5rem;
   }
+  .col>p{
+    width:412px;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -975,6 +1028,10 @@ footer {
     margin-left: 6rem;
     margin-right: 6rem;
   }
+  .col>p{
+    width:450px;
+    font-size:20px;
+  }
 }
 
 @media (min-width: 1590px) {
@@ -1000,6 +1057,12 @@ footer {
     font-size: 9.4rem;
   }
 }
+@media (min-width:1600px) {
+  .col>p{
+    width:500px;
+  }
+  
+}
 
 @media (min-width: 1710px) {
   #gm-car {
@@ -1011,25 +1074,65 @@ footer {
   }
 
   .port h1 {
-    font-size: 18rem;
-    margin-top: -3rem;
+    font-size: 16.5rem;
+    /* margin-top: -3rem; */
   }
 
   .port-text {
-    margin-top: 10rem;
+    margin-top: 9rem;
+  }
+  .port-text h2{
+    font-size: 7.5rem;
+  }
+  .port-x-second{
+    margin-top:16.5rem;
   }
 
   .port-text h2 {
     margin-top: -8.6rem;
-    font-size: 3.4rem;
+    font-size: 3.3rem;
     margin-left: 8rem;
     margin-right: 8rem;
+  }
+  .col > p{
+    font-size:20px;
+    width:600px;
+  }
+  .col-heading > h2{
+    font-size:48px;
+  }
+  .col > h4{
+    font-size:32px;
   }
 }
 
 @media (min-width: 1790px) {
   #gm-car {
     top: 480px;
+  }
+  .port h1{
+    font-size: 18.5rem;
+  }
+}
+@media (min-width:1515px) and (max-width:1699px){
+  .port h1{
+    font-size:18rem;
+    
+  }
+  .port-text h2{
+    font-size:2.9rem;
+  }
+  }
+@media (min-width:1339px) and (max-width:1499px){
+  .port h1{
+    font-size:15.5rem;
+    
+  }
+  .port-text h2{
+    font-size:2.4rem;
+  }
+  .port-end-second{
+    margin-top:-4.8rem;
   }
 }
 
@@ -1256,8 +1359,9 @@ footer {
   }
 
   .port-X {
-    margin-left: -3.5rem;
+    margin-left: -1.5rem;
   }
+  
 
   .port-end {
     position: absolute;
@@ -1265,16 +1369,29 @@ footer {
     overflow: hidden;
   }
 
-  .port-end h1 {
+  /* .port-end h1 {
     margin-top: -1rem;
     font-size: 16rem;
     margin-right: -3rem;
+  } */
+
+  .port-x-first,.port-x-second{
+    margin-left:-2.5rem;
+  }
+  .port-x-second{
+    margin-left:-2.5rem;
+  }
+  .port-x-first,.port-x-second,.port-end-first,.port-end-second,.port-text h1{
+    font-size:16rem;
+  }
+  .port-end-first,.port-end-second{
+    margin-right:-1.5rem;
+  }
+  .port-end-second{
+    margin-top:-4.9rem;
   }
 
-  .port-X h1 {
-    margin-top: -0.8rem;
-    font-size: 16rem;
-  }
+  
 
   .port-text {
     position: absolute;
@@ -1297,7 +1414,7 @@ footer {
   }
 
   .text-card > .card-title {
-    margin-left: 2rem;
+    /* margin-left: 2rem !important; */
     width: 100%;
     color: #e01717;
   }
@@ -1307,6 +1424,13 @@ footer {
     font-size: 19px;
     margin-left: 1.5rem;
   }
+  
+}
+@media (min-width:1200px) and (max-width:1300px) {
+  .col>p{
+    width:349px;
+  }
+  
 }
 
 @media (max-width: 1140px) {
@@ -1474,5 +1598,8 @@ footer {
   }
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 800px) and (max-width:1259px) {
+  .port h1{
+    font-size:14rem;
+  }
 }
