@@ -55,7 +55,9 @@ header > nav > ul {
 }
 
 .pp-shift {
-  margin-left: 8rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* main {} */
@@ -942,10 +944,6 @@ footer {
     margin-top: -80px;
   }
 
-  .pp-shift {
-    margin-left: 9rem;
-  }
-
   .up-div {
     margin-top: -11.2rem;
     gap: 3rem;
@@ -1010,10 +1008,6 @@ footer {
 
   .earn-txt {
     font-size: 9.8rem;
-  }
-
-  .pp-shift {
-    margin-left: 11rem;
   }
 
   .port h1 {
