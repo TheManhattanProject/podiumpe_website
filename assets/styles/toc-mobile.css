@@ -1,65 +1,79 @@
 @media (max-width: 800px) {
-    main{
+    main {
         width: 90%;
         padding-bottom: 70px;
     }
-    #red-line{
+
+    #red-line {
         display: none;
     }
-    #doc-nav{
+
+    #doc-nav {
         display: none;
     }
-    #doc-nav-wrapper h1{
+
+    #doc-nav-wrapper h1 {
         width: auto;
         margin: auto;
         font-size: 28px;
     }
-    #toc{
+
+    #toc {
         padding: 15px;
         padding-bottom: 55px;
     }
-    #toc-section-header h1{
+
+    #toc-section-header h1 {
         display: none;
     }
-    .clause-wrapper{
+
+    .clause-wrapper {
         margin-bottom: 60px;
     }
-    .clause-wrapper h4{
+
+    .clause-wrapper h4 {
         margin-top: 26px;
         margin-bottom: 0;
         font-size: 20px;
     }
-    .clause-wrapper h6{
+
+    .clause-wrapper h6 {
         font-size: 18px;
         margin-top: 26px;
     }
 
-    .clause-wrapper h1{
+    .clause-wrapper h1 {
         margin-left: 0;
         margin-bottom: 10px;
     }
-    .clause-wrapper ul{
+
+    .clause-wrapper ul {
         margin-bottom: 18px;
     }
 
-    .clause-wrapper span{
+    .clause-wrapper span {
         width: 36px;
     }
-    #toc p{
+
+    #toc p {
         margin-top: 12px;
         font-size: 14px;
     }
-    #fch{
+
+    #fch {
         margin-top: 60px;
     }
-    #doc-nav-wrapper{
+
+    #doc-nav-wrapper {
         padding: 12px;
     }
-    #toc #top-p{
+
+    #toc #top-p {
         margin-top: 24px;
         color: #ffffff;
     }
-    #mobile-dropdown{
+
+    #mobile-dropdown {
         display: block;
         width: 210px;
         border-bottom: 3px solid white;
@@ -67,7 +81,8 @@
         margin-bottom: 18px;
         margin-top: 15px;
     }
-    #mobile-dropdown select{
+
+    #mobile-dropdown select {
         display: block;
         margin: auto;
         font-family: formula-reg;
@@ -78,15 +93,18 @@
         padding: 10px;
         width: 85%;
     }
-    #updated-date{
+
+    #updated-date {
         display: flex;
         align-items: baseline;
         position: relative;
         top: 15px;
     }
-    #semicolon{
+
+    #semicolon {
         display: block;
         color: #A5A5A5;
         margin-right: 5px;
     }
+
 }
