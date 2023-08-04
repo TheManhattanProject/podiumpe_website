@@ -31,15 +31,15 @@ header {
   align-items: center;
 }
 
-header>#logo {
+header > #logo {
   height: 32px;
 }
 
-header>nav {
+header > nav {
   margin-right: 2rem;
 }
 
-header>nav>ul {
+header > nav > ul {
   list-style: none;
   display: flex;
   gap: 2rem;
@@ -134,7 +134,7 @@ header>nav>ul {
   margin-right: 1rem;
 }
 
-#card-content>h2 {
+#card-content > h2 {
   /* position: absolute; */
   margin-left: -6rem;
   width: 19rem;
@@ -230,11 +230,9 @@ header>nav>ul {
 
 .port {
   color: rgba(39, 39, 39, 1);
-
 }
 
 .port-X {
-
   width: 100%;
   position: absolute;
   margin-left: -3rem;
@@ -284,7 +282,7 @@ header>nav>ul {
   display: none;
 }
 
-#porfolio-content-wrapper>img {
+#porfolio-content-wrapper > img {
   width: 100%;
   position: absolute;
   top: 0;
@@ -320,12 +318,12 @@ header>nav>ul {
   justify-content: center;
 }
 
-.card>.card-num {
+.card > .card-num {
   width: 110px;
   position: relative;
 }
 
-.card-num>img {
+.card-num > img {
   position: absolute;
   left: -14px;
   top: -14px;
@@ -341,12 +339,12 @@ header>nav>ul {
   margin-left: 3rem;
 }
 
-.text-card>.card-title {
+.text-card > .card-title {
   /* margin-left: 2rem; */
   color: #e01717;
 }
 
-.text-card>.text {
+.text-card > .text {
   width: 75%;
   font-size: 20px;
 }
@@ -366,7 +364,7 @@ header>nav>ul {
   margin-bottom: 3rem;
 }
 
-#btn-row>button {
+#btn-row > button {
   display: block;
   margin: auto;
   padding: 1rem 5rem;
@@ -385,11 +383,11 @@ header>nav>ul {
   z-index: 100;
 }
 
-.strip>img {
+.strip > img {
   width: 100%;
 }
 
-.strip>h3 {
+.strip > h3 {
   font-family: Formula1;
   font-weight: 500;
   font-size: 104.18px;
@@ -442,7 +440,7 @@ header>nav>ul {
   padding: 1rem 0;
 }
 
-#game-content-wrapper>img {
+#game-content-wrapper > img {
   width: 100%;
   position: absolute;
   top: 0;
@@ -468,7 +466,7 @@ header>nav>ul {
   transform: rotate(180deg);
   transform-origin: 0 0;
   border-radius: 48px;
-  border: 9px #D11616 solid;
+  border: 9px #d11616 solid;
   background-color: rgba(209, 22, 22, 1);
   /* angle: -180 deg; */
 }
@@ -480,7 +478,6 @@ header>nav>ul {
 }
 
 .div1 {
-
   width: 140rem;
   height: 40rem;
   margin-left: -35px;
@@ -488,7 +485,7 @@ header>nav>ul {
   /* transform: rotate(180deg); */
   transform-origin: 0 0;
   border-radius: 48px;
-  border: 12px #D11616 solid;
+  border: 12px #d11616 solid;
   padding: 8rem;
   /* z-index: 200; */
 }
@@ -502,7 +499,7 @@ header>nav>ul {
   /* transform: rotate(180deg); */
   transform-origin: 0 0;
   border-radius: 48px;
-  border: 12px #D11616 solid;
+  border: 12px #d11616 solid;
   padding: 8rem;
 }
 
@@ -522,7 +519,7 @@ p {
   /* width: 18rem; */
   transform-origin: 0 0;
   text-align: center;
-  color: #D11616;
+  color: #d11616;
   font-family: formula-bold;
   font-weight: 700;
   word-wrap: break-word;
@@ -553,7 +550,7 @@ p {
 .strip-left {
   width: 5.5rem;
   height: 5px;
-  background-color: rgba(43, 234, 226, 1)
+  background-color: rgba(43, 234, 226, 1);
 }
 
 #game-content-box {
@@ -612,7 +609,7 @@ p {
   color: rgba(43, 234, 226, 1);
 }
 
-#gm-strip>img {
+#gm-strip > img {
   width: 100%;
 }
 
@@ -645,7 +642,7 @@ p {
   margin-bottom: 1.8rem;
 }
 
-.col-heading>h2 {
+.col-heading > h2 {
   font-size: 3rem;
 }
 
@@ -657,14 +654,14 @@ p {
   margin-top: 5px;
 }
 
-.col>p {
+.col > p {
   margin-top: 1rem;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   color: #989494;
 }
 
-.col>h4 {
+.col > h4 {
   margin-top: 2rem;
   font-family: "Poppins", sans-serif;
   font-size: 1.7rem;
@@ -697,7 +694,7 @@ p {
   align-items: center;
 }
 
-#final-content-wrapper>p {
+#final-content-wrapper > p {
   font-family: "Montserrat", sans-serif;
   color: #989494;
   font-size: 20px;
@@ -863,7 +860,6 @@ footer {
   }
 }
 
-
 @media (min-width: 1300px) {
   #game-content-box {
     margin-top: 95px;
@@ -981,7 +977,8 @@ footer {
   }
 
   .up-div {
-    margin-top: -11rem;
+    margin-top: -4rem;
+    gap: 2rem;
   }
 
   .strip-left {
@@ -993,11 +990,11 @@ footer {
   }
 
   .div1 {
-    margin-right: -208px;
+    margin-right: -200px;
   }
 
   .div3 {
-    margin-left: -180px;
+    margin-left: -182px;
   }
 
   .port-text {
@@ -1018,7 +1015,7 @@ footer {
   }
 }
 
-@media(min-width:1600px) {
+@media (min-width: 1600px) {
   .left-btm {
     margin-left: -74rem;
     margin-top: 8rem;
@@ -1050,7 +1047,7 @@ footer {
   }
 
   .strip-left {
-    width: 12rem;
+    width: 100%;
   }
 
   .earn-txt {
@@ -1110,11 +1107,11 @@ footer {
 
 @media (min-width: 1790px) {
   #gm-car {
-    margin-top: -170px;
+    top: 480px;
   }
 }
 
-@media (max-width:1800px) {
+@media (max-width: 1800px) {
   .left-btm {
     margin-left: -84.5rem;
     margin-top: 9.5rem;
@@ -1136,7 +1133,7 @@ footer {
   }
 }
 
-@media(max-width:1300px) {
+@media (max-width: 1300px) {
   .left-btm {
     margin-left: -59rem;
     margin-top: 5.3rem;
@@ -1173,14 +1170,13 @@ footer {
   }
 }
 
-@media (max-width:1260px) {
+@media (max-width: 1260px) {
   .earn-txt {
     font-size: 6.5rem;
   }
 }
 
 @media (max-width: 1250px) {
-
   .left-btm {
     margin-left: -56.5rem;
     margin-top: 5rem;
@@ -1223,7 +1219,6 @@ footer {
 }
 
 @media (max-width: 1200px) {
-
   /* ---------Portfolio Section------------ */
   /* Download Card */
 
@@ -1246,7 +1241,7 @@ footer {
 
   /* .strip {} */
 
-  #card-content>h2 {
+  #card-content > h2 {
     font-size: 1.4rem;
     margin-left: 6rem;
   }
@@ -1333,7 +1328,7 @@ footer {
       width: 100px;
     }
 
-    .card-num>img {
+    .card-num > img {
       width: 100px;
       top: 16px;
       left: -28px;
@@ -1345,7 +1340,7 @@ footer {
       }
     }
 
-    .text-card>.text {
+    .text-card > .text {
       width: 90%;
       word-break: break-all;
     }
@@ -1461,7 +1456,7 @@ footer {
   }
 
   .port-X h1 {
-    margin-top: -.8rem;
+    margin-top: -0.8rem;
     font-size: 16rem;
   }
 
@@ -1480,24 +1475,22 @@ footer {
     margin-right: 3.7rem;
   }
 
-
   .text-card {
     margin-left: 1.2rem;
     width: 80rem;
   }
 
-  .text-card>.card-title {
+  .text-card > .card-title {
     margin-left: 2rem;
     width: 100%;
     color: #e01717;
   }
 
-  .text-card>.text {
+  .text-card > .text {
     width: 90%;
     font-size: 19px;
     margin-left: 1.5rem;
   }
-
 }
 
 @media (max-width: 1140px) {
@@ -1565,7 +1558,7 @@ footer {
     margin-top: 5.8rem;
   }
 
-  .col-heading>h2 {
+  .col-heading > h2 {
     font-size: 2.2rem;
   }
 
@@ -1582,7 +1575,7 @@ footer {
   }
 }
 
-@media(max-width: 880px) {
+@media (max-width: 880px) {
   #gm-car {
     margin-top: 100px;
   }
@@ -1596,7 +1589,7 @@ footer {
   }
 }
 
-@media(max-width: 860px) {
+@media (max-width: 860px) {
   #gm-car {
     margin-top: 7.3rem;
   }
@@ -1615,21 +1608,19 @@ footer {
     margin-top: 115px;
   }
 
-  .col>p {
+  .col > p {
     font-size: 0.8rem;
     word-spacing: 1px;
   }
 }
 
-@media (max-width:780px) {
-
+@media (max-width: 780px) {
   .pp-shift {
     display: none;
   }
 }
 
-@media(max-width: 426px) {
-
+@media (max-width: 426px) {
   .up-div {
     display: none;
   }
@@ -1667,4 +1658,5 @@ footer {
   }
 }
 
-@media (max-width: 1000px) {}
+@media (max-width: 1000px) {
+}
