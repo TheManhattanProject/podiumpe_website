@@ -24,7 +24,6 @@ body {
 }
 
 header {
-  /* min-height: 30px; */
   padding: 1.2rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -68,6 +67,9 @@ header>nav>ul {
 /* nav>img{
   display:none;
 } */
+.navbar-menu{
+  transition: transform 2s ease-out;
+}
 .navbar-menu img {
   display: none;
 }
@@ -263,65 +265,52 @@ header>nav>ul {
 
 #porfolio-content-wrapper {
   position: relative;
+  overflow-x: hidden;
+
 }
 
 .port {
   color: rgba(39, 39, 39, 1);
 }
 
-.port-X {
-  width: 100%;
-  position: absolute;
-  margin-left: -3rem;
-  /* margin-top: -3rem; */
-}
-
-.port-end {
-  position: absolute;
-  right: 0;
-  overflow: hidden;
-}
-
-/* .port-end h1 {
-  margin-top: -1.5rem;
-  font-size: 16rem;
-  margin-right: -3rem;
-} */
 .port-end-first {
+  position: absolute;
   font-size: 17rem;
-  margin-top: 0.5rem;
-  margin-right: -1.5rem;
+  right:calc(0% - 2.5rem);
+  overflow-x: hidden;
+
+  
 }
 .port-end-second {
+  position: absolute;
   font-size: 17rem;
-  margin-top: -6.5rem;
-  margin-right: -1.5rem;
+  right:calc(0% - 2.5rem);
+  top:calc(35%);
+  overflow-x: hidden;
+
+
+
 }
 .port-x-first {
   position: absolute;
   font-size: 17rem;
-  margin-top: 0.5rem;
-  margin-left: -1.5rem;
+  left:calc(0% - 2.5rem);
 }
 .port-x-second {
   position: absolute;
   font-size: 17rem;
-  margin-top: 14.5rem;
-  margin-left: -1.5rem;
+  left:calc(0% - 2.5rem);
+  top:calc(35%);
 }
 
-/* .port-X h1 {
-  margin-top: -1.5rem;
-  font-size: 16rem;
-} */
 
 .port-text {
-  position: absolute;
   display: flex;
   align-items: center;
-  margin-left: 9rem;
+  margin:auto;
+  position: absolute;
+  margin-left: 10rem;
   margin-top: 8rem;
-  /* width: 35rem; */
 }
 
 .port-text h1 {
@@ -1040,6 +1029,12 @@ footer {
     width: 450px;
     font-size: 20px;
   }
+  .port-x-first,.port-x-second{
+    left: calc(0% - 4rem);
+  }
+  .port-end-first,.port-end-second{
+    right:calc(0% - 4rem);
+  }
 }
 
 @media (min-width: 1590px) {
@@ -1091,9 +1086,9 @@ footer {
   .port-text h2 {
     font-size: 7.5rem;
   }
-  .port-x-second {
+  /* .port-x-second {
     margin-top: 16.5rem;
-  }
+  } */
 
   .port-text h2 {
     margin-top: -8.6rem;
@@ -1137,7 +1132,7 @@ footer {
     font-size: 2.4rem;
   }
   .port-end-second {
-    margin-top: -4.8rem;
+    /* margin-top: -4.8rem; */
   }
 }
 
@@ -1375,9 +1370,9 @@ footer {
   }
 
   .port-end {
-    position: absolute;
-    right: 0;
-    overflow: hidden;
+    /* position: absolute; */
+    /* right: 0; */
+    /* overflow: hidden; */
   }
 
   /* .port-end h1 {
@@ -1386,13 +1381,13 @@ footer {
     margin-right: -3rem;
   } */
 
-  .port-x-first,
+  /* .port-x-first,
   .port-x-second {
     margin-left: -2.5rem;
-  }
-  .port-x-second {
+  } */
+  /* .port-x-second {
     margin-left: -2.5rem;
-  }
+  } */
   .port-x-first,
   .port-x-second,
   .port-end-first,
@@ -1400,13 +1395,13 @@ footer {
   .port-text h1 {
     font-size: 16rem;
   }
-  .port-end-first,
+  /* .port-end-first,
   .port-end-second {
     margin-right: -1.5rem;
   }
   .port-end-second {
     margin-top: -4.9rem;
-  }
+  } */
 
   .port-text {
     position: absolute;
@@ -1620,7 +1615,13 @@ footer {
 }
 @media (min-width: 800px) and (max-width: 1259px) {
   .port h1 {
-    font-size: 14rem;
+    font-size: 15rem;
+  }
+  .port-text{
+    margin-top:9rem;
+  }
+  .port-x-first,.port-x-second{
+    left:calc(0% - 2.5rem);
   }
 }
 

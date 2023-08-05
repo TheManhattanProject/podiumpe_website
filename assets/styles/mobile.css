@@ -82,6 +82,9 @@
     bottom: 77px;
     
   }
+  .navbar-menu ul{
+    gap:0;
+  }
   .res-footer{
     position:absolute;
     display: unset;
