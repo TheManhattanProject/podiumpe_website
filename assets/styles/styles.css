@@ -31,15 +31,15 @@ header {
   align-items: center;
 }
 
-header > #logo {
+header>#logo {
   height: 32px;
 }
 
-header > nav {
+header>nav {
   margin-right: 2rem;
 }
 
-header > nav > ul {
+header>nav>ul {
   list-style: none;
   display: flex;
   gap: 2rem;
@@ -163,7 +163,7 @@ header > nav > ul {
   margin-right: 1rem;
 }
 
-#card-content > h2 {
+#card-content>h2 {
   /* position: absolute; */
   margin-left: -6rem;
   width: 19rem;
@@ -341,7 +341,7 @@ header > nav > ul {
   display: none;
 }
 
-#porfolio-content-wrapper > img {
+#porfolio-content-wrapper>img {
   width: 100%;
   position: absolute;
   top: 0;
@@ -377,12 +377,12 @@ header > nav > ul {
   justify-content: center;
 }
 
-.card > .card-num {
+.card>.card-num {
   width: 110px;
   position: relative;
 }
 
-.card-num > img {
+.card-num>img {
   position: absolute;
   left: -14px;
   top: -14px;
@@ -403,7 +403,7 @@ header > nav > ul {
   color: #e01717;
 }
 
-.text-card > .text {
+.text-card>.text {
   width: 75%;
   font-size: 20px;
 }
@@ -423,7 +423,7 @@ header > nav > ul {
   margin-bottom: 3rem;
 }
 
-#btn-row > button {
+#btn-row>button {
   display: block;
   margin: auto;
   padding: 1rem 5rem;
@@ -441,11 +441,11 @@ header > nav > ul {
   font-size: 2.6rem;
 }
 
-.strip > img {
+.strip>img {
   width: 100%;
 }
 
-.strip > h3 {
+.strip>h3 {
   font-family: Formula1;
   font-weight: 500;
   font-size: 104.18px;
@@ -498,7 +498,7 @@ header > nav > ul {
   padding: 1rem 0;
 }
 
-#game-content-wrapper > img {
+#game-content-wrapper>img {
   width: 100%;
   position: absolute;
   top: 0;
@@ -667,7 +667,7 @@ p {
   color: rgba(43, 234, 226, 1);
 }
 
-#gm-strip > img {
+#gm-strip>img {
   width: 100%;
 }
 
@@ -700,7 +700,7 @@ p {
   margin-bottom: 1.8rem;
 }
 
-.col-heading > h2 {
+.col-heading>h2 {
   font-size: 3rem;
 }
 
@@ -712,14 +712,14 @@ p {
   margin-top: 5px;
 }
 
-.col > p {
+.col>p {
   margin-top: 1rem;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   color: #989494;
 }
 
-.col > h4 {
+.col>h4 {
   margin-top: 2rem;
   font-family: "Poppins", sans-serif;
   font-size: 1.7rem;
@@ -752,7 +752,7 @@ p {
   align-items: center;
 }
 
-#final-content-wrapper > p {
+#final-content-wrapper>p {
   font-family: "Montserrat", sans-serif;
   color: #989494;
   font-size: 20px;
@@ -874,6 +874,15 @@ footer {
 .pm-nav-items {
   font-size: 20px;
   font-family: formula-reg;
+}
+
+.pm-nav-items>a {
+  color: white;
+  text-decoration: none;
+}
+
+.pm-nav-items>a:hover {
+  color: gainsboro;
 }
 
 #copyright {
@@ -1198,7 +1207,7 @@ footer {
 
   /* .strip {} */
 
-  #card-content > h2 {
+  #card-content>h2 {
     font-size: 1.4rem;
     margin-left: 6rem;
   }
@@ -1243,10 +1252,16 @@ footer {
       width: 100px;
     }
 
-    .card-num > img {
-      width: 100px;
-      top: 16px;
-      left: -28px;
+    .card-num>img {
+      height: 13rem;
+      width: 15rem;
+      top: -36px;
+      left: -6rem;
+    }
+
+    .up-shift {
+      margin-top: -1.5rem;
+      margin-right: 1rem;
     }
 
     .text-card {
@@ -1255,9 +1270,10 @@ footer {
       }
     }
 
-    .text-card > .text {
-      width: 90%;
+    .text-card>.text {
+      width: 100%;
       word-break: break-all;
+      font-family: formula-bold;
     }
   }
 
@@ -1418,7 +1434,7 @@ footer {
     color: #e01717;
   }
 
-  .text-card > .text {
+  .text-card>.text {
     width: 90%;
     font-size: 19px;
     margin-left: 1.5rem;
@@ -1495,7 +1511,7 @@ footer {
     margin-top: 5.8rem;
   }
 
-  .col-heading > h2 {
+  .col-heading>h2 {
     font-size: 2.2rem;
   }
 
@@ -1553,6 +1569,12 @@ footer {
 }
 
 @media (max-width: 426px) {
+
+  #footer-content-m>li>a {
+    color: white;
+    text-decoration: none;
+  }
+
   .up-div {
     display: none;
   }
@@ -1573,7 +1595,7 @@ footer {
   }
 
   .up-text {
-    font-size: 1.7rem;
+    font-size: 6vw;
   }
 
   .strip-left {
@@ -1599,5 +1621,85 @@ footer {
 @media (min-width: 800px) and (max-width: 1259px) {
   .port h1 {
     font-size: 14rem;
+  }
+}
+
+  #porfolio-content-wrapper-m {
+    position: absolute;
+  }
+
+  .num-card-row1,
+  .num-card-row2 {
+    /* position: relative; */
+    margin-left: -1.5rem;
+  }
+
+  /* .num-card-heading {} */
+}
+
+@media(max-width: 410px) {
+  .up-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-width:393px) {
+  .earn-txt {
+    font-size: 9vw;
+  }
+
+  .earn-div {
+    margin-left: 12.5rem;
+  }
+}
+
+@media (max-width: 385px) {
+  .f-text-m {
+    font-size: 2.8rem;
+  }
+
+  .earn-txt {
+    font-size: 2.2rem;
+  }
+
+  .earn-div {
+    margin-left: 11.5rem;
+  }
+
+  .up-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-width:375px) {
+  .up-text {
+    font-size: 6vw;
+  }
+}
+
+@media(max-width: 350px) {
+  .earn-txt {
+    font-size: 9vw;
+  }
+
+  .earn-div {
+    font-size: 3.5vw;
+    margin-left: 10rem;
+  }
+}
+
+@media(max-width:335px) {
+  .f-text-m {
+    font-size: 12vw;
+  }
+}
+
+@media(max-width:310px) {
+  .earn-txt {
+    font-size: 8.5vw;
+  }
+
+  .earn-div {
+    margin-left: 7rem;
   }
 }
