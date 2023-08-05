@@ -40,7 +40,7 @@
     width: 100vw;
     height: 100vh;
     z-index: 300;
-    transform: translateX(100%);
+    transform: translateY(-100%);
     /* overflow: hidden; */
   }
   .navbar-menu {
@@ -72,7 +72,7 @@
   #navbar ul {
     gap: unset;
   }
-  #navbar-menu a li {
+  #nav-menu li {
     font-size: 18px;
     margin-bottom: 56px;
   }
@@ -94,7 +94,7 @@
 
   }
   .open-nav {
-    transform: translatex(0%);
+    transform: translateX(0%);
   }
   .res-link {
     display: unset;

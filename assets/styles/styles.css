@@ -45,8 +45,8 @@ header > nav > ul {
   gap: 2rem;
   font-size: 0.8rem;
 }
-.close{
-  display:none;
+.close {
+  display: none;
 }
 
 #hamburger-menu-wrapper {
@@ -62,29 +62,29 @@ header > nav > ul {
   left: 50%;
   transform: translateX(-50%);
 }
-.pp-title{
-  display:none;
+.pp-title {
+  display: none;
 }
 /* nav>img{
   display:none;
 } */
-.navbar-menu img{
-  display:none;
+.navbar-menu img {
+  display: none;
 }
 
-.navbar-menu ul{
+.navbar-menu ul {
   list-style: none;
   display: flex;
   gap: 2rem;
   font-size: 0.8rem;
 }
-.res-link{
-  display:none;
-}
-.res-x-logo{
+.res-link {
   display: none;
 }
-.res-footer{
+.res-x-logo {
+  display: none;
+}
+.res-footer {
   display: none;
 }
 /* main {} */
@@ -287,28 +287,27 @@ header > nav > ul {
   font-size: 16rem;
   margin-right: -3rem;
 } */
-.port-end-first{
+.port-end-first {
   font-size: 17rem;
   margin-top: 0.5rem;
-  margin-right:-1.5rem;
+  margin-right: -1.5rem;
 }
-.port-end-second{
+.port-end-second {
   font-size: 17rem;
   margin-top: -6.5rem;
-  margin-right:-1.5rem;
+  margin-right: -1.5rem;
 }
-.port-x-first{
+.port-x-first {
   position: absolute;
-  font-size:17rem;
-  margin-top:0.5rem;
-  margin-left:-1.5rem;
+  font-size: 17rem;
+  margin-top: 0.5rem;
+  margin-left: -1.5rem;
 }
-.port-x-second{
+.port-x-second {
   position: absolute;
-  font-size:17rem;
-  margin-top:14.5rem;
-  margin-left:-1.5rem;
-
+  font-size: 17rem;
+  margin-top: 14.5rem;
+  margin-left: -1.5rem;
 }
 
 /* .port-X h1 {
@@ -950,8 +949,8 @@ footer {
   .port-text {
     margin-left: 10.5rem;
   }
-  .col>p{
-    width:412px;
+  .col > p {
+    width: 412px;
   }
 }
 
@@ -1028,9 +1027,9 @@ footer {
     margin-left: 6rem;
     margin-right: 6rem;
   }
-  .col>p{
-    width:450px;
-    font-size:20px;
+  .col > p {
+    width: 450px;
+    font-size: 20px;
   }
 }
 
@@ -1057,11 +1056,10 @@ footer {
     font-size: 9.4rem;
   }
 }
-@media (min-width:1600px) {
-  .col>p{
-    width:500px;
+@media (min-width: 1600px) {
+  .col > p {
+    width: 500px;
   }
-  
 }
 
 @media (min-width: 1710px) {
@@ -1081,11 +1079,11 @@ footer {
   .port-text {
     margin-top: 9rem;
   }
-  .port-text h2{
+  .port-text h2 {
     font-size: 7.5rem;
   }
-  .port-x-second{
-    margin-top:16.5rem;
+  .port-x-second {
+    margin-top: 16.5rem;
   }
 
   .port-text h2 {
@@ -1094,15 +1092,15 @@ footer {
     margin-left: 8rem;
     margin-right: 8rem;
   }
-  .col > p{
-    font-size:20px;
-    width:600px;
+  .col > p {
+    font-size: 20px;
+    width: 600px;
   }
-  .col-heading > h2{
-    font-size:48px;
+  .col-heading > h2 {
+    font-size: 48px;
   }
-  .col > h4{
-    font-size:32px;
+  .col > h4 {
+    font-size: 32px;
   }
 }
 
@@ -1110,29 +1108,27 @@ footer {
   #gm-car {
     top: 480px;
   }
-  .port h1{
+  .port h1 {
     font-size: 18.5rem;
   }
 }
-@media (min-width:1515px) and (max-width:1699px){
-  .port h1{
-    font-size:18rem;
-    
+@media (min-width: 1515px) and (max-width: 1699px) {
+  .port h1 {
+    font-size: 18rem;
   }
-  .port-text h2{
-    font-size:2.9rem;
+  .port-text h2 {
+    font-size: 2.9rem;
   }
+}
+@media (min-width: 1339px) and (max-width: 1499px) {
+  .port h1 {
+    font-size: 15.5rem;
   }
-@media (min-width:1339px) and (max-width:1499px){
-  .port h1{
-    font-size:15.5rem;
-    
+  .port-text h2 {
+    font-size: 2.4rem;
   }
-  .port-text h2{
-    font-size:2.4rem;
-  }
-  .port-end-second{
-    margin-top:-4.8rem;
+  .port-end-second {
+    margin-top: -4.8rem;
   }
 }
 
@@ -1361,7 +1357,6 @@ footer {
   .port-X {
     margin-left: -1.5rem;
   }
-  
 
   .port-end {
     position: absolute;
@@ -1375,23 +1370,27 @@ footer {
     margin-right: -3rem;
   } */
 
-  .port-x-first,.port-x-second{
-    margin-left:-2.5rem;
+  .port-x-first,
+  .port-x-second {
+    margin-left: -2.5rem;
   }
-  .port-x-second{
-    margin-left:-2.5rem;
+  .port-x-second {
+    margin-left: -2.5rem;
   }
-  .port-x-first,.port-x-second,.port-end-first,.port-end-second,.port-text h1{
-    font-size:16rem;
+  .port-x-first,
+  .port-x-second,
+  .port-end-first,
+  .port-end-second,
+  .port-text h1 {
+    font-size: 16rem;
   }
-  .port-end-first,.port-end-second{
-    margin-right:-1.5rem;
+  .port-end-first,
+  .port-end-second {
+    margin-right: -1.5rem;
   }
-  .port-end-second{
-    margin-top:-4.9rem;
+  .port-end-second {
+    margin-top: -4.9rem;
   }
-
-  
 
   .port-text {
     position: absolute;
@@ -1424,13 +1423,11 @@ footer {
     font-size: 19px;
     margin-left: 1.5rem;
   }
-  
 }
-@media (min-width:1200px) and (max-width:1300px) {
-  .col>p{
-    width:349px;
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .col > p {
+    width: 349px;
   }
-  
 }
 
 @media (max-width: 1140px) {
@@ -1547,11 +1544,6 @@ footer {
   #gm-car {
     margin-top: 115px;
   }
-
-  .col > p {
-    font-size: 0.8rem;
-    word-spacing: 1px;
-  }
 }
 
 @media (max-width: 780px) {
@@ -1597,9 +1589,15 @@ footer {
     margin-top: 8px;
   }
 }
-
-@media (min-width: 800px) and (max-width:1259px) {
-  .port h1{
-    font-size:14rem;
+@media (min-width: 781px) and(max-width:800px) {
+  .col > p {
+    width: 250px;
+    font-size: 0.8rem;
+    word-spacing: 1px;
+  }
+}
+@media (min-width: 800px) and (max-width: 1259px) {
+  .port h1 {
+    font-size: 14rem;
   }
 }
