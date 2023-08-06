@@ -1293,6 +1293,11 @@ footer {
   /* ---------Portfolio Section------------ */
   /* Download Card */
 
+  #btn-row {
+    margin-top: 2.5rem;
+  }
+
+
   .download-options2 {
     height: 50px;
   }
