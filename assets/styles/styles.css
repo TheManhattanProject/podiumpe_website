@@ -1687,6 +1687,10 @@ footer {
   .pp-shift {
     display: none;
   }
+  .up-text{
+    -webkit-text-stroke-width: 1px;
+  }
+
 }
 
 @media (max-width: 426px) {
@@ -2037,5 +2041,10 @@ footer {
   #row-2{
     margin-left:-2.5rem;
   }
-  
+}
+
+@media (min-width:426px) and (max-width:600px) {
+  .f-text-m {
+    font-size:calc(3rem + 2vw);
+  }
 }
