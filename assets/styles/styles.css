@@ -1307,11 +1307,6 @@ footer {
     justify-content: space-between;
   }
 
-  #row-2 {
-    margin-top: 160px;
-  }
-
-
   /* Game Box Section */
   #game-section {
     padding-bottom: 0px;
@@ -1490,6 +1485,10 @@ footer {
     width: 310px;
   }
 
+  .card-3{
+    width: 355px;
+  }
+
   .text-2{
     word-break: break-word;
     font-family: formula-reg;
@@ -1549,6 +1548,10 @@ footer {
 
   #porfolio-content-wrapper{
     top: 32px;
+  }
+
+  #row-2{
+    margin-top: 64px;
   }
   
 }
