@@ -1199,6 +1199,16 @@ footer {
 }
 
 @media (max-width: 1280px) {
+
+
+  /* .text-card > .text {
+    width: 90%;
+    font-size: 19px;
+    margin-left: 1.5rem;
+  } */
+
+
+
   #game-section {
     margin-bottom: 75px;
     padding-bottom: 20px;
@@ -1301,39 +1311,6 @@ footer {
     margin-top: 160px;
   }
 
-  .card {
-    font-size: 1.2rem;
-    max-width: 320px;
-
-    .card-num {
-      width: 100px;
-    }
-
-    .card-num > img {
-      height: 13rem;
-      width: 15rem;
-      top: -36px;
-      left: -6rem;
-    }
-
-    .up-shift {
-      margin-top: -1.5rem;
-      margin-right: 1rem;
-    }
-
-    .text-card {
-      .card-title {
-        margin-left: 1.5rem;
-      }
-    }
-
-    .text-card > .text {
-      width: 100%;
-      word-break: break-all;
-      font-family: formula-reg;
-    }
-    
-  }
 
   /* Game Box Section */
   #game-section {
@@ -1486,19 +1463,98 @@ footer {
     width: 80rem;
   }
 
-  .text-card > .card-title {
-    /* margin-left: 2rem !important; */
-    width: 100%;
-    color: #e01717;
+  .text-card {
+    margin-left: 0px;
   }
 
-  .text-card > .text {
-    width: 90%;
-    font-size: 19px;
-    margin-left: 1.5rem;
+  .card-title{
+    color: #e01717;
+    margin-left: 0px;
+  }
+
+  .text-1{
+    word-break: break-word;
+    font-family: formula-reg;
+    margin-left: 0;
+  }
+  
+  .card{
+    gap: 0;
+  }
+
+  .card-1{
+    width: 260px;
+  }
+
+  .card-2{
+    width: 310px;
+  }
+
+  .text-2{
+    word-break: break-word;
+    font-family: formula-reg;
+    margin-left: 0;
+  }
+
+  .pd-1{
+    padding-left: 0;
+  }
+  
+  #row-1{
+    margin-left: 0px;
+  }
+
+  .x-container-left {
+    height: 316px;
+  }
+
+  .x-container-right {
+    height: 316px;
+  }
+
+  .x-left-first{
+    left: 0;
+  }
+
+  .x-left-second{
+   top:10rem;
+   left:0px;
+  }
+
+  .x-left-third {
+    position: absolute;
+    left: 9rem;
+    top: 5rem;
+  }
+
+  .x-right-first {
+    position: absolute;
+    right: 0;
+  }
+  .x-right-third {
+    position: absolute;
+    right: 9rem;
+    top: 5rem;
+  }
+
+  .x-right-second {
+    position: absolute;
+    right: 0;
+    top: 10rem;
+  }
+
+  .x-element{
+    font-size: 11rem;
+  }
+
+  #porfolio-content-wrapper{
+    top: 32px;
   }
   
 }
+
+
+
 @media (min-width: 1200px) and (max-width: 1300px) {
   .col > p {
     width: 349px;
@@ -1926,10 +1982,6 @@ footer {
     font-size: 2.3rem;
     width:550px;
     margin-bottom: unset;
-  }
-  #row-2 {
-    margin-top: 211px;
-    margin-left:-1.5rem;
   }
 }
 @media (min-width: 850px) and (max-width: 1000px) {
