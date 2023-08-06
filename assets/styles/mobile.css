@@ -449,7 +449,7 @@
   #right-x {
     position: absolute;
     right: 0;
-    width: 120px;
+    width: 110px;
     top: calc(10vw);
   }
   #left-x {
@@ -512,8 +512,13 @@
     display: block;
     position: absolute;
     top: calc(86vw);
+    width:90%;
   }
   #portfolio {
     position: relative;
   }
+  #porfolio-content{
+    display: none;
+  }
+  
 }
