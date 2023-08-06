@@ -302,7 +302,7 @@ header > nav > ul {
 .x-left-third {
   position: absolute;
   left: 11rem;
-  top: 8rem;
+  top: 7rem;
 }
 .x-right-first {
   position: absolute;
@@ -316,7 +316,7 @@ header > nav > ul {
 .x-right-third {
   position: absolute;
   right: 11rem;
-  top: 8rem;
+  top: 7rem;
 }
 
 .x-middle {
@@ -518,6 +518,11 @@ header > nav > ul {
 
 .strip-text-m {
   display: none;
+}
+
+.footer-links{
+  color: white;
+  text-decoration: none;
 }
 
 /* Game section */
@@ -876,6 +881,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
 }
 
 #pm-logo img {
@@ -1751,11 +1757,10 @@ footer {
 }
 
 
+
+
+
 @media (max-width: 426px) {
-  #footer-content-m > li > a {
-    color: white;
-    text-decoration: none;
-  }
 
   .f-text-m {
     font-size: 3.2rem;
