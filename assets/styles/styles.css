@@ -599,7 +599,7 @@ header > nav > ul {
   border-radius: 48px;
   border: 12px #d11616 solid;
   padding: 8rem;
-  /* z-index: 200; */
+  z-index: 200;
 }
 
 .div3 {
@@ -613,6 +613,7 @@ header > nav > ul {
   border-radius: 48px;
   border: 12px #d11616 solid;
   padding: 8rem;
+  z-index: 200;
 }
 
 p {
