@@ -22,6 +22,9 @@ body {
   max-width: 1800px;
   margin: auto;
 }
+a{
+  text-decoration: none;
+}
 
 header {
   padding: 1.2rem 2rem;
@@ -273,7 +276,7 @@ header > nav > ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .x-container-left {
   position: relative;
@@ -894,8 +897,8 @@ footer {
 /* #footer-content-right {} */
 
 #pm-card {
-  width: 720px;
-  height: 90px;
+  width: 700px;
+  height: 63px;
   border-radius: 20px;
   background-color: #d41919;
   padding: 0 10px 0 30px;
@@ -906,17 +909,17 @@ footer {
 }
 
 #pm-card-text {
-  color: #0a0a0a;
-  font-size: 16;
+  color: #FFF;
+  font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 
 #pm-subcard {
-  background-color: #0a0a0a;
-  height: 70px;
-  border-radius: 16px;
-  width: 330px;
+  background-color: #FFF;
+  height: 44px;
+  border-radius: 12px;
+  width: 199px;
 }
 
 #pm-nav {
@@ -1135,6 +1138,9 @@ footer {
   .port-end-second {
     right: calc(0% - 4rem);
   }
+  #pm-card-text{
+    width:499px;
+  }
 }
 
 @media (min-width: 1590px) {
@@ -1294,7 +1300,7 @@ footer {
   /* Download Card */
 
   #btn-row {
-    margin-top: 2.5rem;
+    margin-top: 4rem;
   }
 
 
@@ -1405,8 +1411,8 @@ footer {
   }
 
   #pm-card {
-    width: 90%;
-    margin-left: auto;
+    width:650px;
+    gap: unset;
   }
 
   #pm-nav {
@@ -1417,10 +1423,10 @@ footer {
     gap: 0.8rem;
   }
 
-  #pm-subcard {
+  /* #pm-subcard {
     padding: 10px;
     width: 80%;
-  }
+  } */
 
   .pm-nav-items {
     font-size: 16px;
@@ -1608,6 +1614,7 @@ footer {
   .text-3{
     width:400px;
   }
+
 }
 
 @media (max-width: 1140px) {
@@ -1677,6 +1684,7 @@ footer {
 
   .col-heading > h2 {
     font-size: 2.2rem;
+    width:100px;
   }
 
   .up-text {
@@ -1799,6 +1807,7 @@ footer {
     word-spacing: 1px;
   }
 }
+
 @media (min-width: 800px) and (max-width: 1259px) {
   .port h1 {
     font-size: 15rem;
@@ -2033,19 +2042,30 @@ footer {
 }
 @media (min-width: 1000px) and (max-width: 1100px) {
   .x-middle {
-    font-size: 1.8rem;
-    width:500px;
-    margin-bottom: unset;
+    font-size: 2.5rem;
+    width:710px;
+    margin-bottom:1.5rem;
   }
   #row-2 {
-    margin-top: 211px;
+    margin-top: 98px;
   }
+  #row-1{
+    gap:2rem;
+  }
+  .card-num > img{
+    height:220px;
+    width:228px;
+  }
+
 }
 @media (min-width: 1100px) and (max-width: 1199px) {
   .x-middle {
     font-size: 2.3rem;
     width:550px;
     margin-bottom: unset;
+  }
+  #porfolio-content-wrapper{
+    overflow-y: hidden;
   }
 }
 @media (min-width: 850px) and (max-width: 1000px) {
@@ -2095,8 +2115,8 @@ footer {
   .text-card>.text{
     font-size:15px;
   }
-  #row-2{
-    margin-left:-2.5rem;
+  #pm-card{
+    width:550px;
   }
 }
 
@@ -2105,3 +2125,97 @@ footer {
     font-size:calc(3rem + 2vw);
   }
 }
+@media (min-width:781px) and (max-width:860px){
+  #pm-card{
+    width:480px;
+    gap:10px;
+  }
+  #pm-card-text{
+    font-size:14px;
+  }
+}
+@media (min-width:900px) and (max-width:1000px){
+  #row-1{
+    margin-left: -62px;
+    gap:1.5rem;
+  }
+  .card{
+    max-width:unset;
+  }
+  .card-num > img{
+    height:218px;
+    width:228px;
+  }
+  #row-2{
+    margin-top: 117px;
+  }
+  .x-middle{
+    font-size:2rem;
+    margin-bottom: 1.5rem;
+    width:565px;
+  }
+}
+@media (min-width:781px) and (max-width:900px) {
+  #row-1{
+    margin-left:-80px;
+    gap:0.5rem;
+  }
+  .card-num >img{
+    width: 223px;
+    height:198px;
+    top:-45px;
+  }
+  .text-card > .card-title{
+    font-size:1.2rem;
+    width:235px;
+  }
+  .card{
+    max-width:unset;
+  }
+  .card-2{
+    width:231px;
+  }
+  .text-2{
+    width:230px;
+  }
+  #row-2{
+    margin-top: 97px;
+  }
+  .x-middle{
+    font-size:1.6rem;
+    width:500px;
+    margin-bottom: 1rem;
+  }
+  .text-card > .card-title-1{
+    width:241px;
+  }
+  .text-card > .card-title-3{
+    width:260px;
+  }
+  #btn-row > button {
+    margin-top:3.5rem;
+  }
+
+  
+}
+@media (min-width:781px) and (max-width:920px) {
+  .col>p{
+    width:245px;
+  }
+  #final{
+    margin-bottom: 4rem;
+  }
+  
+}
+@media (min-width:964px) and (max-width:999px) {
+  #row-1{
+    margin-left:-42px;
+  }
+  
+}
+@media (min-width:860px) and (max-width:900px) {
+  #row-1{
+    margin-left:-51px;
+  }
+}
+
