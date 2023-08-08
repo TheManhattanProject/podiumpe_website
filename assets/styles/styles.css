@@ -2122,7 +2122,7 @@ footer {
 
 @media (min-width:426px) and (max-width:600px) {
   .f-text-m {
-    font-size:calc(3rem + 2vw);
+    font-size:calc(3rem + 1.7vw);
   }
 }
 @media (min-width:781px) and (max-width:860px){
