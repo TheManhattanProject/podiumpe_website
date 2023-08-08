@@ -227,6 +227,10 @@ td {
   line-height: 2.4rem;
 }
 
+.doc-nav-item a {
+  color: gray;
+}
+
 .active {
   color: white;
   text-decoration: underline;
