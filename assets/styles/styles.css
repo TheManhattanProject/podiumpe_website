@@ -22,7 +22,7 @@ body {
   max-width: 1800px;
   margin: auto;
 }
-a{
+a {
   text-decoration: none;
 }
 
@@ -324,7 +324,7 @@ header > nav > ul {
 
 .x-middle {
   height: 48px;
-  width:660px;
+  width: 660px;
   font-size: 2.7rem;
   font-weight: 500;
   margin-bottom: 4rem;
@@ -421,7 +421,7 @@ header > nav > ul {
   font-size: 1.3rem;
   max-width: 520px;
   justify-content: center;
-  width:570px;
+  width: 570px;
 }
 
 .card > .card-num {
@@ -464,9 +464,9 @@ header > nav > ul {
   position: relative;
   z-index: 200;
   margin-top: 130px;
-  margin-left:4rem;
+  margin-left: 4rem;
 }
-.pd-1{
+.pd-1 {
   padding-left: 1rem;
 }
 #btn-row {
@@ -523,7 +523,7 @@ header > nav > ul {
   display: none;
 }
 
-.footer-links{
+.footer-links {
   color: white;
   text-decoration: none;
 }
@@ -909,14 +909,14 @@ footer {
 }
 
 #pm-card-text {
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 
 #pm-subcard {
-  background-color: #FFF;
+  background-color: #fff;
   height: 44px;
   border-radius: 12px;
   width: 199px;
@@ -987,24 +987,23 @@ footer {
   margin-right: 16px;
 }
 
-.stripe-up{
+.stripe-up {
   width: 100%;
   height: 6px;
   background-color: rgba(43, 234, 226, 1);
 }
 
-.mobile-up{
+.mobile-up {
   width: 90%;
   margin: auto;
   margin-top: -20px;
 }
 
-.xxx{
+.xxx {
   text-align: end;
-  color: #2BEAE2;
+  color: #2beae2;
   font-size: 1rem;
 }
-
 
 /* media queries */
 
@@ -1138,8 +1137,8 @@ footer {
   .port-end-second {
     right: calc(0% - 4rem);
   }
-  #pm-card-text{
-    width:499px;
+  #pm-card-text {
+    width: 499px;
   }
 }
 
@@ -1243,15 +1242,11 @@ footer {
 }
 
 @media (max-width: 1280px) {
-
-
   /* .text-card > .text {
     width: 90%;
     font-size: 19px;
     margin-left: 1.5rem;
   } */
-
-
 
   #game-section {
     margin-bottom: 75px;
@@ -1302,7 +1297,6 @@ footer {
   #btn-row {
     margin-top: 4rem;
   }
-
 
   .download-options2 {
     height: 50px;
@@ -1411,7 +1405,7 @@ footer {
   }
 
   #pm-card {
-    width:650px;
+    width: 650px;
     gap: unset;
   }
 
@@ -1511,44 +1505,44 @@ footer {
     margin-left: 0px;
   }
 
-  .card-title{
+  .card-title {
     color: #e01717;
     margin-left: 0px;
   }
 
-  .text-1{
+  .text-1 {
     word-break: break-word;
     font-family: formula-reg;
     margin-left: 0;
   }
-  
-  .card{
+
+  .card {
     gap: 0;
   }
 
-  .card-1{
+  .card-1 {
     width: 260px;
   }
 
-  .card-2{
+  .card-2 {
     width: 310px;
   }
 
-  .card-3{
+  .card-3 {
     width: 355px;
   }
 
-  .text-2{
+  .text-2 {
     word-break: break-word;
     font-family: formula-reg;
     margin-left: 0;
   }
 
-  .pd-1{
+  .pd-1 {
     padding-left: 0;
   }
-  
-  #row-1{
+
+  #row-1 {
     margin-left: 0px;
   }
 
@@ -1560,13 +1554,13 @@ footer {
     height: 316px;
   }
 
-  .x-left-first{
+  .x-left-first {
     left: 0;
   }
 
-  .x-left-second{
-   top:10rem;
-   left:0px;
+  .x-left-second {
+    top: 10rem;
+    left: 0px;
   }
 
   .x-left-third {
@@ -1591,30 +1585,26 @@ footer {
     top: 10rem;
   }
 
-  .x-element{
+  .x-element {
     font-size: 11rem;
   }
 
-  #porfolio-content-wrapper{
+  #porfolio-content-wrapper {
     top: 32px;
   }
 
-  #row-2{
+  #row-2 {
     margin-top: 64px;
   }
-  
 }
-
-
 
 @media (min-width: 1200px) and (max-width: 1300px) {
   .col > p {
     width: 349px;
   }
-  .text-3{
-    width:400px;
+  .text-3 {
+    width: 400px;
   }
-
 }
 
 @media (max-width: 1140px) {
@@ -1684,7 +1674,7 @@ footer {
 
   .col-heading > h2 {
     font-size: 2.2rem;
-    width:100px;
+    width: 100px;
   }
 
   .up-text {
@@ -1738,44 +1728,37 @@ footer {
   .pp-shift {
     display: none;
   }
-  .up-text{
+  .up-text {
     -webkit-text-stroke-width: 1px;
     font-size: 1.5rem;
   }
-  .up-div{
+  .up-div {
     display: none;
   }
-
 }
 
-@media (min-width:500px) and (max-width:580px) {
+@media (min-width: 500px) and (max-width: 580px) {
   .earn-txt {
     font-size: 3.2rem;
     margin-top: 1.5rem;
   }
 }
 
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .earn-txt {
     font-size: 2.8rem;
     margin-top: 1.5rem;
   }
 }
 
-
-@media (min-width:580px) and (max-width:650px) {
+@media (min-width: 580px) and (max-width: 650px) {
   .earn-txt {
     font-size: 3.8rem;
     margin-top: 1.5rem;
   }
 }
 
-
-
-
-
 @media (max-width: 426px) {
-
   .f-text-m {
     font-size: 3.2rem;
   }
@@ -1798,7 +1781,6 @@ footer {
   .strip-left {
     width: 2rem;
   }
-
 }
 @media (min-width: 781px) and(max-width:800px) {
   .col > p {
@@ -1902,320 +1884,323 @@ footer {
 @media (min-width: 1260px) and (max-width: 1370px) {
   .x-middle {
     font-size: 3rem;
-    width:770px;
+    width: 770px;
     margin-bottom: 4rem;
   }
 }
 @media (min-width: 1370px) and (max-width: 1500px) {
   .x-middle {
     font-size: 3.65rem;
-    width:900px;
+    width: 900px;
     margin-bottom: 4rem;
   }
 }
 @media (min-width: 1500px) and (max-width: 1700px) {
   .x-middle {
-    width:1260px;
+    width: 1260px;
     font-size: 4.65rem;
     margin-bottom: 7rem;
   }
   #row-2 {
     margin-top: 180px;
-    margin-left:2rem;
+    margin-left: 2rem;
   }
-  .text-card > .card-title{
-    margin-left:1rem;
+  .text-card > .card-title {
+    margin-left: 1rem;
     padding-left: 0.8rem;
-    font-size:1.5rem;
+    font-size: 1.5rem;
   }
-  .card-num>img{
-    top:-68px;
-    height:240px;
+  .card-num > img {
+    top: -68px;
+    height: 240px;
   }
-  .pd-1{
+  .pd-1 {
     padding-left: unset;
   }
-  .text-card{
-    width:500px;
-    margin-left:0rem;
+  .text-card {
+    width: 500px;
+    margin-left: 0rem;
   }
-  #btn-row > button{
+  #btn-row > button {
     padding: 1.5rem 6.5rem;
-    font-size:2rem;
+    font-size: 2rem;
     border-radius: 20px;
   }
-  .x-left-first,.x-left-second{
+  .x-left-first,
+  .x-left-second {
     left: calc(0% - 3.5rem);
   }
-  .x-right-first,.x-right-second{
+  .x-right-first,
+  .x-right-second {
     right: calc(0% - 3.5rem);
   }
-  .x-right-third{
-    right:8rem;
+  .x-right-third {
+    right: 8rem;
   }
-  .x-left-third{
-    left:8rem;
+  .x-left-third {
+    left: 8rem;
   }
-  #row-1{
+  #row-1 {
     margin-left: unset;
     /* margin-left: 2rem; */
-    gap:1rem;
+    gap: 1rem;
   }
-  .card{
-    max-width:unset;
+  .card {
+    max-width: unset;
     width: 640px;
   }
-  .text-1{
-    width:300px;
+  .text-1 {
+    width: 300px;
   }
-  .text-2{
-    width:364px;
-
+  .text-2 {
+    width: 364px;
   }
-  .text-3{
-    font-size:24px;
-    width:507px;
+  .text-3 {
+    font-size: 24px;
+    width: 507px;
   }
 }
-@media (min-width: 1700px){
+@media (min-width: 1700px) {
   .x-middle {
     font-size: 5.5rem;
-    width:1500px;
+    width: 1500px;
     margin-bottom: 7rem;
   }
   #row-2 {
     margin-top: 197px;
   }
-  .text-card>.card-title{
+  .text-card > .card-title {
     margin-left: 2.4rem;
     font-size: 1.5rem;
   }
-  .text-card{
-    width:650px;
-    margin-left:1.5rem;
+  .text-card {
+    width: 650px;
+    margin-left: 1.5rem;
   }
-  .card{
-    max-width:unset;
-    width:640px;
+  .card {
+    max-width: unset;
+    width: 640px;
   }
   /* .text-card>.text{
     width:82%;
   } */
-  .card-num>img{
-    height:240px;
-    top:-58px;
+  .card-num > img {
+    height: 240px;
+    top: -58px;
   }
-  #btn-row > button{
+  #btn-row > button {
     padding: 1.5rem 6.5rem;
-    font-size:2rem;
-    border-radius:20px;
+    font-size: 2rem;
+    border-radius: 20px;
   }
-  #row-1{
-    gap:6rem;
+  #row-1 {
+    gap: 6rem;
   }
-  .pd-1{
+  .pd-1 {
     padding-left: unset;
   }
-  .x-left-first,.x-left-second{
+  .x-left-first,
+  .x-left-second {
     left: calc(0% - 3.5rem);
   }
-  .x-right-first,.x-right-second{
+  .x-right-first,
+  .x-right-second {
     right: calc(0% - 3.5rem);
   }
-  .x-right-third{
-    right:8rem;
+  .x-right-third {
+    right: 8rem;
   }
-  .x-left-third{
-    left:8rem;
+  .x-left-third {
+    left: 8rem;
   }
-  .text-1{
-    width:300px;
+  .text-1 {
+    width: 300px;
   }
-  .text-2{
-    width:364px;
-
+  .text-2 {
+    width: 364px;
   }
-  .text-3{
-    font-size:24px;
-    width:527px;
+  .text-3 {
+    font-size: 24px;
+    width: 527px;
   }
 }
 @media (min-width: 1000px) and (max-width: 1100px) {
   .x-middle {
     font-size: 2.5rem;
-    width:710px;
-    margin-bottom:1.5rem;
+    width: 710px;
+    margin-bottom: 1.5rem;
   }
   #row-2 {
     margin-top: 98px;
   }
-  #row-1{
-    gap:2rem;
+  #row-1 {
+    gap: 2rem;
   }
-  .card-num > img{
-    height:220px;
-    width:228px;
+  .card-num > img {
+    height: 220px;
+    width: 228px;
   }
-
 }
 @media (min-width: 1100px) and (max-width: 1199px) {
   .x-middle {
     font-size: 2.3rem;
-    width:550px;
+    width: 550px;
     margin-bottom: unset;
   }
-  #porfolio-content-wrapper{
+  #porfolio-content-wrapper {
     overflow-y: hidden;
   }
 }
 @media (min-width: 850px) and (max-width: 1000px) {
   .x-middle {
     font-size: 1.3rem;
-    width:340px;
+    width: 340px;
     margin-bottom: unset;
   }
   #row-2 {
     margin-top: 211px;
   }
-  .card{
-    max-width:280px;
+  .card {
+    max-width: 280px;
   }
 }
 @media (min-width: 781px) and (max-width: 850px) {
   .x-middle {
     font-size: 1.13rem;
-    width:229px;
+    width: 229px;
     margin-bottom: unset;
   }
   #row-2 {
     margin-top: 211px;
   }
-  .card{
-    max-width:240px;
+  .card {
+    max-width: 240px;
   }
-  .text-card > .text{
-    font-size:15px;
+  .text-card > .text {
+    font-size: 15px;
   }
 }
-@media (min-width:1800px) {
-  .x-left-first,.x-left-second{
+@media (min-width: 1800px) {
+  .x-left-first,
+  .x-left-second {
     left: calc(0%);
   }
-  .x-right-first,.x-right-second{
+  .x-right-first,
+  .x-right-second {
     right: calc(0%);
   }
-  .x-right-third{
-    right:11rem;
+  .x-right-third {
+    right: 11rem;
   }
-  .x-left-third{
-    left:11rem;
+  .x-left-third {
+    left: 11rem;
   }
 }
-@media (min-width:800px) and (max-width:1099px) {
-  .text-card>.text{
-    font-size:15px;
+@media (min-width: 800px) and (max-width: 1099px) {
+  .text-card > .text {
+    font-size: 15px;
   }
-  #pm-card{
-    width:550px;
+  #pm-card {
+    width: 550px;
   }
 }
 
-@media (min-width:426px) and (max-width:600px) {
+@media (min-width: 426px) and (max-width: 600px) {
   .f-text-m {
-    font-size:calc(3rem + 1.7vw);
+    font-size: calc(3rem + 1.7vw);
   }
 }
-@media (min-width:781px) and (max-width:860px){
-  #pm-card{
-    width:480px;
-    gap:10px;
+@media (min-width: 781px) and (max-width: 860px) {
+  #pm-card {
+    width: 480px;
+    gap: 10px;
   }
-  #pm-card-text{
-    font-size:14px;
+  #pm-card-text {
+    font-size: 14px;
   }
 }
-@media (min-width:900px) and (max-width:1000px){
-  #row-1{
+@media (min-width: 900px) and (max-width: 1000px) {
+  #row-1 {
     margin-left: -62px;
-    gap:1.5rem;
+    gap: 1.5rem;
   }
-  .card{
-    max-width:unset;
+  .card {
+    max-width: unset;
   }
-  .card-num > img{
-    height:218px;
-    width:228px;
+  .card-num > img {
+    height: 218px;
+    width: 228px;
   }
-  #row-2{
+  #row-2 {
     margin-top: 117px;
   }
-  .x-middle{
-    font-size:2rem;
+  .x-middle {
+    font-size: 2rem;
     margin-bottom: 1.5rem;
-    width:565px;
+    width: 565px;
   }
 }
-@media (min-width:781px) and (max-width:900px) {
-  #row-1{
-    margin-left:-80px;
-    gap:0.5rem;
+@media (min-width: 781px) and (max-width: 900px) {
+  #row-1 {
+    margin-left: -80px;
+    gap: 0.5rem;
   }
-  .card-num >img{
+  .card-num > img {
     width: 223px;
-    height:198px;
-    top:-45px;
+    height: 198px;
+    top: -45px;
   }
-  .text-card > .card-title{
-    font-size:1.2rem;
-    width:235px;
+  .text-card > .card-title {
+    font-size: 1.2rem;
+    width: 235px;
   }
-  .card{
-    max-width:unset;
+  .card {
+    max-width: unset;
   }
-  .card-2{
-    width:231px;
+  .card-2 {
+    width: 231px;
   }
-  .text-2{
-    width:230px;
+  .text-2 {
+    width: 230px;
   }
-  #row-2{
+  #row-2 {
     margin-top: 97px;
   }
-  .x-middle{
-    font-size:1.6rem;
-    width:500px;
+  .x-middle {
+    font-size: 1.6rem;
+    width: 500px;
     margin-bottom: 1rem;
   }
-  .text-card > .card-title-1{
-    width:241px;
+  .text-card > .card-title-1 {
+    width: 241px;
   }
-  .text-card > .card-title-3{
-    width:260px;
+  .text-card > .card-title-3 {
+    width: 260px;
   }
   #btn-row > button {
-    margin-top:3.5rem;
+    margin-top: 3.5rem;
   }
-
-  
 }
-@media (min-width:781px) and (max-width:920px) {
-  .col>p{
-    width:245px;
+@media (min-width: 781px) and (max-width: 920px) {
+  .col > p {
+    width: 245px;
   }
-  #final{
+  #final {
     margin-bottom: 4rem;
   }
-  
 }
-@media (min-width:964px) and (max-width:999px) {
-  #row-1{
-    margin-left:-42px;
+@media (min-width: 964px) and (max-width: 999px) {
+  #row-1 {
+    margin-left: -42px;
   }
-  
 }
-@media (min-width:860px) and (max-width:900px) {
-  #row-1{
-    margin-left:-51px;
+@media (min-width: 860px) and (max-width: 900px) {
+  #row-1 {
+    margin-left: -51px;
   }
 }
 
+.raceline {
+  width: 143px;
+  height: 33px;
+}

@@ -484,6 +484,8 @@
   .num-card-num-img img {
     /* width: 100%; */
     margin-left:-41px;
+    width:117px;
+    height:100.67px;
   }
   .num-card-heading {
     color: #e01717;
