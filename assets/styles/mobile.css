@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @media (max-width: 780px) {
   #main {
     padding-bottom: 140px;
@@ -124,7 +125,7 @@
     position: relative;
     top: -60px;
     z-index: 200;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
   }
   #download-card-img-m {
     width: 100%;
@@ -445,6 +446,7 @@
     padding-bottom: 80px;
     position: relative;
     z-index: 200;
+    margin-top:-50px;
   }
   .num-card-m {
     width: 197px;
