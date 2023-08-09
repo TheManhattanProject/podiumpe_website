@@ -1709,6 +1709,14 @@ footer {
 }
 
 @media (max-width: 1100px) {
+  .fantasy h2 {
+    font-size: 1.5rem;
+  }
+
+  .fantasy span {
+    font-size: 1rem;
+  }
+
   #gm-car {
     margin-top: 3rem;
   }
@@ -1743,6 +1751,19 @@ footer {
 
   .earn-txt {
     font-size: 5.4rem;
+  }
+
+  .fantasy h2 {
+    font-size: 1.3rem;
+  }
+
+  .fantasy span {
+    font-size: .8rem;
+  }
+
+  .side-line {
+    height: 4.5rem;
+    width: 13px;
   }
 }
 
