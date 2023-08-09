@@ -170,11 +170,11 @@ header>nav>ul {
 }
 
 .fantasy h2 {
-  font-size: 1.25rem;
+  font-size: 1.7rem;
 }
 
 .fantasy span {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
 }
 
 .side-line {
@@ -1123,7 +1123,15 @@ footer {
   }
 
   .fantasy {
-    width: 40rem;
+    width: 41rem;
+  }
+
+  .fantasy h2 {
+    font-size: 2rem;
+  }
+
+  .fantasy span {
+    font-size: 1.4rem;
   }
 
   #gm-car {
@@ -1209,6 +1217,22 @@ footer {
 @media (min-width: 1600px) {
   .col>p {
     width: 500px;
+  }
+
+  .fantasy {
+    width: 45rem;
+  }
+
+  .fantasy h2 {
+    font-size: 2.5rem;
+  }
+
+  .side-line {
+    height: 6rem;
+  }
+
+  .fantasy span {
+    font-size: 1.8rem;
   }
 }
 
