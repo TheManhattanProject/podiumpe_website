@@ -973,7 +973,8 @@ footer {
 }
 
 #subcard-footer-arrow {
-  width: 35px;
+  width: 19px;
+  height:16px;
   display: block;
   margin-left: auto;
 }
@@ -2203,4 +2204,8 @@ footer {
 .raceline {
   width: 143px;
   height: 33px;
+}
+.arrow-footer{
+  width:19px;
+  height:16px;
 }
