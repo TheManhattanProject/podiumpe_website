@@ -23,11 +23,13 @@ body {
 }
 #about {
   position: relative;
+  /* width: 1807px; */
+  overflow-x: hidden;
 }
 /* about-title */
 .about-title {
-  width: 100vw;
-  max-width: 100%;
+  /* width: 100vw; */
+  /* max-width: 100%; */
   height: 198.05px;
   border: 2px solid red;
   display: flex;
@@ -389,10 +391,16 @@ body {
 /* reach us */
 .about-contact {
   height: 219px;
-  width: 100vw;
-  max-width: 100%;
+  /* width: 100vw; */
+  /* max-width: 100%; */
   border: 2px solid purple;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 125px 0;
+}
+.about-contact-content {
+  width: 625.145px;
 }
 .about-cc-1 {
   color: #fff;
@@ -412,20 +420,67 @@ body {
   top: 43%;
   left: calc(-1%);
 }
+.about-contact-details {
+  width: 1101px;
+  height: inherit;
+  border: 2px solid yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ac-details-1 {
+  display: flex;
+}
+.ac-details-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+.acd-1,
+.acd-2,
+.acd-3 {
+  display: flex;
+  align-items: center;
+}
+.acd-1 {
+  padding-right: 6.625rem;
+}
+.acd-1 > img,
+.acd-2 > img,
+.acd-3 > img {
+  width: 64px;
+  height: 64px;
+}
+.acd-1 > p,
+.acd-2 > p,
+.acd-3 > p {
+  color: #989494;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding-left: 1.5rem;
+}
+.acd-4 > img {
+  width: 464px;
+  height: 44px;
+}
 /* about-last */
 .about-last {
   height: 453px;
-  width: 100vw;
+  /* width: 100vw; */
   max-width: 100%;
   border: 2px solid yellow;
   display: flex;
   align-items: center;
-  justify-content:flex-end;
+  justify-content: flex-end;
 }
 .about-last-left {
   height: 266px;
   width: 871px;
   border: 2px solid green;
+  display: flex;
+  flex-direction: column;
 }
 .al-content1 {
   color: #2beae2;
@@ -441,29 +496,252 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
 }
-.about-last-right{
+.about-last-right {
   position: relative;
-  width:795.15px;
-  border:2px solid white;
+  width: 795.15px;
+  border: 2px solid white;
 }
 .ar-content1 {
   font-family: formula-bold;
   font-size: 12.91rem;
   font-weight: 500;
   -webkit-text-stroke: 2px #d21717;
-  margin-left:146px;
+  margin-left: 146px;
 }
 .ar-content2 {
   color: #e3e3e3;
-  font-family:formula-bold;
+  font-family: formula-bold;
   font-size: 7.99rem;
   font-weight: 500;
-  margin-top:-3.5rem; 
+  margin-top: -3.5rem;
 }
-.ar-img{
-  width:385px;
+.ar-img {
+  width: 385px;
   position: absolute;
-  right:0%;
-  top:19%;
+  right: 0%;
+  top: 19%;
   height: 210px;
+}
+.al-page-navigation {
+  display: flex;
+  gap: 70px;
+  margin-top: 4.9rem;
+}
+.al-pn-img1 {
+  width: 28px;
+  height: 20px;
+}
+.al-pn-img2 {
+  width: 28px;
+  height: 20px;
+  transform: rotate(180deg);
+}
+.al-pn-1,
+.al-pn-2 {
+  display: flex;
+  gap: 1rem;
+}
+.al-pn-1 > p,
+.al-pn-2 > p,
+.al-pn-x {
+  color: #e3e3e3;
+  font-family: formula-bold;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.al-pn-border {
+  height: 4px;
+  width: 560px;
+  background-color: #d21717;
+  margin-top: 18px;
+}
+
+/* greater than 1807px width */
+@media (min-width: 1807px) {
+  #about {
+    width: 1807px;
+    margin: 0 auto;
+  }
+  .about-contact {
+    overflow-x: hidden;
+  }
+}
+/* between 1700px and 1806px */
+@media (min-width: 1700px) and (max-width: 1806px) {
+  .hero-right-container {
+    width: 990px;
+  }
+  .hero-right-content {
+    width: 823px;
+    height: unset;
+  }
+  .hero-right-content > p {
+    font-size: 1.35rem;
+  }
+}
+/* between 1600px and 1699px */
+@media (min-width: 1600px) and (max-width: 1699px) {
+  #main-title {
+    font-size: 6.5rem;
+  }
+  .title1 {
+    font-size: 3.2rem;
+    margin-bottom: -1.9rem;
+  }
+  .title2 {
+    font-size: 2.1rem;
+    margin-top: -1.6rem;
+  }
+  .car-front-text {
+    left: 17%;
+  }
+  .hero-right-container {
+    width: 900px;
+  }
+  .hero-right-content {
+    width: 596px;
+    height: unset;
+  }
+  .hero-right-content > p {
+    font-size: 1.15rem;
+  }
+  .aboutline-1 {
+    width: 131px;
+    height: 169px;
+    top: 42%;
+  }
+  .aboutline-2 {
+    width: 196px;
+    height: 304px;
+    top: 42%;
+  }
+  .aboutline-3 {
+    width: 144px;
+    height: 248px;
+    top: 45%;
+  }
+  .about-contact-details {
+    width: 935px;
+    position: relative;
+  }
+  .acd-4 > img {
+    position: absolute;
+    right: -15%;
+    bottom: 15%;
+  }
+  .about-last {
+    position: relative;
+  }
+  .about-last-left {
+    position: absolute;
+    left: 5%;
+  }
+  .al-content1 {
+    font-size: 2rem;
+  }
+  .al-content2 {
+    font-size: 1rem;
+    width: 755px;
+  }
+}
+/* between 1500px and 1599px */
+@media (min-width: 1500px) and (max-width: 1599px) {
+  #main-title {
+    font-size: 6rem;
+  }
+  .title1 {
+    font-size: 3rem;
+    margin-bottom: -1.9rem;
+  }
+  .title2 {
+    font-size: 2rem;
+    margin-top: -1.6rem;
+  }
+  #about-vertical-title {
+    margin-top: 545px;
+  }
+  .slash {
+    width: 63px;
+    height: 107px;
+  }
+  .slash-2 {
+    margin-right: 3rem;
+  }
+  .slash-3 {
+    margin-left: 3rem;
+  }
+  .car-front-text {
+    left: 19%;
+  }
+  .hero-right-container {
+    width: 798px;
+  }
+  .hero-right-content {
+    width: 509px;
+    height: 124px;
+  }
+  .hero-right-content > p {
+    font-size: 1rem;
+  }
+  .core-title-1,
+  .core-title-2 {
+    font-size: 7.75rem;
+  }
+  .core-2-title > p,
+  .core-1-title > p,
+  .core-3-title > p {
+    font-size: 1.5rem;
+  }
+  .core-description > p {
+    font-size: 1rem;
+  }
+  #corevalue-section {
+    left: unset;
+    right: 0%;
+  }
+  .coresection-content {
+    right: 12%;
+  }
+  .aboutline-1 {
+    width: 131px;
+    height: 169px;
+    top: 42%;
+  }
+  .aboutline-2 {
+    width: 196px;
+    height: 304px;
+    top: 42%;
+  }
+  .aboutline-3 {
+    width: 144px;
+    height: 248px;
+    top: 45%;
+  }
+  .about-contact-details {
+    width: 831px;
+    position: relative;
+  }
+  .acd-4 > img {
+    position: absolute;
+    right: -25%;
+    bottom: 15%;
+  }
+  .about-last {
+    position: relative;
+  }
+  .about-last-left {
+    position: absolute;
+    left: 5%;
+  }
+  .al-content1 {
+    font-size: 2rem;
+  }
+  .al-content2 {
+    font-size: 1rem;
+    width: 755px;
+  }
+}
+/* between 1400px to 1499px */
+@media (min-width: 1400px) and (max-width: 1499px) {
+  
 }
