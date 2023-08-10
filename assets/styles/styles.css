@@ -73,7 +73,10 @@ header > nav > ul {
 .navbar-menu {
   transition: transform 2s ease-out;
 }
-.navbar-menu img {
+/* .navbar-menu img {
+  display: none;
+} */
+.navbar-logo {
   display: none;
 }
 
@@ -120,6 +123,7 @@ header > nav > ul {
 
 #nav-menu li {
   color: rgba(218, 13, 13, 1);
+  font-family: formula-bold;
 }
 
 #download-card {
@@ -212,7 +216,9 @@ header > nav > ul {
   border-bottom-left-radius: 8px 8px;
   background-color: transparent;
 }
-
+.navbar-logo{
+  display: none;
+}
 .right-btm {
   height: 5.7rem;
   width: 41rem;
