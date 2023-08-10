@@ -867,6 +867,11 @@ footer {
   display: none;
 }
 
+/* 
+#footer-subcard-logo img {
+  height: 2rem;
+} */
+
 #footer-content-m {
   display: none;
 }
@@ -1385,6 +1390,7 @@ footer {
   #download-options-wrapper {
     position: relative;
     top: -6px;
+    gap: 1rem;
   }
 
   #card-content {
@@ -1399,7 +1405,16 @@ footer {
   }
 
   .download-options {
-    height: 50px;
+    height: 45px;
+    margin-top: 1.3rem;
+  }
+
+  .play-store {
+    margin-right: 3rem;
+  }
+
+  .play-store img {
+    height: 45px;
   }
 
   /* Porfolio Content */
@@ -1715,6 +1730,18 @@ footer {
 
   .fantasy span {
     font-size: 1rem;
+  }
+
+  .download-options {
+    height: 40px;
+  }
+
+  .play-store img {
+    height: 40px;
+  }
+
+  .wait-text {
+    font-size: 10px;
   }
 
   #gm-car {

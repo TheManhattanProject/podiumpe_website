@@ -196,6 +196,10 @@ td {
   margin-top: 70px;
 }
 
+#doc-nav-wrapper a {
+  color: rgba(121, 121, 121, 1);
+}
+
 #red-line {
   background-color: #D21717;
   height: 86px;
