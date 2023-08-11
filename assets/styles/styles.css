@@ -80,6 +80,7 @@ header>nav>ul {
 .navbar-menu {
   transition: transform 2s ease-out;
 }
+
 /* .navbar-menu img {
   display: none;
 } */
@@ -235,9 +236,11 @@ header>nav>ul {
   border-bottom-left-radius: 8px 8px;
   background-color: transparent;
 }
-.navbar-logo{
+
+.navbar-logo {
   display: none;
 }
+
 .right-btm {
   height: 5.7rem;
   width: 41rem;
@@ -839,13 +842,14 @@ p {
 }
 
 #final {
-  height: 220px;
+  height: auto;
   margin-top: 70px;
+  margin-bottom: 72px;
 }
 
 #final-content-wrapper {
   display: flex;
-  width: 74%;
+   width: 74%;
   margin: auto;
   gap: 220px;
   align-items: center;
@@ -1383,7 +1387,7 @@ footer {
   }
 
   .download-options2 {
-    height: 50px;
+    height: 45px;
   }
 
   #download-card {
@@ -1392,7 +1396,7 @@ footer {
 
   #download-options-wrapper {
     position: relative;
-    top: -6px;
+    /* top: -6px; */
   }
 
   #card-content {
@@ -1407,7 +1411,7 @@ footer {
   }
 
   .download-options {
-    height: 50px;
+    height: 45px;
   }
 
   /* Porfolio Content */
@@ -1479,8 +1483,9 @@ footer {
 
   /* Footer */
   #final {
-    height: 180px;
+    height: auto;
     margin-top: 50px;
+    margin-bottom: 64px;
   }
 
   #final-content-wrapper {
@@ -1718,11 +1723,16 @@ footer {
 
 @media (max-width: 1100px) {
   .fantasy h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .fantasy span {
     font-size: 1rem;
+  }
+
+  .side-line {
+    width: .7rem;
+    height: 4.7rem;
   }
 
   #gm-car {
@@ -1735,6 +1745,19 @@ footer {
 
   .up-text {
     font-size: 58px;
+  }
+
+  #download-options-wrapper {
+    gap: 1.6rem;
+  }
+
+  .download-options,
+  .download-options2 {
+    height: 40px;
+  }
+
+  .play-store p {
+    font-size: 10px;
   }
 }
 
@@ -1769,9 +1792,13 @@ footer {
     font-size: .8rem;
   }
 
+  #download-options-wrapper {
+    gap: 1.2rem;
+  }
+
   .side-line {
     height: 4.5rem;
-    width: 13px;
+    width: .7rem;
   }
 }
 
@@ -1795,6 +1822,10 @@ footer {
 
   .earn-div {
     font-size: 1.4rem;
+  }
+
+  .play-store {
+    margin-right: 2rem;
   }
 }
 
@@ -1830,6 +1861,10 @@ footer {
   #gm-car {
     margin-top: 115px;
   }
+
+  .play-store {
+    margin-right: 1rem;
+  }
 }
 
 @media (max-width: 780px) {
@@ -1845,6 +1880,11 @@ footer {
   .up-div {
     display: none;
   }
+
+  #final-content-wrapper>p {
+    font-size: 16px;
+  }
+
 }
 
 @media (min-width: 500px) and (max-width: 580px) {
@@ -2176,7 +2216,7 @@ footer {
   .x-middle {
     font-size: 2.5rem;
     width: 710px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
   }
 
   #row-2 {
@@ -2310,7 +2350,7 @@ footer {
 
   .x-middle {
     font-size: 2rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
     width: 565px;
   }
 }
@@ -2351,7 +2391,7 @@ footer {
   .x-middle {
     font-size: 1.6rem;
     width: 500px;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 
   .text-card>.card-title-1 {
@@ -2375,6 +2415,11 @@ footer {
   #final {
     margin-bottom: 4rem;
   }
+
+  #final-content-wrapper>p {
+    font-size: 18px;
+  }
+
 }
 
 @media (min-width: 964px) and (max-width: 999px) {
