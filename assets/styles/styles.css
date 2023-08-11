@@ -751,7 +751,7 @@ p {
 
 .earn-txt {
   font-family: formula-bold;
-  font-size: 7.2rem;
+  font-size: 7.15rem;
   color: rgba(25, 24, 24, 1);
 }
 
@@ -1345,7 +1345,7 @@ footer {
 
 @media (max-width: 1260px) {
   .earn-txt {
-    font-size: 6.5rem;
+    font-size: 6.4rem;
   }
 }
 
