@@ -2173,7 +2173,7 @@ footer {
   .x-middle {
     font-size: 2.5rem;
     width: 710px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
   }
 
   #row-2 {
@@ -2307,7 +2307,7 @@ footer {
 
   .x-middle {
     font-size: 2rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
     width: 565px;
   }
 }
@@ -2348,7 +2348,7 @@ footer {
   .x-middle {
     font-size: 1.6rem;
     width: 500px;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 
   .text-card>.card-title-1 {
