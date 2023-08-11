@@ -845,7 +845,7 @@ p {
 
 #final-content-wrapper {
   display: flex;
-  /* width: 74%; */
+   width: 74%;
   margin: auto;
   gap: 220px;
   align-items: center;
