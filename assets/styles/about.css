@@ -562,6 +562,12 @@ body {
 .about-contact-details-1200{
   display: none;
 }
+.car-front-text-mobile{
+  display: none;
+}
+#core-section-mobile{
+ display: none;
+}
 
 /* greater than 1807px width */
 @media (min-width: 1807px) {
