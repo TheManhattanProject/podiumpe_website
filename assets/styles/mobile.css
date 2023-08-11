@@ -23,7 +23,9 @@
     display: unset;
     margin: 2rem;
   }
-
+  #navbarlogo{
+    display: unset;
+  }
   #hamburger-menu-wrapper {
     height: 18px;
     width: 32px;
