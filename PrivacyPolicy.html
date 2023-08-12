@@ -76,10 +76,22 @@
         <div class="doc-nav-item"><a href="help-support.html">Help & Support</a></div>
       </div>
     </section>
-    <div id="mobile-dropdown">
-      <select>
-        <option>Privacy Policy</option>
-      </select>
+    <div id="mobile-dropdown-terms">
+      <!-- <select>
+        <option><a href="/about.html">Privacy Policy</a></option>
+      </select> -->
+      <div class="md-terms" onclick="toggleMenu()">
+        <p>Terms & Policies</p>
+        <img class="md-img" src="/assets/images/arrowdownterms.png" alt="downarrow">
+      </div>
+      <div class="md-border"></div>
+      <div class="dropdown-m-menu">
+        <a href="/PrivacyPolicy.html" class="dropdown-m-links dr-top"> <h4>Privacy Policy</h4> </a>
+        <div class="dropdown-m-border"></div>
+        <a href="./TermsAndService.html" class="dropdown-m-links"> <h4>Terms of Service</h4> </a>
+        <div class="dropdown-m-border"></div>
+        <a href="./help-support.html" class="dropdown-m-links dr-bottom"> <h4>Help and Support</h4> </a>
+      </div>
     </div>
     <section id="toc">
       <div id="toc-section-header">
@@ -643,7 +655,7 @@
         <p><b>What categories of personal information do we collect?</b></p>
         <p>We have collected the following categories of personal information in the past twelve (12) months:</p>
 
-        <table>
+        <table class="table-toc">
           <tr>
             <th>Category</th>
             <th>Examples</th>
@@ -736,6 +748,158 @@
             <td style="text-align: center;">NO</td>
           </tr>
         </table>
+        <!-- table for mobile -->
+        <div class="table-mobile">
+            <p class="table-content-1">Category :</p>
+            <p class="table-content-2">A.Identifiers</p>
+          <p class="table-content-1">Examples:</p>
+          <p class="table-content-2">
+            Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique
+              personal identifier, online identifier, Internet Protocol address, email address, and account name
+          </p>
+          <div class="table-content">
+          <p class="table-content-1">Collected :</p>
+          <p class="table-content-2">NO</p>
+          </div>
+          <div class="table-border-mobile"></div>        
+          <div class="table-border-mobile"></div>        
+          <p class="table-content-1">Category :</p>
+          <p class="table-content-2">B. Personal information categories listed in the California Customer Records statute</p>
+          <p class="table-content-1">Examples:</p>
+          <p class="table-content-2">
+            Name, contact information, education, employment, employment history, and financial information
+          </p>
+          <div class="table-content">
+          <p class="table-content-1">Collected :</p>
+          <p class="table-content-2">NO</p>
+          </div>
+          <div class="table-border-mobile"></div>        
+          <div class="table-border-mobile"></div>        
+          <p class="table-content-1">Category :</p>
+          <p class="table-content-2">C. Protected classification characteristics under California or federal law</p>
+          <p class="table-content-1">Examples:</p>
+          <p class="table-content-2">
+            Gender and date of birth
+          </p>
+          <div class="table-content">
+          <p class="table-content-1">Collected :</p>
+          <p class="table-content-2">NO</p>
+          </div>
+          <div class="table-border-mobile"></div>        
+          <div class="table-border-mobile"></div>        
+          <p class="table-content-1">Category :</p>
+          <p class="table-content-2">D. Commercial information</p>
+          <p class="table-content-1">Examples:</p>
+          <p class="table-content-2">
+            Transaction information, purchase history, financial details, and payment information
+          </p>
+          <div class="table-content">
+          <p class="table-content-1">Collected :</p>
+          <p class="table-content-2">NO</p>
+          </div>
+          <div class="table-border-mobile"></div>        
+          <div class="table-border-mobile"></div>        
+          <p class="table-content-1">Category :</p>
+          <p class="table-content-2">E. Biometric information</p>
+          <p class="table-content-1">Examples:</p>
+          <p class="table-content-2">
+            Fingerprints and voiceprints
+          </p>
+          <div class="table-content">
+          <p class="table-content-1">Collected :</p>
+          <p class="table-content-2">NO</p>
+          </div>
+          <div class="table-border-mobile"></div>        
+          <div class="table-border-mobile"></div>        
+          <p class="table-content-1">Category :</p>
+          <p class="table-content-2">F. Internet or other similar network activity</p>
+          <p class="table-content-1">Examples:</p>
+          <p class="table-content-2">
+            Browsing history, search history, online behaviour, interest data, and interactions with our and other
+              websites, applications, systems, and advertisements
+          </p>
+          <div class="table-content">
+          <p class="table-content-1">Collected :</p>
+          <p class="table-content-2">NO</p>
+          </div>
+          <div class="table-border-mobile"></div>        
+          <div class="table-border-mobile"></div> 
+          <p class="table-content-1">Category :</p>
+          <p class="table-content-2">G. Geolocation data</p>
+          <p class="table-content-1">Examples:</p>
+          <p class="table-content-2">
+            Device location
+          </p>
+          <div class="table-content">
+          <p class="table-content-1">Collected :</p>
+          <p class="table-content-2">NO</p>
+          </div>
+          <div class="table-border-mobile"></div>        
+          <div class="table-border-mobile"></div>   
+          <p class="table-content-1">Category :</p>
+          <p class="table-content-2">H. Audio, electronic, visual, thermal, olfactory, or similar information</p>
+          <p class="table-content-1">Examples:</p>
+          <p class="table-content-2">
+            Images and audio, video or call recordings created in connection with our business activities
+          </p>
+          <div class="table-content">
+          <p class="table-content-1">Collected :</p>
+          <p class="table-content-2">NO</p>
+          </div>
+          <div class="table-border-mobile"></div>        
+          <div class="table-border-mobile"></div> 
+          <p class="table-content-1">Category :</p>
+          <p class="table-content-2">I. Professional or employment-related information</p>
+          <p class="table-content-1">Examples:</p>
+          <p class="table-content-2">
+            Business contact details in order to provide you our Services at a business level or job title, work
+            history, and professional qualifications if you apply for a job with us
+          </p>
+          <div class="table-content">
+          <p class="table-content-1">Collected :</p>
+          <p class="table-content-2">NO</p>
+          </div>
+          <div class="table-border-mobile"></div>        
+          <div class="table-border-mobile"></div>  
+          <p class="table-content-1">Category :</p>
+          <p class="table-content-2">J. Education Information</p>
+          <p class="table-content-1">Examples:</p>
+          <p class="table-content-2">
+            Student records and directory information
+          </p>
+          <div class="table-content">
+          <p class="table-content-1">Collected :</p>
+          <p class="table-content-2">NO</p>
+          </div>
+          <div class="table-border-mobile"></div>        
+          <div class="table-border-mobile"></div> 
+          <p class="table-content-1">Category :</p>
+          <p class="table-content-2">K. Inferences drawn from other personal information</p>
+          <p class="table-content-1">Examples:</p>
+          <p class="table-content-2">
+            Inferences drawn from any of the collected personal information listed above to create a profile or
+            summary about, for example, an individualâ€™s preferences and characteristics
+          </p>
+          <div class="table-content">
+          <p class="table-content-1">Collected :</p>
+          <p class="table-content-2">YES</p>
+          </div>
+          <div class="table-border-mobile"></div>        
+          <div class="table-border-mobile"></div>  
+          <p class="table-content-1">Category :</p>
+          <p class="table-content-2">L. Sensitive Personal Information</p>
+          <p class="table-content-1">Examples:</p>
+          <p class="table-content-2">
+            <!-- data not provided -->
+          </p>
+          <div class="table-content">
+          <p class="table-content-1">Collected :</p>
+          <p class="table-content-2">NO</p>
+          </div>        
+
+
+        </div>
+        <!-- table for mobile end -->
 
         <p>We will use and retain the collected personal information as needed to provide the Services or for:</p>
         <ul>
@@ -1085,6 +1249,11 @@
   close.addEventListener("click", () => {
     nav.classList.remove("open-nav");
   });
+
+  let subMenu = document.querySelector(".dropdown-m-menu");
+  function toggleMenu(){
+    subMenu.classList.toggle("open-menu");
+  }
 </script>
 
 </html>

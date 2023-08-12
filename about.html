@@ -17,7 +17,8 @@
         alt="logo"
         loading="lazy"
       />
-      <h4 class="pp-shift">PodiumPe</h4>
+      <h4 class="pp-shift"> <a class="n-link" href="/index.html">PodiumPe</a></h4>
+      
       <nav>
         <svg
           class="close"
@@ -41,16 +42,23 @@
             alt="logo"
             loading="lazy"
           />
-          <h4 class="pp-title">PodiumPe</h4>
+          
+            <h4 class="pp-title"> <a class="n-link" href="/index.html" >PodiumPe</a></h4>
+          
           <div class="res-line"></div>
           <ul id="nav-menu">
-            <a href="./index.html">
+            <a class="res-link" href="./index.html">
               <li>Home</li>
             </a>
-            <a>
-              <li>About</li>
+            <a class="navbar-active" href="./about.html">
+              <img
+                class="navbar-polygon"
+                src="/assets/images/Polygon .png"
+                alt="polygon"
+              />
+              <li class="li-active">About</li>
             </a>
-            <a>
+            <a href="./how-to-play.html">
               <li>How to play</li>
             </a>
             <a class="res-link" href="./TermsAndService.html">
@@ -389,27 +397,27 @@
           <!-- Page navigation -->
           <div id="al-last-left-navigation">
             <div class="al-page-navigation">
-              <div class="al-pn-1">
-                <a>
+              <a href="/index.html" class="al-pn-1">
+                <div>
                   <img
                     class="al-pn-img1"
                     src="/assets/images/arrowLeft.png"
                     alt="arrow"
                   />
-                </a>
+                </div>
                 <p>Back to Home</p>
-              </div>
+              </a>
               <p class="al-pn-x">X</p>
-              <div class="al-pn-2">
+              <a href="/how-to-play.html" class="al-pn-2">
                 <p>How It Works</p>
-                <a>
+                <div>
                   <img
                     class="al-pn-img2"
                     src="/assets/images/arrowLeft.png"
                     alt="arrow"
                   />
-                </a>
-              </div>
+                </div>
+              </a>
             </div>
             <div class="al-pn-border"></div>
           </div>
@@ -427,27 +435,27 @@
       <!-- 1200px  -->
       <div id="al-last-left-navigation-1200">
         <div class="al-page-navigation-1200">
-          <div class="al-pn-1-1200">
-            <a>
+          <a href="/index.html" class="al-pn-1-1200">
+            <div>
               <img
                 class="al-pn-img1-1200"
                 src="/assets/images/arrowLeft.png"
                 alt="arrow"
               />
-            </a>
+            </div>
             <p>Back to Home</p>
-          </div>
+          </a>
           <p class="al-pn-x-1200">X</p>
-          <div class="al-pn-2-1200">
+          <a href="/how-to-play.html" class="al-pn-2-1200">
             <p>How It Works</p>
-            <a>
+            <div>
               <img
                 class="al-pn-img2-1200"
                 src="/assets/images/arrowLeft.png"
                 alt="arrow"
               />
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
         <div class="al-pn-border-1200"></div>
       </div>
@@ -470,31 +478,40 @@
         <div class="about-last2-mobile">
           <p class="alm-last2-1">Crafted by Shortsqueeze.</p>
           <p class="alm-last2-2">
-            Shortsqueeze Pvt. Ltd. is a tech company that is constantly moving up
-            the ladder bringing new products and experiences to millions of people
-            through innovation, dedication, and a collective drive of a team of
-            experts.
+            Shortsqueeze Pvt. Ltd. is a tech company that is constantly moving
+            up the ladder bringing new products and experiences to millions of
+            people through innovation, dedication, and a collective drive of a
+            team of experts.
           </p>
         </div>
         <div class="about-mobile-navigation">
-          <div class="amv-1">
-            <a href="/about.html">
-              <img class="amv-arrow1" src="/assets/images/arrowLeft.png" alt="" />
-            </a>
+          <a href="/index.html" class="amv-1">
+            <div>
+              <img
+                class="amv-arrow1"
+                src="/assets/images/arrowLeft.png"
+                alt=""
+              />
+            </div>
             <p class="amv-desc-1">Back to Home</p>
-          </div>
+          </a>
           <div class="amv-border"></div>
-          <div class="amv-2">
+          <a href="/how-to-play.html" class="amv-2">
             <p class="amv-desc-2">How It Works</p>
-            <a href="/how-to-play.html">
-              <img class="amv-arrow2" src="/assets/images/arrowLeft.png" alt="" />
-            </a>
-          </div>
+            <div>
+              <img
+                class="amv-arrow2"
+                src="/assets/images/arrowLeft.png"
+                alt=""
+              />
+            </div>
+          </a>
         </div>
       </div>
-      <!-- <div id="about-footer">
+      <div id="about-footer">
         <footer>
-          <img src="./assets/images/mobile/footer.svg" id="footer-img-m" />
+          <!-- <img src="./assets/images/footer.png" id="footer-img" /> -->
+          <img src="./assets/images/Group 9223.png" id="footer-img-m" />
           <div id="footer-content">
             <div id="footer-content-left">
               <div id="footer-content-logo-wrapper">
@@ -547,19 +564,42 @@
             </div>
           </div>
           <div id="footer-content-m">
-            <li>
-              <a href="TermsAndService.html" class="footer-links"
+            <div class="foot-link-div">
+              <a href="TermsAndService.html" class="footer-link"
                 >Terms & Conditions</a
               >
-            </li>
-            <li>
-              <a href="PrivacyPolicy.html" class="footer-links">Privacy Policy</a>
-            </li>
-            <li>
-              <a href="help-support.html" class="footer-links">Help & Support</a>
-            </li>
+              <a href="PrivacyPolicy.html" class="footer-link center-align"
+                >Privacy Policy</a
+              >
+              <a href="help-support.html" class="footer-link right-align"
+                >Help & Support</a
+              >
+            </div>
+            <div id="footer-subcard">
+              <div id="footer-subcard-logo">
+                <img src="./assets/images/blogo.svg" />
+              </div>
+              <div id="footer-subcard-content">
+                <div class="left-side">
+                  <h4 class="podiumpe-head-mobile-footer">Podium Pe</h4>
+                  <p class="podiumpe-text-mobile-footer">
+                    A Product of <br />Shortsqueeze Pvt Ltd.
+                  </p>
+                </div>
+                <div>
+                  <p class="copyright-text-mobile">
+                    Copyright <br />
+                    2023
+                  </p>
+                </div>
+              </div>
+            </div>
             <div id="footer-card">
-              <div id="footer-card-header">
+              <p class="footer-text-racingline">
+                Explore our community of car enthusiasts for more engaging
+                discussions.
+              </p>
+              <div class="footer-logo-div-racingline">
                 <img
                   class="raceline"
                   src="./assets/images/racelinen.png"
@@ -571,25 +611,11 @@
                   id="subcard-footer-arrow"
                 />
               </div>
-              <p>
-                Explore our community of car enthusiasts for more engaging
-                discussions.
-              </p>
-            </div>
-            <div id="footer-subcard">
-              <div id="footer-subcard-logo">
-                <img src="./assets/images/blogo.svg" />
-              </div>
-              <div id="footer-subcard-content">
-                <h4>Podium Pe</h4>
-                <p>A Product of Shortsqueeze Pvt Ltd.</p>
-              </div>
             </div>
           </div>
         </footer>
-      </div> -->
+      </div>
     </div>
-    
   </body>
   <script>
     const menu = document.querySelector("#hamburger-menu-wrapper");
