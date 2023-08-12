@@ -291,3 +291,9 @@ td {
   }
 
 }
+.table-mobile{
+  display: none;
+}
+#mobile-dropdown-terms{
+  display:none;
+}
