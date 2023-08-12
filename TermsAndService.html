@@ -72,16 +72,38 @@
             <h1>TERMS & POLICIES</h1>
             <div id="red-line"></div>
             <div id="doc-nav">
-                <div class="doc-nav-item">Privacy Policy</div>
+                <div class="doc-nav-item"><a href="/PrivacyPolicy.html"> Privacy Policy </a></div>
                 <div class="doc-nav-item active">Terms of Service</div>
-                <div class="doc-nav-item">Help & Support</div>
+                <div class="doc-nav-item"><a href="/help-support.html"> Help & Support</a></div>
             </div>
         </section>
-        <div id="mobile-dropdown">
-            <select>
-                <option>Privacy Policy</option>
-            </select>
-        </div>
+        <div id="mobile-dropdown-terms">
+            <!-- <select>
+              <option><a href="/about.html">Privacy Policy</a></option>
+            </select> -->
+              <div class="md-terms" onclick="toggleMenu()">
+                <p>Terms & Policies</p>
+                <img
+                  class="md-img"
+                  src="/assets/images/arrowdownterms.png"
+                  alt="downarrow"
+                />
+              </div>
+              <div class="md-border"></div>
+              <div class="dropdown-m-menu">
+                <a href="/PrivacyPolicy.html" class="dropdown-m-links dr-top">
+                  <h4>Privacy Policy</h4>
+                </a>
+                <div class="dropdown-m-border"></div>
+                <a href="./TermsAndService.html" class="dropdown-m-links">
+                  <h4>Terms of Service</h4>
+                </a>
+                <div class="dropdown-m-border"></div>
+                <a href="./help-support.html" class="dropdown-m-links dr-bottom">
+                  <h4>Help and Support</h4>
+                </a>
+              </div>
+          </div>
         <section id="toc">
             <div id="toc-section-header">
                 <h1>Terms of Service</h1>

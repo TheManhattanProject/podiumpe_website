@@ -379,5 +379,10 @@
     close.addEventListener("click", () => {
       nav.classList.remove("open-nav");
     });
+
+    let subMenu = document.querySelector(".dropdown-m-menu");
+    function toggleMenu() {
+      subMenu.classList.toggle("open-menu");
+    }
   </script>
 </html>
