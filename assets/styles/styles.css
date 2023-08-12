@@ -56,7 +56,8 @@ header>nav>ul {
 #hamburger-menu-wrapper {
   display: none;
 }
-#navbarlogo{
+
+#navbarlogo {
   display: none;
 }
 .navbar-polygon{
@@ -96,6 +97,10 @@ header>nav>ul {
 } */
 .navbar-logo {
   display: none;
+}
+
+#doc-nav a {
+  color: rgba(121, 121, 121, 1);
 }
 
 .navbar-menu ul {
@@ -859,7 +864,7 @@ p {
 
 #final-content-wrapper {
   display: flex;
-   width: 74%;
+  width: 74%;
   margin: auto;
   gap: 220px;
   align-items: center;
