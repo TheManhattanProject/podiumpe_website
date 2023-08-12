@@ -653,3 +653,137 @@
     top:231%;
   }
 }
+@media (min-width:450px) and (max-width:500px) {
+  .car-front-text-mobile{
+    left:27%;
+  }
+  .core1-content-mobile{
+    margin-left: 71px;
+  }
+  .cs-title-1-mobile{
+    font-size: 3.7rem;
+  }
+  .trophy1-desc2-mobile{
+    margin-left: 71px;
+  }
+  .core2-content-mobile-right{
+    margin-left: 88px;
+  }
+  .core3-content-mobile{
+    margin-left: 65px;
+  }
+  .slash-2{
+    display:none;
+  }
+}
+@media (min-width:500px) and (max-width:600px) {
+  .car-front-text-mobile{
+    left:22%;
+  }
+  .cs-title-1-mobile{
+    font-size: 4rem;
+  }
+  .core1-mobile{
+    left:18%;
+  }
+  .trophy1-desc2-mobile{
+    left:15%;
+  }
+  .core2-content-mobile-right{
+    left:15%;
+  }
+  .core2-content-mobile{
+    right:9%;
+  }
+  .core3-content-mobile{
+    left:15%;
+  }
+  .trophy3-desc-mobile{
+    left:23%;
+  }
+}
+@media (min-width:600px) and (max-width:700px){
+  .car-front-text-mobile{
+    left:19%;
+  }
+  .cs-title-1-mobile{
+    font-size: 4rem;
+  }
+  .cs-title-mobile{
+    margin-left: -112px;
+  }
+  .cs-title-2-mobile{
+    right:11.5%;
+  }
+  .core1-content-mobile-right{
+    right:13%;
+  }
+  .core1-mobile{
+    left:22%;
+  }
+  .trophy1-desc2-mobile{
+    left:20%;
+  }
+  .core2-content-mobile{
+    right:20%;
+  }
+  .core2-content-mobile-right{
+    left:18%;
+  }
+  .core3-content-mobile{
+    left:20%;
+  }
+  .core3-content-mobile-right{
+    position: absolute;
+    right:9%;
+  }
+  .trophy3-desc-mobile{
+    left:33%;
+  }
+}
+@media (min-width:700px) and (max-width:780px){
+  .car-front-text-mobile{
+    left:12%;
+  }
+  .cs-title-1-mobile{
+    font-size: 4rem;
+  }
+  .cs-title-mobile{
+    margin-left: -112px;
+  }
+  .cs-title-2-mobile{
+    right:11.5%;
+  }
+  .core1-content-mobile-right{
+    right:20%;
+  }
+  .core1-mobile{
+    left:25%;
+  }
+  .trophy1-desc2-mobile{
+    left:22%;
+  }
+  .trophy2-desc-mobile{
+    right:20%;
+  }
+  .core2-content-mobile{
+    right:23%;
+  }
+  .core2-content-mobile-right{
+    left:20%;
+  }
+  .core3-content-mobile{
+    left:23%;
+  }
+  .trophy3-title-mobile{
+    position: absolute;
+    right:35%;
+  }
+  .trophy3-desc-mobile{
+    left:33%;
+  }
+  .core3-content-mobile-right{
+    position: absolute;
+    right:13%;
+  }
+}

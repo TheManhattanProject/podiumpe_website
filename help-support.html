@@ -130,10 +130,32 @@
           <div class="doc-nav-item active">Help & Support</div>
         </div>
       </section>
-      <div id="mobile-dropdown">
-        <select>
-          <option>Privacy Policy</option>
-        </select>
+      <div id="mobile-dropdown-terms">
+        <!-- <select>
+          <option><a href="/about.html">Privacy Policy</a></option>
+        </select> -->
+        <div class="md-terms" onclick="toggleMenu()">
+          <p>Terms & Policies</p>
+          <img
+            class="md-img"
+            src="/assets/images/arrowdownterms.png"
+            alt="downarrow"
+          />
+        </div>
+        <div class="md-border"></div>
+        <div class="dropdown-m-menu">
+          <a href="/PrivacyPolicy.html" class="dropdown-m-links dr-top">
+            <h4>Privacy Policy</h4>
+          </a>
+          <div class="dropdown-m-border"></div>
+          <a href="./TermsAndService.html" class="dropdown-m-links">
+            <h4>Terms of Service</h4>
+          </a>
+          <div class="dropdown-m-border"></div>
+          <a href="./help-support.html" class="dropdown-m-links dr-bottom">
+            <h4>Help and Support</h4>
+          </a>
+        </div>
       </div>
       <section id="toc">
         <div id="toc-section-header">
@@ -457,5 +479,10 @@
     close.addEventListener("click", () => {
       nav.classList.remove("open-nav");
     });
+
+    let subMenu = document.querySelector(".dropdown-m-menu");
+    function toggleMenu() {
+      subMenu.classList.toggle("open-menu");
+    }
   </script>
 </html>

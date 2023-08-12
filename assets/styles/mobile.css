@@ -766,6 +766,14 @@
   #category-dropmenu {
     display: none;
   }
+  .navbar-polygon{
+    margin-bottom: unset !important;
+    margin-top:-3.5rem;
+  }
+  .navbar-active{
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media (max-width: 425px) {

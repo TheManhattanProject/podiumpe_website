@@ -59,6 +59,16 @@ header>nav>ul {
 #navbarlogo{
   display: none;
 }
+.navbar-polygon{
+  height:15px;
+  width:15px;
+  padding-right:7px;
+}
+.navbar-active{
+  display:flex;
+  align-items: center;
+}
+
 
 #drop-arrow {
   margin-left: 10px;
@@ -2442,4 +2452,11 @@ footer {
 .arrow-footer {
   width: 19px;
   height: 16px;
+}
+.li-active{
+  color:#FFFFFF !important;
+}
+.n-link{
+  text-decoration: none;
+  color: #FFFFFF;
 }
