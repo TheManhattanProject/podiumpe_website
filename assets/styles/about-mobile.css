@@ -677,6 +677,9 @@
   }
 }
 @media (min-width:500px) and (max-width:600px) {
+  .slash-2{
+    display: none;
+  }
   .car-front-text-mobile{
     left:22%;
   }
@@ -703,6 +706,9 @@
   }
 }
 @media (min-width:600px) and (max-width:700px){
+  .slash-2{
+    display: none;
+  }
   .car-front-text-mobile{
     left:19%;
   }
@@ -742,6 +748,9 @@
   }
 }
 @media (min-width:700px) and (max-width:780px){
+  .slash-2{
+    display: none;
+  }
   .car-front-text-mobile{
     left:12%;
   }
