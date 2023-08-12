@@ -13,27 +13,9 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <img id="logo" src="./assets/images/logo2.svg" alt="logo" loading="lazy" />
-        <!-- <nav>
-            <ul id="nav-menu">
-                <a>
-                    <li>About</li>
-                </a>
-                <a>
-                    <li>How to Play</li>
-                </a>
-                <div id="category-dropmenu">
-                    <a>
-                        <li>Category</li>
-                    </a>
-                    <div id="drop-arrow">
-                        <img src="./assets/images/nav.svg" alt="down-arrow" />
-                    </div>
-                </div>
-            </ul>
-        </nav> -->
-        <!-- navbar -->
+        <h4 class="pp-shift">PodiumPe</h4>
         <nav>
             <svg class="close" xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27"
                 fill="none">
@@ -41,7 +23,7 @@
                 <path d="M2 2L24.6274 24.6274" stroke="white" stroke-width="4" />
             </svg>
             <div class="navbar-menu">
-                <img id="logo" class="navbar-logo" src="./assets/images/res-navbar.svg" alt="logo" loading="lazy" />
+                <img id="navbarlogo" src="./assets/images/res-navbar.svg" alt="logo" loading="lazy" />
                 <h4 class="pp-title">PodiumPe</h4>
                 <div class="res-line"></div>
                 <ul id="nav-menu">
@@ -51,20 +33,12 @@
                     <a href="./about.html">
                         <li>About</li>
                     </a>
-                    <a>
+                    <a href="./how-to-play.html">
                         <li>How to play</li>
                     </a>
                     <a class="res-link" href="./TermsAndService.html">
                         <li>Terms & Policies</li>
                     </a>
-                    <div id="category-dropmenu">
-                        <a>
-                            <li>Category</li>
-                        </a>
-                        <div id="drop-arrow">
-                            <img src="./assets/images/nav.svg" alt="down-arrow" />
-                        </div>
-                    </div>
                 </ul>
                 <svg class="res-x-logo" xmlns="http://www.w3.org/2000/svg" width="228" height="38" viewBox="0 0 228 38"
                     fill="none">
@@ -99,9 +73,9 @@
             <h1>TERMS & POLICIES</h1>
             <div id="red-line"></div>
             <div id="doc-nav">
-                <div class="doc-nav-item">Privacy Policy</div>
+                <div class="doc-nav-item"><a href="PrivacyPolicy.html">Privacy Policy</a></div>
                 <div class="doc-nav-item active">Terms of Service</div>
-                <div class="doc-nav-item">Help & Support</div>
+                <div class="doc-nav-item"><a href="help-support.html">Help & Support</a></div>
             </div>
         </section>
         <div id="mobile-dropdown">
@@ -914,53 +888,41 @@
                     </p>
                     <div id="pm-subcard">
                         <img class="raceline" src="./assets/images/racelinen.png" alt="raceline">
-                        <!-- <img src="./assets/images/logo2.svg" id="subcard-footer-logo" />
-                  <span id="subcard-footer-text"
-                    ><span id="subcard-footer-text-heading">Lights Out</span> By
-                    Podium Pe</span
-                  >
-                  <img src="./assets/images/arrow.svg" id="subcard-footer-arrow" /> -->
                         <img class="arrow-footer" src="./assets/images/arrowblack.png" alt="arrow">
                     </div>
                 </div>
             </div>
         </div>
         <div id="footer-content-m">
-            <div class="foot-links">
-                <li><a href="TermsAndService.html" class="footer-links">Terms & Conditions</a></li>
-                <li><a href="PrivacyPolicy.html" class="footer-links">Privacy Policy</a></li>
-                <li><a href="help-support.html" class="footer-links">Help & Support</a></li>
+            <div class="foot-link-div">
+                <a href="TermsAndService.html" class="footer-link">Terms & Conditions</a>
+                <a href="PrivacyPolicy.html" class="footer-link center-align">Privacy Policy</a>
+                <a href="help-support.html" class="footer-link right-align">Help & Support</a>
             </div>
-
+            <div class="li-underln">
+                <div class="line l-div"></div>
+                <div class="line"></div>
+                <div class="line r-div"></div>
+            </div>
             <div id="footer-subcard">
                 <div id="footer-subcard-logo">
                     <img src="./assets/images/blogo.svg" />
                 </div>
                 <div id="footer-subcard-content">
                     <div class="left-side">
-                        <h4>Podium Pe</h4>
-                        <p>A Product of <br>Shortsqueeze Pvt Ltd.</p>
+                        <h4 class="podiumpe-head-mobile-footer">Podium Pe</h4>
+                        <p class="podiumpe-text-mobile-footer">A Product of <br>Shortsqueeze Pvt Ltd.</p>
                     </div>
-                    <div class="copyright">
-                        <p>Copyright <br> 2023</p>
+                    <div>
+                        <p class="copyright-text-mobile">Copyright <br>@2023</p>
                     </div>
                 </div>
             </div>
-
-
             <div id="footer-card">
-                <p>
+                <p class="footer-text-racingline">
                     Explore our community of car enthusiasts for more engaging discussions.
                 </p>
-                <div id="footer-card-header">
-                    <!-- <div id="footer-card-header-m-logo">
-                  <img src="./assets/images/logo2.svg" />
-                </div>
-    
-                <span id="footer-card-hearer-text"
-                  ><span id="footer-card-hearer-text-heading">Lights Out</span> By
-                  Podium Pe</span
-                > -->
+                <div class="footer-logo-div-racingline">
                     <img class="raceline" src="./assets/images/racelinen.png" alt="raceline">
                     <img class="arrow-footer" src="./assets/images/arrowblack.png" id="subcard-footer-arrow" />
                 </div>

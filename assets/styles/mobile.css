@@ -42,18 +42,41 @@
     padding: 0 30px;
   }
 
-  header > #logo {
+  header>#logo {
     height: 24px;
   }
 
+  .li-underln {
+    padding-top: .6rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+  }
+
+  .line {
+    width: 10vw;
+    height: 2px;
+    background-color: white;
+  }
+
+  .l-div {
+    margin-left: -2rem;
+    margin-right: 2rem;
+  }
+
+  .r-div {
+    margin-right: -3rem;
+  }
 
   .close {
     display: unset;
     margin: 2rem;
   }
+
   #navbarlogo {
     display: unset;
   }
+
   #hamburger-menu-wrapper {
     height: 18px;
     width: 32px;
@@ -308,11 +331,11 @@
     z-index: 10;
   }
 
-  .gm-content-card > h4 {
+  .gm-content-card>h4 {
     font-size: 36px;
   }
 
-  .gm-content-card > h4::after {
+  .gm-content-card>h4::after {
     content: "";
     height: 8px;
     width: 70px;
@@ -322,14 +345,14 @@
     margin-top: 10px;
   }
 
-  .gm-content-card > p {
+  .gm-content-card>p {
     font-size: 18px;
     color: #989494;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
   }
 
-  .gm-content-card > h6 {
+  .gm-content-card>h6 {
     font-family: "Poppins", sans-serif;
     font-style: italic;
     font-size: 32px;
@@ -409,7 +432,7 @@
     gap: 60px;
   }
 
-  #final-content-wrapper > p {
+  #final-content-wrapper>p {
     font-size: 18px;
   }
 
@@ -762,9 +785,45 @@
   }
 }
 
+@media (max-width: 508px) {
+  .li-underln {
+    padding-top: .4rem;
+  }
+
+  .line {
+    width: 36px;
+  }
+
+  .l-div {
+    margin-left: -3rem;
+  }
+
+  .r-div {
+    margin-right: -3rem;
+  }
+}
+
+@media(max-width: 470px) {
+  .l-div {
+    margin-left: -2.5rem;
+  }
+
+  .r-div {
+    margin-right: -2.5rem;
+  }
+}
+
 @media (max-width: 425px) {
   #download-card-m-content h2 {
     margin-top: -1rem;
+  }
+
+  .l-div {
+    margin-left: -1.8rem;
+  }
+
+  .r-div {
+    margin-right: -1.8rem;
   }
 }
 
@@ -780,6 +839,14 @@
 
   .download-options-m {
     height: 4rem;
+  }
+
+  .l-div {
+    margin-left: -1.3rem;
+  }
+
+  .r-div {
+    margin-right: -1.3rem;
   }
 }
 
@@ -804,6 +871,14 @@
 
   .download-options-m {
     height: 10vh;
+  }
+
+  .l-div {
+    margin-left: -.7rem;
+  }
+
+  .r-div {
+    margin-right: -.7rem;
   }
 }
 
@@ -882,7 +957,7 @@
     width: 30px;
   }
 
-  #footer-subcard-logo > img {
+  #footer-subcard-logo>img {
     height: 20px;
   }
 }
@@ -903,7 +978,7 @@
 @media (max-width: 360px) {
 
 
-  #footer-subcard-logo > img {
+  #footer-subcard-logo>img {
     height: 20px;
   }
 
@@ -924,7 +999,7 @@
     width: 25px;
   }
 
-  #footer-subcard-logo > img {
+  #footer-subcard-logo>img {
     height: 20px;
   }
 
