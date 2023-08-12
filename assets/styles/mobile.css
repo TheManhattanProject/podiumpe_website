@@ -46,9 +46,6 @@
     height: 24px;
   }
 
-  header > nav {
-    /* display: none; */
-  }
 
   .close {
     display: unset;
@@ -216,9 +213,6 @@
     font-size: 18px;
     line-height: 21.6px;
     font-family: formula-reg;
-  }
-
-  #download-options-wrapper-m {
   }
 
   .download-options-m {
@@ -506,7 +500,8 @@
     gap: 1rem;
     align-items: center;
     margin-top: 3rem;
-    margin-left: 2.4rem;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
   }
 
   #footer-subcard-logo {
@@ -530,7 +525,6 @@
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    margin-right: 2rem;
   }
 
   .podiumpe-head-mobile-footer {
@@ -850,6 +844,8 @@
 @media (max-width: 540px) {
   #footer-subcard {
     margin-top: 2.5rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
   }
 
   #footer-subcard-logo {
@@ -862,7 +858,6 @@
   #footer-subcard-logo {
     height: 32px;
     width: 32px;
-    margin-left: -1rem;
   }
 }
 
@@ -878,6 +873,8 @@
 
   #footer-subcard {
     margin-top: 2.2rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
   }
 
   #footer-subcard-logo {
@@ -892,9 +889,8 @@
 
 @media (max-width: 390px) {
   #footer-subcard-logo {
-    height: 25px;
-    width: 30px;
-    margin-left: -1.5rem;
+    height: 28px;
+    width: 28px;
   }
 }
 
@@ -905,11 +901,7 @@
 }
 
 @media (max-width: 360px) {
-  #footer-subcard-logo {
-    height: 25px;
-    width: 30px;
-    margin-left: -1.5rem;
-  }
+
 
   #footer-subcard-logo > img {
     height: 20px;
