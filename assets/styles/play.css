@@ -475,3 +475,72 @@ header {
     width: 14rem;
     margin-left: -1.3rem;
 }
+
+@media(max-width: 1810px) {
+    .wheel {
+        text-align: center;
+        margin-top: 1vw;
+    }
+
+    .wheel img {
+        margin-left: 0;
+    }
+}
+
+@media(max-width:1550px) {
+    .r-shift {
+        margin-right: -22rem;
+    }
+
+    .top-X {
+        margin-top: -15rem;
+    }
+}
+
+@media(max-width:1600px) {
+    .nav-menu li {
+        font-size: 1.4rem;
+    }
+
+    .category-dropmenu {
+        margin-right: -0.5vw;
+    }
+
+    .r-shift {
+        margin-right: -22rem;
+    }
+
+    .top-X {
+        margin-top: -15rem;
+    }
+
+    .right-cont {
+        width: 55vw;
+    }
+
+    .right-most h1 {
+        text-align: right;
+        margin-top: 3rem;
+        margin-left: -13rem;
+        width: 10vw;
+    }
+
+}
+
+@media(max-width: 1650px) {
+    .wheel h1 {
+        font-size: 11rem;
+    }
+
+    .right-most h1 {
+        margin-left: -13.5rem;
+    }
+
+    .top-X {
+        font-size: 350px;
+    }
+
+    .r-shift {
+        margin-right: -23rem;
+    }
+}
