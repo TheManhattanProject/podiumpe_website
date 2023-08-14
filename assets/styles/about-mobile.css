@@ -31,12 +31,16 @@
     display: none;
   }
   .slash-2 {
-    margin-right: 0rem;
+    /* margin-right: 0rem;
     margin-top: -1.8rem;
-    margin-left: -39px;
+    margin-left: -39px; */
+    position: absolute;
+    top:0%;
+    left:5%;
   }
   .about-title {
     height: 93.05px;
+    position: relative;
   }
   #about-hero {
     height: 954px;
@@ -44,15 +48,20 @@
   .car-front-text-mobile {
     display: unset;
     position: absolute;
-    top: 5%;
+    top: 8%;
     left: 39%;
+    overflow:hidden;
+    z-index: 1;
   }
   .carf-text1-mobile {
     font-family: formula-bold;
-    font-size: 3.2rem;
+    font-size: 3.8rem;
     font-weight: 500;
     -webkit-text-stroke: 1px #d21717;
     color: black;
+  }
+  .carf-text3-mobile{
+    overflow: hidden;
   }
   .carf-row2-mobile {
     display: flex;
@@ -60,14 +69,28 @@
     margin-top: -0.5rem;
     color: #e3e3e3;
     font-family: formula-bold;
-    font-size: 1.9rem;
+    font-size: 2rem;
     font-weight: 500;
   }
-  .hero-car {
+  .hero-car{
+    display:none;
+  }
+  .car-mobile-section{
+    display: block;
+    position: relative;
+    margin-top: 30px;
+    height:145px;
+    overflow: hidden;
+    /* border:2px solid white; */
+    /* top:5%; */
+  }
+  .hero-car-mobile {
+    position: absolute;
     top: 5%;
-    left: calc(-11%);
+    left: calc(-4%);
     width: 201.896px;
-    height: 104.559px;
+    height: 140.559px;
+    z-index:10;
   }
   .car-front-text {
     display: none;
@@ -189,7 +212,7 @@
     width: 153.937px;
     height: 259.931px;
     position: absolute;
-    right: 0%;
+    right: 2%;
     /* border: 2px solid green; */
   }
   .trophy2-mobile {
@@ -265,7 +288,7 @@
     /* border: 2px solid blue; */
     position: absolute;
     top: 57%;
-    left: 1%;
+    left: 4%;
   }
   .trophy3-mobile {
     width: 155px;
@@ -469,7 +492,7 @@
     height: 122px;
     margin: 34px 0;
     position: absolute;
-    top: 137%;
+    top: 141%;
     flex-direction: column;
     width:100vw;
   }
@@ -540,15 +563,15 @@
     width: 195px;
     height: 29.9px;
     position: absolute;
-    top: 174%;
+    top: 181%;
     right:0%;
   }
   .about-last-mobile {
     display: unset;
     width: 100vw;
     position: absolute;
-    top: 176%;
-    margin-top:4rem;
+    top: 183%;
+    /* margin-top:2.2rem; */
   }
   .about-last1-mobile {
     margin-top: 13px;
@@ -563,6 +586,7 @@
     font-weight: 500;
     position: absolute;
     top: 1%;
+    z-index:10;
   }
   .alm-last1-2 {
     font-family: formula-bold;
@@ -581,9 +605,11 @@
     position: absolute;
     right: 0%;
     top: 10%;
+    z-index:20;
   }
   .about-last2-mobile {
     height: 201px;
+    margin-top:1rem;
     /* border: 2px solid blue; */
   }
   .alm-last2-1 {
@@ -601,7 +627,7 @@
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 500;
-    width: 332px;
+    width: 342px;
     margin: 0 auto;
     margin-top: 21px;
   }
@@ -618,11 +644,11 @@
   }
   .amv-1{
     position: absolute;
-    left:2%;
+    left:10%;
   }
   .amv-2{
     position: absolute;
-    right:2%;
+    right:10%;
     bottom: 0%;
   }
   .amv-arrow1,.amv-arrow2 {
@@ -650,12 +676,39 @@
   #about-footer{
     position: absolute;
     width: 100vw;
-    top:231%;
+    top:238%;
+  }
+  .hero-r-p1{
+    padding-bottom: 1.2rem;
+  }
+  .car-desktop-section{
+    display: none;
+  }
+}
+@media (min-width:400px) and (max-width:450px){
+  #main-title{
+    font-size:2.7rem;
+  }
+  .title1{
+    font-size: 1.5rem;
+  }
+  .title2{
+    font-size: 1.35rem;
   }
 }
 @media (min-width:450px) and (max-width:500px) {
+
+  #main-title{
+    font-size:3rem;
+  }
+  .title1{
+    font-size: 1.6rem;
+  }
+  .title2{
+    font-size: 1.4rem;
+  }
   .car-front-text-mobile{
-    left:27%;
+    left:35%;
   }
   .core1-content-mobile{
     margin-left: 71px;
@@ -672,16 +725,21 @@
   .core3-content-mobile{
     margin-left: 65px;
   }
-  .slash-2{
-    display:none;
-  }
 }
+
+
 @media (min-width:500px) and (max-width:600px) {
-  .slash-2{
-    display: none;
+  #main-title{
+    font-size:3.2rem;
+  }
+  .title1{
+    font-size: 1.7rem;
+  }
+  .title2{
+    font-size: 1.5rem;
   }
   .car-front-text-mobile{
-    left:22%;
+    left:30%;
   }
   .cs-title-1-mobile{
     font-size: 4rem;
@@ -705,12 +763,19 @@
     left:23%;
   }
 }
+
 @media (min-width:600px) and (max-width:700px){
-  .slash-2{
-    display: none;
+  #main-title{
+    font-size:3.3rem;
+  }
+  .title1{
+    font-size: 1.7rem;
+  }
+  .title2{
+    font-size: 1.5rem;
   }
   .car-front-text-mobile{
-    left:19%;
+    left:24%;
   }
   .cs-title-1-mobile{
     font-size: 4rem;
@@ -748,11 +813,22 @@
   }
 }
 @media (min-width:700px) and (max-width:780px){
+  #main-title{
+    font-size:3.3rem;
+  }
+  .title1{
+    font-size: 1.7rem;
+  }
+  .title2{
+    font-size: 1.5rem;
+  }
   .slash-2{
-    display: none;
+    /* display: none; */
+    left:4%;
+    top:0%;
   }
   .car-front-text-mobile{
-    left:12%;
+    left:21%;
   }
   .cs-title-1-mobile{
     font-size: 4rem;
@@ -794,5 +870,24 @@
   .core3-content-mobile-right{
     position: absolute;
     right:13%;
+  }
+}
+@media (min-width:650px) and (max-width:700px) {
+  .slash-2{
+    left:4%;
+  }
+  
+}
+@media screen and (max-width:360px){
+  .trophy2-desc-mobile{
+    width:198px;
+  }
+  .trophy1-desc-mobile{
+    width:168px;
+  }
+  .core1-content-mobile-right {
+    right:3%;
+    margin-left: 1rem;
+    width:191px;
   }
 }

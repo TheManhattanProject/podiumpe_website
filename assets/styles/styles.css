@@ -966,6 +966,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: 28px;
+  margin-top: 5rem;
 }
 
 #pm-card-text {
@@ -1006,8 +1007,8 @@ footer {
 
 #copyright {
   font-size: 16px;
-  margin-top: 60px;
-  margin-left: 35px;
+  margin-top: 55px;
+  margin-left: 2px;
   font-family: formula-bold;
 }
 
@@ -1702,6 +1703,9 @@ footer {
   #row-2 {
     margin-top: 64px;
   }
+  #copyright{
+    margin-top: 50px;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1300px) {
@@ -1954,6 +1958,7 @@ footer {
     font-size: 0.8rem;
     word-spacing: 1px;
   }
+  
 }
 
 @media (min-width: 800px) and (max-width: 1259px) {
@@ -2464,4 +2469,14 @@ footer {
 .n-link{
   text-decoration: none;
   color: #FFFFFF;
+}
+@media (min-width:800px) and (max-width:899px){
+  #copyright{
+    margin-top: 48px;
+  }
+}
+@media (min-width:780px) and (max-width:800px){
+  #copyright{
+    margin-top: 28px;
+  }
 }
