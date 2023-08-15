@@ -689,6 +689,7 @@ header {
 
     .head-txt h2 {
         font-size: 3rem;
+        margin-left: 1.8rem;
     }
 
     .top-X {
@@ -757,20 +758,448 @@ header {
         margin-top: -2rem;
     }
 
-    
+    .r-man h1 {
+        margin-left: 1.7rem;
+    }
+
 }
 
-/* 
-@media (max-width: 1810px) {
+@media(max-width: 1290px) {
+    .fantasy-head img {
+        height: 6.4rem;
+    }
+
+    .head-img {
+        gap: .4rem;
+        margin-left: -5rem;
+    }
+
+    .img1 {
+        height: 30rem;
+        width: 19rem;
+        margin-top: -1.5rem;
+    }
+
+    .rect1,
+    .rect2,
+    .rect3,
+    .rect4,
+    .rect5 {
+        height: 9rem;
+    }
+
+    .rect6 {
+        margin-top: 4rem;
+        margin-left: 68vw;
+        margin-bottom: -6.5rem;
+    }
+
     .wheel {
-        text-align: center;
-        margin-top: 1vw;
+        margin-top: -1.5rem;
+    }
+
+    .bts h2 {
+        margin-top: 2.1rem;
     }
 
     .wheel img {
-        margin-left: 0;
+        width: 20.5rem;
     }
 }
+
+@media(max-width: 1250px) {
+    .right p {
+        margin-left: -2rem;
+    }
+
+    .apps img {
+        height: 4rem;
+        width: 13.5rem;
+    }
+
+    .apps {
+        margin-left: 0rem;
+    }
+
+    .rect2,
+    .rect3 {
+        height: 8.5rem;
+    }
+
+    .left-rect {
+        margin-top: 29rem;
+    }
+
+    .rect2 {
+        margin-left: 1rem;
+    }
+
+    .rect3 {
+        margin-top: -2.5rem;
+    }
+
+    .r-man h1 {
+        margin-left: -1vw;
+        font-size: 4.8rem;
+        transform: scaleY(.8);
+        margin-top: -3.4rem;
+    }
+
+    .right-most h1 {
+        margin-left: -8.6rem;
+        margin-top: 3rem;
+    }
+
+    .right-most p {
+        margin-top: 11rem;
+        margin-left: -4.4rem;
+    }
+
+    .right-most img {
+        height: 26rem;
+        width: 7rem;
+    }
+
+    .center img {
+        height: 39.5rem;
+        width: 18.5rem;
+    }
+
+    .center p {
+        line-height: 17px;
+    }
+
+    .left-most img {
+        width: 8rem;
+        height: 25rem;
+    }
+
+    .left-most h1 {
+        margin-top: 3.3rem;
+    }
+
+    .left img {
+        height: 27rem;
+    }
+
+    .center h1 {
+        margin-top: 1rem;
+    }
+
+    .center p {
+        margin-top: 9rem;
+    }
+
+    .right p {
+        margin-left: -3rem;
+        margin-top: -2.5rem;
+    }
+
+    .right h1 {
+        margin-top: .8rem;
+        margin-left: -.3rem;
+    }
+
+    .right img {
+        height: 27rem;
+        width: 14rem;
+    }
+
+    .img1 {
+        height: 29.6rem;
+        margin-top: 4rem;
+        margin-left: 4rem;
+    }
+
+    .rect1 {
+        height: 8rem;
+        margin-left: 12rem;
+    }
+
+    .right-rect img {
+        height: 8rem;
+    }
+
+    .right-rect {
+        margin-top: 19.5rem;
+        margin-right: -5.1rem;
+    }
+
+    .rect4 {
+        margin-top: 8rem;
+        margin-right: -5.1rem;
+    }
+
+    .arrow {
+        font-size: 2.5rem;
+    }
+
+    .fantasy-head {
+        margin-top: -20rem;
+    }
+
+    .head-img {
+        margin-left: -3rem;
+    }
+
+    .wheel {
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 1230px) {
+    .r-man h1 {
+        margin-left: 1vw;
+    }
+
+    .head-img {
+        margin-left: -.4rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .r-man h1 {
+        font-size: 4.6rem;
+    }
+}
+
+@media (max-width: 1180px) {
+    .r-man h1 {
+        font-size: 6vw;
+    }
+
+    .apps img {
+        width: 12.5rem;
+    }
+
+    .head-img {
+        margin-right: 1.4rem;
+        margin-left: 2.5rem;
+    }
+
+    .right p {
+        margin-left: -1.8rem;
+    }
+
+    .left p {
+        margin-left: 4.4rem;
+        width: 10rem;
+    }
+
+    .arrow {
+        margin-left: 53.5vw;
+    }
+
+    .center img {
+        margin-left: 1rem;
+    }
+
+    .right p {
+        margin-top: -3rem;
+    }
+
+    .right h1 {
+        margin-left: 3rem;
+        width: 13rem;
+    }
+
+    .right img {
+        margin-left: 3rem;
+    }
+
+    .right-most p {
+        margin-left: -5.5rem;
+    }
+
+    .right-most img {
+        width: 5.6rem;
+        height: 25rem;
+    }
+
+    .img1 {
+        margin-top: 4.6rem;
+    }
+
+    .top-X {
+        margin-top: -14rem;
+    }
+
+}
+
+@media (max-width: 1140px) {
+    .head-img {
+        margin-left: 4.5rem;
+    }
+
+    .img1 {
+        margin-left: 6rem;
+    }
+
+    .r-man h1 {
+        margin-top: -3rem;
+        margin-left: 3rem;
+    }
+
+    .rect1 {
+        margin-left: 14rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .top-X {
+        margin-top: -12.5rem;
+        font-size: 15rem;
+    }
+
+    .center img {
+        margin-left: .2rem;
+    }
+
+    .right p {
+        margin-left: 0;
+    }
+
+    .pics h1 {
+        font-size: 1.3rem;
+    }
+
+    .pics p {
+        font-size: 12px;
+    }
+
+    .left-most img {
+        width: 6rem;
+    }
+
+    .center img {
+        width: 19rem;
+        height: 38rem;
+    }
+
+    .left img {
+        height: 25rem;
+        margin-left: 1.4rem;
+    }
+
+    .left h1 {
+        margin-left: 3.5rem;
+    }
+
+    .left p {
+        margin-left: 5rem;
+    }
+
+    .right img {
+        height: 24.5rem;
+        width: 13rem;
+        margin-top: .2rem;
+    }
+
+    .right p {
+        margin-top: -5rem;
+    }
+
+    .right-most p {
+        margin-top: 9.5rem;
+    }
+
+    .right-most img {
+        height: 24rem;
+    }
+
+    .right-most {
+        margin-left: 1rem;
+    }
+
+    .left-rect {
+        margin-top: 28rem;
+    }
+
+    .cmg-soon {
+        margin-top: -26rem;
+    }
+
+    .img1 {
+        height: 27rem;
+        width: 17rem;
+    }
+
+
+    .r-man h1 {
+        margin-top: -2rem;
+    }
+
+    .right-rect {
+        margin-top: 17rem;
+    }
+
+    .apps img {
+        height: 3.5rem;
+        width: 12rem;
+    }
+
+    .apps {
+        margin-left: 2rem;
+    }
+
+    .arrow {
+        margin-top: -.4rem;
+        font-size: 2.3rem;
+    }
+
+    .nav-menu li {
+        font-size: 1rem;
+    }
+
+    .head-txt h1 {
+        font-size: 1.3rem;
+    }
+
+    .head-txt h2 {
+        font-size: 2.6rem;
+        margin-left: 1.3rem;
+    }
+
+    .fantasy-head {
+        margin-left: -15rem;
+    }
+
+    .fantasy-head img {
+        height: 6rem;
+    }
+
+    .heading h2 {
+        font-size: 3.6rem;
+    }
+
+    .heading h1 {
+        font-size: 4.5rem;
+    }
+
+}
+
+@media (max-width: 1060px) {
+    .r-man h1 {
+        margin-left: 4.5rem;
+    }
+
+    .img1 {
+        margin-top: 4.6rem;
+    }
+
+    .fantasy-head {
+        margin-left: -13rem;
+    }
+
+    .apps img {
+        height: 3rem;
+        width: 10.5rem;
+    }
+
+}
+
+/* 
 
 @media(max-width:1550px) {
     .r-shift {
