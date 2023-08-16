@@ -2493,6 +2493,9 @@ footer {
   text-decoration: none;
   color: #FFFFFF;
 }
+.phone-s-download{
+  display: none;
+}
 
 
 @media (min-width:780px) and (max-width:830px){
