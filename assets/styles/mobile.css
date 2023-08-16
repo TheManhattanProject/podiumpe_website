@@ -786,10 +786,13 @@
   .navbar-polygon{
     margin-bottom: unset !important;
     margin-top:-3.5rem;
+    position: absolute;
+    left:-32%;
   }
   .navbar-active{
     display: flex;
     align-items: center;
+    position: relative;
   }
 }
 

@@ -236,6 +236,16 @@ td {
   width: 4.5vw;
   background-color: white;
 }
+.navbar-terms-polygon{
+  height:15px;
+  width:15px;
+  padding-right:7px;
+  margin-bottom:unset !important;
+  margin-top: -3.5rem;
+  position: absolute;
+  left:-14%;
+    
+}
 
 @media (max-width: 1200px) {
   main {
