@@ -1733,6 +1733,25 @@ header {
         margin-left: 30vw;
     }
 
+    .bg-text{
+        color: #242424;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: rotate(-47deg);
+        margin-top: 10rem;
+        margin-left: 8rem;
+    }
+
+    .bg-text h1{
+        font-size: 3rem;
+    }
+
+    .bg-text h3{
+        font-size: 2rem;
+    }
+
     .bg-img img{
         position: absolute;
         height: 100rem;
@@ -1933,21 +1952,24 @@ header {
     }
 
     .m-4{
-        margin-left: 60vw;
+        margin-left: 75vw;
         margin-top: -12rem;
     }
 
     .m-4 p{
         width: 10rem;
+        margin-left: -6.5rem;
     }
 
     .m4-txt{
         display: flex;
+        margin-left: 13vw;
     }
 
     .m4-txt h1{
         transform:rotate(270deg);
-        margin-right: -19rem;
+        margin-right: -25rem;
+        margin-top: -12rem;
         
     }
 
@@ -1956,15 +1978,459 @@ header {
         height: 28rem;
     }
 
-
-
-
-    .img1{
-        margin-top: 80rem;
+    .m-5{
+        margin-top: -18rem;
+        margin-left: 5rem;
     }
 
+    .m-5 h1{
+        margin-left: 6rem;
+        margin-bottom: -5px;
+    }
+
+    .m5-txt{
+        display: flex;
+    }
+
+    .m5-txt img{
+        width: 11rem;
+        height: 20rem;
+    }
+
+    .m5-txt h1{
+        margin-top: 1.7rem;
+        margin-left: -5px;
+    }
+
+    .m5-txt p{
+        width: 8rem;
+        margin-top: 2.5rem;
+        margin-left: 2rem;
+    }
+
+    .img1{
+        margin-left: 57vw;
+        height: 30rem;
+        width: 22rem;
+        margin-top: 11.5rem;
+    }
+
+    .apps{
+        flex-direction: column;
+        margin-left: 37vw;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+
+    .apps img{
+        height: 4.5rem;
+        width: 14rem;
+    }
+}
+
+@media(max-width: 740px){
+    .right-cont p{
+        margin-left: -29rem;
+        width: 80vw;
+    }
+}
+
+@media (max-width: 670px){
+
+    .m-5{
+        margin-left: 2rem;
+        margin-top: -21rem;
+    }
+    .m5-txt p{
+        margin-left: 1rem;
+    }
+    .m3-txt p{
+        margin-left: 0;
+    }
+    .right-cont p{
+        margin-left: -29rem;
+        width: 85vw;
+        font-size: 1.1rem;
+    }
+    .bg-img img{
+        height: 90rem;
+        width: 36rem;
+        margin-left: 2rem;
+    }
+    .bg-text{
+        margin-top: 9rem;
+        margin-left: 5rem;
+    }
+    .img1{
+        margin-left: 52vw;
+        margin-top: 14.5rem;
+    }
+    .m-1{
+        margin-left: 22vw;
+    }
+    .m3-txt img{
+        height: 24rem;
+        width: 13rem;
+    }
+    .m-4{
+        margin-top: -9rem;
+    }
+}
+
+@media (max-width: 620px){
+    .m-1{
+        margin-left: 20vw;
+    }
+
+    .m-4{
+        margin-left: 80vw;
+    }
+
+    .m-3{
+        margin-left: 3vw;
+    }
+
+    .img1{
+        margin-left: 54vw;
+    }
+
+    .title h1{
+        margin-left: 2rem;
+    }
+
+    .m-t2{
+        margin-left: 10rem;
+    }
+
+    .m-t3{
+        margin-left: 5rem;
+    }
+
+    .right-cont p{
+        margin-left: -28rem;
+        width: 90vw;
+    }
+
+    .wheel img{
+        margin-left: 9rem;
+    }
+}
+
+@media (max-width: 580px){
+    .title h1{
+        font-size: 4.5rem;
+        margin-left: 4rem;
+    }
+    .title p{
+        font-size: 2rem;
+        margin-left: -19.7rem;
+        margin-top: 3.7rem;
+    }
+    .m-t2{
+        margin-left: 21vw;
+    }
+    .m-t2 p{
+        margin-left: -15rem;
+    }
+    .m-t3{
+        margin-left: 20vw;
+    }
+    .m-t3 p{
+        margin-left: -17rem;
+    }
+    .poster{
+        margin-top: 15rem;
+    }
+    .right-cont p{
+        font-size: 1rem;
+        margin-left: -26rem;
+    }
+    .bg-img img{
+        height: 86rem;
+        width: 30rem;
+    }
+    .bg-text{
+        margin-top: 8rem;
+        margin-left: 2rem;
+    }
+    .fantasy-head h1{
+        font-size: 1rem;
+    }
+    .fantasy-head h2{
+        font-size: 1.6rem;
+    }
+    .head-img img{
+        height: 4rem;
+    }
+    .arrow{
+        font-size: 1.4rem;
+    }
+    .m-1{
+        margin-top: .4rem;
+        margin-left: 24vw;
+    }
+    .m-1 img{
+        height: 24.6rem;
+        width: 12rem;
+    }
+    .heading h1{
+        font-size: 3.5rem;
+        margin-top: -1.8rem;
+    }
+    .heading h2{
+        font-size: 2.6rem;
+    }
+    .pics-m h1{
+        font-size: 18px;
+    }
+    .pics-m p{
+        font-size: 14px;
+    }
+    .m-1 h1{
+        width: 7rem;
+        margin-top: 2rem;
+    }
+    .m-1 p{
+        width: 8rem;
+    }
+    .m-2{
+        margin-left: 2rem;
+    }
+    .m-2 h1{
+        margin-left: 74.5vw;
+    }
+    .m-2 img{
+        height: 12.9rem;
+        width: 102px;
+        margin-left: -10px;
+    }
+    .m-2 p{
+        width: 9rem;
+        margin-top: 3.5rem;
+    }
+    .m-3{
+        margin-top: -8rem;
+    }
+    .m-3 img{
+        height: 22rem;
+        width: 10.8rem;
+    }
+    .m-3 p{
+        width: 10rem;
+        margin-top: 7rem;
+    }
+    .m4-txt{
+        margin-top: 1rem;
+    }
+    .m-4 img{
+        height: 23rem;
+        width: 11.8rem;
+    }
+    .m4-txt h1{
+        margin-right: -20.3rem;
+        margin-top: -10rem;
+    }
+    .m-5{
+        margin-top: -17.5rem;
+    }
+    .m-5 h1{
+        margin-left: 4rem;
+    }
+    .m5-txt h1{
+        margin-left: -5px;
+        position: absolute;
+    }
+    .m-5 img{
+        height: 227px;
+        width: 112px;
+        position: relative;
+        z-index: 4;
+    }
+    .m-5 p{
+        width: 6rem;
+        margin-top: 5rem;
+    }
+    .img1{
+        margin-top: 18rem;
+        margin-left: 53vw;
+    }
+}
+
+@media (max-width: 530px){
+    .wheel h1{
+        font-size: 86.6px;
+    }
+    .wheel img{
+        height: 252.52px;
+        width: 19rem;
+        margin-left: 7.5rem;
+    }
+    .bts h2{
+        font-size: 32px;
+        margin-top: -1.4rem;
+    }
+    .bts p{
+        font-size: 14px;
+        width: 60vw;
+        margin-left: -3rem;
+        margin-top: 5rem;
+    }
+    .right-cont p{
+        font-size: 14px;
+        margin-left: -20.5rem;
+        width: 73.5vw;
+    }
+    .m-t2{
+        margin-left: 6rem;
+    }
+    .m-t3{
+        margin-left: 4rem;
+    }
+    .bg-img img{
+        width: 28rem;
+        height: 94rem;
+    }
+}
+
+@media (max-width: 490px){
+    .wheel img{
+        margin-left: 6rem;
+    }
+    .title h1{
+        margin-left: 7vw;
+    }
+    .right-cont p{
+        width: 80vw;
+    }
+    .m-1{
+        margin-left: 20vw;
+    }
+    .m-2{
+        margin-left: .5rem;
+        margin-top: -8.5rem;
+    }
+    .m-2 h1{
+        margin-left: 80vw;
+    }
+    .m-3{
+        margin-left: -1rem;
+    }
+    .m-4{
+        margin-left: 26rem;
+    }
+    .m-5{
+        margin-left: -1rem;
+    }
+    .poster{
+        margin-top: 12rem;
+    }
+    .apps{
+        margin-left: 30vw;
+    }
+}
+
+@media (max-width: 460px){
+    .fantasy-head{
+        margin-left: -7rem;
+    }
+    .wheel img{
+        margin-left: 4rem;
+    }
+    .title h1{
+        margin-left: 4vw;
+    }
+    .bg-img img{
+        width: 24rem;
+    }
+    .bg-text {
+        margin-left: 0;
+    }
+    .m-4 p{
+        margin-left: -7.5rem;
+    }
+    .m-4{
+        margin-left: 25rem;
+    }
+    .m-1{
+        margin-left: 15vw;
+    }
+}
+
+@media (max-width: 420px){
+    .head-txt{
+        margin-left: -1rem;
+    }
+    .fantasy-head{
+        margin-left: -8rem;
+    }
+    .fantasy-head h1{
+        font-size: .8rem;
+    }
+    .fantasy-head h2{
+        font-size: 1.4rem;
+    }
+    .wheel h1{
+        font-size: 4.6rem;
+    }
+    .bts h2{
+        font-size: 1.7rem;
+        margin-top: -1rem;
+    }
+    .bts p{
+        width: 74vw;
+        margin-left: -2rem;
+        font-size: 11px;
+    }
+    .right-cont p{
+        margin-left: -19rem;
+        width: 90vw;
+    }
+    .title h1{
+        margin-left: 0;
+    }
+    .m-2 h1{
+        margin-left: 71.8vw;
+    }
+    .m-2{
+        margin-left: 2rem;
+    }
+    .m-2 p{
+        width: 9rem;
+        margin-left: -2rem;
+    }
+    .m-3 h1{
+        margin-left: 16px;
+    }
+    .m-3 p{
+        margin-top: 8rem;
+    }
+    .m-4{
+        margin-left: 24rem;
+    }
+    .m-5{
+        margin-left: -2.25rem;
+    }
+    .img1{
+        margin-left: 52vw;
+    }
+    .apps{
+        margin-left: 25vw;
+    }
+    .heading h2{
+        font-size: 2.3rem;
+    }
+    .heading h1{
+        font-size: 3.2rem;
+    }
+    .m-1 img{
+        width: 11rem;
+    }
+}
 
 
-    
 
+@media(min-width: 781px){
+    .bg-img{
+        display: none;
+    }
 }
