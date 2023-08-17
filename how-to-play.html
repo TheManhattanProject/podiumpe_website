@@ -34,6 +34,7 @@
 
                 </div>
             </ul>
+            
         </nav>
         <div id="hamburger-menu-wrapper">
             <span class="menu-bar"></span>
@@ -41,6 +42,8 @@
             <span class="menu-bar"></span>
         </div>
     </header>
+  <hr id="header-hr" />
+
     <div class="top-X">
         <h1>X</h1>
         <h1 class="r-shift">X</h1>
@@ -151,7 +154,7 @@
             </div>
             <div class="center">
                 <img src="./assets/images/center-p.png" alt="">
-                <h1>RACES YOU DON'T WANT TO MISS OUT ON.</h1>
+                <h1>RACES YOU DON'T WANT TO MISS OUT <br> ON.</h1>
                 <p>Get all the information you need to make the right decisions.</p>
             </div>
             <div class="right">
@@ -274,5 +277,17 @@
     </footer>
 
 </body>
+
+<script>
+    const menu = document.querySelector("#hamburger-menu-wrapper");
+    const close = document.querySelector(".close");
+    const nav = document.querySelector("nav");
+    menu.addEventListener("click", () => {
+      nav.classList.add("open-nav");
+    });
+    close.addEventListener("click", () => {
+      nav.classList.remove("open-nav");
+    });
+  </script>
 
 </html>

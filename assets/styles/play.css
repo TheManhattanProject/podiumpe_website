@@ -500,10 +500,6 @@ header {
         overflow: hidden;
     }
 
-    .right-most {
-        /* overflow: hidden; */
-    }
-
     .right-most h1 {
         text-align: right;
         margin-top: 3rem;
@@ -805,9 +801,24 @@ header {
     .wheel img {
         width: 20.5rem;
     }
+
+    .fantasy-head{
+        margin-top: -22rem;
+    }
 }
 
 @media(max-width: 1250px) {
+
+    .title h1{
+        font-size: 4rem;
+    }
+
+    .title p{
+        font-size: 1.5rem;
+        margin-top: 2.8rem;
+        margin-left: -2.5rem;
+    }
+
     .right p {
         margin-left: -2rem;
     }
@@ -935,7 +946,7 @@ header {
     }
 
     .fantasy-head {
-        margin-top: -20rem;
+        margin-top: -22rem;
     }
 
     .head-img {
@@ -1199,9 +1210,406 @@ header {
 
 }
 
-/* 
+@media (max-width: 1045px){
+    .wheel h1{
+        font-size: 6rem;
+        margin-top: -8rem;
+    }
 
-@media(max-width:1550px) {
+    .wheel h2{
+        font-size: 2.8rem;
+        margin-top: 2.5rem;
+    }
+
+    .wheel img{
+        height: 12rem;
+        margin-left: 24rem; 
+        width: 18rem;
+    }
+
+    .wheel p{
+        width: 70vw;
+        font-size: 18px;
+    }
+
+    .left-rect{
+        margin-left: -3.2rem;
+    }
+
+    .arrow {
+        font-size: 2rem;
+    }
+
+    .fantasy-head{
+        margin-left: -11rem;
+        margin-top: -21rem;
+    }
+
+    .center p{
+        margin-left: -10rem;
+    }
+    .center{
+        margin-left: -.5rem;
+    }
+
+    .right img{
+        margin-left: 2.5rem;
+    }
+}
+
+@media(max-width: 1020px){
+    .fantasy-head h1{
+        font-size: 1.3rem;
+    }
+
+    .fantasy-head h2{
+        font-size: 2.3rem;
+    }
+
+    .fantasy-head{
+        margin-left: -12rem;
+    }
+
+    .arrow{
+        font-size: 1.9rem;
+    }
+
+    .r-man h1{
+        margin-left: 5.8rem;
+    }
+}
+
+@media(max-width: 1000px){
+    .wheel img{
+        margin-left: 22rem;
+    }
+
+    .fantasy-head{
+        margin-left: -11rem;
+    }
+
+    .r-shift{
+        margin-right: -14rem;
+    }
+
+    .center img{
+        width: 17rem;
+        height: 34rem;
+    }
+
+    .center p{
+        margin-top: 6rem;
+    }
+
+    .left-most img{
+        height: 21rem;
+        width: 5rem;
+    }
+
+    .left-most p{
+        margin-top: 6.5rem;
+    }
+
+    .left img{
+        height: 22rem;
+    }
+
+    .right img{
+        height: 22rem;
+        width: 12rem;
+    }
+
+    .left{
+        margin-top: 13rem;
+    }
+
+    .right-most{
+        margin-top: 3rem;
+    }
+
+    .right{
+        margin-top: 20rem;
+    }
+
+    .pics h1{
+        font-size: 1.1rem;
+    }
+
+    .rect2,.rect3{
+        height: 7rem;
+    }
+    .left-rect{
+        margin-left: -2.4rem;
+        margin-top: 27.3rem;
+    }
+
+    .right-rect img{
+        height: 7rem;
+    }
+
+    .rect4{
+        margin-right: -4.4rem;
+        margin-top: 7rem;
+    }
+
+    .right-rect{
+        margin-right: -4.4rem;
+    }
+
+    .rect1{
+        height: 7rem;
+        margin-left: 10rem;
+    }
+    
+    .rect3{
+        margin-top: -4rem;
+    }
+
+    .r-man{
+        margin-top: 1.5rem;
+    }
+
+    .img1{
+        height: 22rem;
+        width: 12rem;
+    }
+
+    .apps img{
+        height: 3rem;
+        width: 9.5rem;
+    }
+}
+
+@media(max-width: 950px){
+    .fantasy-head h1{
+        font-size: 1.2rem;
+    }
+
+    .fantasy-head h2{
+        font-size: 2.2rem;
+    }
+
+    .head-img img{
+        height: 5.5rem;
+    }
+
+    .fantasy-head{
+        margin-left: -9rem;
+    }
+
+    .wheel h1{
+        font-size: 5rem;
+        margin-top: -7rem;
+    }
+
+    .bts h2{
+        font-size: 2.2rem;
+        margin-top: 3rem;
+    }
+
+    .bts p{
+        font-size: 14px;
+        width: 60vw;
+    }
+
+    .wheel img{
+        width: 16rem;
+        height: 12rem;
+    }
+
+    .pics p{
+        font-size: 11px;
+    }
+
+    .right p{
+        margin-left: 1.2rem;
+    }
+
+    .right-most p{
+        margin-left: -6rem;
+    }
+
+    .right-most h1{
+        margin-left: -7.5rem;
+    }
+
+    .right-most img{
+        width: 5rem;
+    }
+}
+
+@media(max-width: 920px){
+    .head-txt{
+        margin-left: -.4rem;
+    }
+
+    .fantasy-head{
+        margin-left: -7rem;
+    }
+
+    .pics p{
+        font-size: 10px;
+    }
+
+    .center p{
+        margin-top: 7.5rem;
+        margin-left: -9rem;
+    }
+
+    .pics h1{
+        font-size: 1rem;
+    }
+
+    .center img{
+        width: 15rem;
+    }
+
+    .right img{
+        width: 10.7rem;
+    }
+}
+
+@media (max-width: 870px){
+    .img1{
+        margin-top: 5rem;
+    }
+
+    .rect1{
+        margin-top: 4rem;
+    }
+
+    .r-man h1{
+        font-size: 3rem;
+    }
+
+    .left img{
+        margin-left: 2.4rem;
+    }
+
+    .right-most h1{
+        margin-left: -8rem;
+    }
+
+    .top-X{
+        font-size: 13rem;
+        margin-top: -10rem;
+    }
+
+    .fantasy-head{
+        margin-top: -19rem;
+    }
+
+    .head-txt h1{
+        font-size: 1rem;
+    }
+
+    .head-txt h2{
+        font-size: 1.9rem;
+    }
+
+    .head-img img{
+        height: 5rem;
+    }
+
+    .fantasy-head{
+        margin-left: -12rem;
+    }
+
+    .wheel img{
+        margin-left: 20rem;
+        height: 10rem;
+        width: 15rem;
+        margin-top: 1rem;
+    }
+
+    .wheel h1{
+        margin-top: -7rem;
+    }
+}
+
+@media (max-width: 830px){
+    .left-most img{
+        width: 4rem;
+    }
+
+    .pics p{
+        font-size: 9px;
+    }
+
+    .center p{
+        margin-left: -8rem;
+    }
+
+    .right-most{
+        margin-left: 0rem;
+    }
+
+    .r-man h1{
+        font-size: 2.7rem;
+    }
+
+    .fantasy-head{
+        margin-left: -9rem;
+        margin-top: -18.5rem;
+    }
+
+    .arrow {
+        font-size: 1.7rem;
+    }
+
+    .wheel h1{
+        margin-top: -6rem;
+        font-size: 4rem;
+    }
+
+    .bts h2{
+        font-size: 1.8rem;
+        margin-top: 3.5rem;
+    }
+
+    .bts p{
+        font-size: 13px;
+        width: 58vw;
+    }
+
+    .wheel img{
+        margin-top: 1.5rem;
+        height: 9rem;
+        width: 12rem;
+    }
+}
+
+@media(max-width: 800px){
+    .fantasy-head{
+        margin-left: -7rem;
+    }
+
+    .r-man h1{
+        font-size: 2.5rem;
+    }
+
+    .apps img{
+        height: 2.7rem;
+        width: 7.3rem;
+    }
+
+    .left{
+        margin-left: -7rem;
+    }
+
+    .center img {
+        width: 14rem;
+        margin-left: -.4rem;
+    }
+
+    .right img{
+        width: 10rem;
+    }
+}
+
+ 
+
+@media(min-width:1550px) {
     .r-shift {
         margin-right: -22rem;
     }
@@ -1211,7 +1619,7 @@ header {
     }
 }
 
-@media(max-width:1600px) {
+@media(min-width:1600px) {
     .nav-menu li {
         font-size: 1.4rem;
     }
@@ -1241,7 +1649,7 @@ header {
 
 }
 
-@media(max-width: 1650px) {
+@media(min-width: 1650px) {
     .wheel h1 {
         font-size: 11rem;
     }
@@ -1257,4 +1665,14 @@ header {
     .r-shift {
         margin-right: -23rem;
     }
-} */
+} 
+
+
+/********************* Mobile View *******************/
+
+
+@media(max-width: 780px){
+    .top-X{
+        display: none;
+    }
+}
