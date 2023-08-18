@@ -212,3 +212,14 @@
     background-color: #bababa;
   }
 }
+@media  (min-width:300px) and (max-width:361px) {
+  #doc-nav-wrapper h1{
+    font-size: 23px;
+  }
+  
+}
+@media screen and (max-width:300px) {
+  #doc-nav-wrapper h1{
+    font-size: 21px;
+  }
+}

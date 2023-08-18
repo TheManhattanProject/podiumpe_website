@@ -23,7 +23,9 @@
   text-decoration: none;
   display: inline;
   color: white;
-}
+  font-family: formula-bold;
+  /* border:2px solid blue; */
+} 
 
 @media (min-width: 500px) and (max-width: 780px) {
   .footer-text-racingline {
@@ -54,9 +56,18 @@
   }
 
   .line {
-    width: 10vw;
+    width: 8vw;
     height: 2px;
+    margin-top:0.6rem;
     background-color: white;
+  }
+  .line-fm-2{
+    position: absolute;
+    left:50%;
+  }
+  .line-fm-3{
+    position: absolute;
+    right:4%;
   }
 
   .l-div {
@@ -878,6 +889,20 @@
     padding:17px 0;
     transform: scaleX(2.2);
   }
+  .cm-text-mobile{
+    display: flex;
+    align-items:center;
+  }
+  .cm-p-mobile{
+    color: #fff;
+    font-family: formula-bold;
+    font-size: 22.679px;
+    font-weight: 500;
+    text-align: center;
+    padding:17px 0;
+    margin-left: 280px;
+    transform: scaleX(2.2);
+  }
   .strip-slash1{
     color:#3175E8;
     position: absolute;
@@ -903,9 +928,9 @@
     padding-top: 0.4rem;
   }
 
-  .line {
+  /* .line {
     width: 36px;
-  }
+  } */
 
   .l-div {
     margin-left: -3rem;
@@ -1025,13 +1050,13 @@
 
 @media (max-width: 570px) {
   #footer-subcard {
-    margin-top: 2.4rem;
+    /* margin-top: 2.4rem; */
   }
 }
 
 @media (max-width: 540px) {
   #footer-subcard {
-    margin-top: 2.5rem;
+    /* margin-top: 2.5rem; */
     margin-left: 1.2rem;
     margin-right: 1.2rem;
   }
@@ -1194,6 +1219,12 @@
   .strip-slash2{
     margin-left: -5px;
   }
+  .line-fm-2{
+    left:49.5%;
+  }
+  .line-fm-3{
+    right:3.5%;
+  }
 }
 @media (min-width:550px) and (max-width:630px) {
   .phone-s-download{
@@ -1217,6 +1248,12 @@
   }
   .strip-slash2{
     margin-left: -4px;
+  }
+  .line-fm-2{
+    left:49%;
+  }
+  .line-fm-3{
+    right:3%;
   }
 }
 @media (min-width:630px) and (max-width:700px) {
@@ -1243,6 +1280,12 @@
   .strip-slash2{
     margin-left: -1px;
   }
+  .line-fm-2{
+    left:48.5%;
+  }
+  .line-fm-3{
+    right:2.5%;
+  }
 }
 @media (min-width:700px) and (max-width:780px) {
   .phone-s-download{
@@ -1266,6 +1309,12 @@
   }
   .strip-slash2{
     margin-left: 0px;
+  }
+  .line-fm-2{
+    left:48%;
+  }
+  .line-fm-3{
+    right:2.2%;
   }
 }
 
