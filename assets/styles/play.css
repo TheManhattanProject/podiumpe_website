@@ -480,6 +480,82 @@ header {
     margin-left: -1.3rem;
 }
 
+@media (max-width: 1800px){
+    .fantasy-head{
+        margin-top: -28rem;
+        margin-left: -24rem;
+    }
+    .wheel h1{
+        font-size: 11.8rem;
+    }
+    .poster{
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1750px){
+    .fantasy-head{
+        margin-top: -29rem;
+        margin-left: -19rem;
+    }
+    .wheel h1{
+        font-size: 11.4rem;
+    }
+    .bts h2{
+        margin-top: 1.5rem;
+    }
+}
+
+@media(max-width: 1700px){
+    .fantasy-head{
+        margin-top: -28rem;
+        margin-left: -16rem;
+    }
+    .wheel h1{
+        font-size: 11rem;
+    }
+}
+
+@media (max-width: 1650px){
+    .fantasy-head{
+        margin-top: -28rem;
+        margin-left: -13rem;
+    }
+    .wheel h1{
+        font-size: 10.4rem;
+    }
+    /* .wheel h1 {
+        font-size: 11rem;
+    }
+
+    .right-most h1 {
+        margin-left: -13.5rem;
+    }
+
+    .top-X {
+        font-size: 350px;
+    }
+
+    .r-shift {
+        margin-right: -23rem;
+    } */
+}
+
+@media (max-width: 1600px){
+    .fantasy-head{
+        margin-left: -9.5rem;
+    }
+}
+
+@media(max-width: 1540px){
+    .wheel h1{
+        font-size: 10rem;
+    }
+    .fantasy-head{
+        margin-top: -27rem;
+    }
+}
+
 
 @media(max-width: 1500px) {
     .wheel h1 {
@@ -516,6 +592,9 @@ header {
         width: 10vw;
         margin-left: -5rem;
         margin-right: 2.5rem;
+    }
+    .fantasy-head{
+        margin-top: -26rem;
     }
 }
 
@@ -657,7 +736,7 @@ header {
     }
 
     .fantasy-head {
-        margin-top: -54vh;
+        margin-top: -24rem;
         margin-left: -16vw;
     }
 
@@ -760,6 +839,9 @@ header {
 
     .r-man h1 {
         margin-left: 1.7rem;
+    }
+    .fantasy-head{
+        margin-top: -22.5rem;
     }
 
 }
@@ -1653,24 +1735,6 @@ header {
 
 }
 
-@media(min-width: 1650px) {
-    .wheel h1 {
-        font-size: 11rem;
-    }
-
-    .right-most h1 {
-        margin-left: -13.5rem;
-    }
-
-    .top-X {
-        font-size: 350px;
-    }
-
-    .r-shift {
-        margin-right: -23rem;
-    }
-} 
-
 
 /********************* Mobile View *******************/
 
@@ -1757,6 +1821,7 @@ header {
         height: 100rem;
         width: 42rem;
         margin-left: 2rem;
+        overflow: hidden;
     }
 
     .content p{
@@ -2013,6 +2078,7 @@ header {
         height: 30rem;
         width: 22rem;
         margin-top: 11.5rem;
+        z-index: 1;
     }
 
     .apps{
@@ -2424,6 +2490,240 @@ header {
     }
     .m-1 img{
         width: 11rem;
+    }
+    .arrow{
+        margin-left: 9rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width: 400px){
+    .wheel img{
+        height: 12rem;
+        width: 17rem;
+    }
+    .wheel h1{
+        margin-top: -6.5rem;
+    }
+    .head-img img{
+        height: 3.7rem;
+    }
+    .arrow{
+        font-size: 1.1rem;
+        margin-left: 10rem;
+    }
+    .fantasy-head{
+        margin-left: -8rem;
+    }
+    .title h1{
+        font-size: 4rem;
+        margin-left: 1.6rem;
+    }
+    .title p{
+        font-size: 1.7rem;
+        margin-left: -17rem;
+    }
+    .right-cont p{
+        font-size: 12px;
+        margin-left: -18rem;
+        width: 82.5vw;
+    }
+    .m-t2 p{
+        margin-left: -14rem;
+    }
+    .m-t3 p{
+        margin-left: -15rem;
+    }
+    .bg-img img{
+        height: 92rem;
+        width: 22rem;
+    }
+    .bg-text {
+        transform: rotate(-62deg);
+    }
+    .m-2{
+        margin-left: 1.15rem;
+    }
+    .m-2 h1{
+        margin-left: 75vw;
+    }
+    .m-4{
+        margin-left: 23rem;
+    }
+    .img1{
+        margin-left: 50vw;
+    }
+}
+
+@media (max-width: 380px){
+    .fantasy-head h2{
+        font-size: 1.2rem;
+        margin-left: .7rem;
+    }
+    .fantasy-head{
+        margin-left: -9rem;
+    }
+    .arrow{
+        margin-left: 9rem;
+    }
+    .title h1{
+        margin-left: 0rem;
+    }
+    .m-t2 p{
+        margin-left: -13rem;
+    }
+    .right-cont p{
+        margin-left: -17rem;
+    }
+    .heading h2{
+        font-size: 1.7rem;
+    }
+    .heading h1{
+        font-size: 3rem;
+        margin-top: -1.3rem;
+    }
+    .pics-m p{
+        font-size: 12px;
+    }
+    .m-1 img{
+        width: 165px;
+        height: 384px;
+    }
+    .m-2{
+        margin-left: 2rem;
+    }
+    .m-2 p{
+        width: 7.5rem;
+    }
+    .m-2 h1{
+        margin-left: 68.5vw;
+    }
+    .m-4 {
+        margin-left: 21.5rem;
+    }
+    .m-4 p{
+        width: 7rem;
+    }
+    .m-5 {
+        margin-top: -16.4rem;
+    }
+    .img1{
+        width: 328px;
+        margin-top: 17rem;
+    }
+    .bg-img img{
+        width: 20rem;
+    }
+}
+
+@media(max-width: 350px){
+    .fantasy-head{
+        margin-left: -7.5rem;
+    }
+    .arrow{
+        font-size: 1rem;
+        margin-left: 8.5rem;
+    }
+    .wheel img{
+        width: 15rem;
+        height: 10rem;
+    }
+    .wheel h1{
+        font-size: 4.2rem;
+        margin-top: -5.5rem;
+    }
+    .wheel h2{
+        font-size: 1.55rem;
+        margin-top: -.3rem;
+    }
+    .title h1{
+        font-size: 3.5rem;
+    }
+    .title p{
+        font-size: 1.6rem;
+        margin-left: -15.4rem;
+        margin-top: 3rem;
+    }
+    .bg-img img{
+        margin-top: -1rem;
+        width: 18rem;
+        height: 83rem;
+    }
+    .bg-text h1{
+        font-size: 2.3rem;
+    }
+    .bg-text h3{
+        font-size: 1.5rem;
+    }
+    .right-cont p{
+        line-height: 1.1rem;
+        margin-left: -16.5rem;
+        width: 86vw;
+    }
+    .m-t2 p{
+        margin-left: -12.5rem;
+    }
+    .m-t3 p{
+        margin-left: -13.3rem;
+    }
+    .heading h1{
+        font-size: 2.7rem;
+        margin-top: -1.2rem;
+    }
+    .m-1 img{
+        width: 150px;
+        height: 320px;
+        margin-top: 0;
+    }
+    .m-1 p{
+        width: 6rem;
+    }
+    .pics-m h1{
+        font-size: .9rem;
+    }
+    .pics-m p{
+        font-size: 10px;
+    }
+    .m-2{
+        margin-top: -6.5rem;
+        margin-left: 2rem;
+    }
+    .m-2 h1{
+        margin-left: 66.5vw;
+    }
+    .m-2 p{
+        width: 6.5rem;
+        margin-right: 2px;
+    }
+    .m-3 img{
+        width: 155px;
+        height: 335px;
+    }
+    .m-3 p{
+        width: 6rem;
+    }
+    .m-4{
+        margin-left: 22.5rem;
+    }
+    .m-4 img{
+        width: 170px;
+        height: 370px;
+    }
+    .m4-txt h1{
+        margin-top: -11rem;
+    }
+    .m-4 p{
+        margin-left: -9rem;
+    }
+    .m-5 p{
+        width: 5rem;
+    }
+    .img1{
+        width: 320px;
+        margin-top: 17.3rem;
+    }
+    .apps{
+        margin-left: 20vw;
     }
 }
 
