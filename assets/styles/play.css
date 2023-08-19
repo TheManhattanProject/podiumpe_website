@@ -2,6 +2,10 @@
     color: white;
 }
 
+.pics-m{
+    display: none;
+}
+
 header {
     z-index: 1;
     position: relative;
@@ -476,6 +480,82 @@ header {
     margin-left: -1.3rem;
 }
 
+@media (max-width: 1800px){
+    .fantasy-head{
+        margin-top: -28rem;
+        margin-left: -24rem;
+    }
+    .wheel h1{
+        font-size: 11.8rem;
+    }
+    .poster{
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1750px){
+    .fantasy-head{
+        margin-top: -29rem;
+        margin-left: -19rem;
+    }
+    .wheel h1{
+        font-size: 11.4rem;
+    }
+    .bts h2{
+        margin-top: 1.5rem;
+    }
+}
+
+@media(max-width: 1700px){
+    .fantasy-head{
+        margin-top: -28rem;
+        margin-left: -16rem;
+    }
+    .wheel h1{
+        font-size: 11rem;
+    }
+}
+
+@media (max-width: 1650px){
+    .fantasy-head{
+        margin-top: -28rem;
+        margin-left: -13rem;
+    }
+    .wheel h1{
+        font-size: 10.4rem;
+    }
+    /* .wheel h1 {
+        font-size: 11rem;
+    }
+
+    .right-most h1 {
+        margin-left: -13.5rem;
+    }
+
+    .top-X {
+        font-size: 350px;
+    }
+
+    .r-shift {
+        margin-right: -23rem;
+    } */
+}
+
+@media (max-width: 1600px){
+    .fantasy-head{
+        margin-left: -9.5rem;
+    }
+}
+
+@media(max-width: 1540px){
+    .wheel h1{
+        font-size: 10rem;
+    }
+    .fantasy-head{
+        margin-top: -27rem;
+    }
+}
+
 
 @media(max-width: 1500px) {
     .wheel h1 {
@@ -500,10 +580,6 @@ header {
         overflow: hidden;
     }
 
-    .right-most {
-        /* overflow: hidden; */
-    }
-
     .right-most h1 {
         text-align: right;
         margin-top: 3rem;
@@ -516,6 +592,9 @@ header {
         width: 10vw;
         margin-left: -5rem;
         margin-right: 2.5rem;
+    }
+    .fantasy-head{
+        margin-top: -26rem;
     }
 }
 
@@ -657,7 +736,7 @@ header {
     }
 
     .fantasy-head {
-        margin-top: -54vh;
+        margin-top: -24rem;
         margin-left: -16vw;
     }
 
@@ -685,19 +764,938 @@ header {
     }
 }
 
-/* 
-@media (max-width: 1810px) {
-    .wheel {
-        text-align: center;
-        margin-top: 1vw;
+@media (max-width: 1312px) {
+
+    .head-txt h2 {
+        font-size: 3rem;
+        margin-left: 1.8rem;
+    }
+
+    .top-X {
+        font-size: 16rem;
+    }
+
+    .fantasy-head img {
+        height: 7rem;
+    }
+
+    .head-img {
+        margin-left: -7rem;
+    }
+
+    .arrow {
+        font-size: 2.7rem;
+    }
+
+    .wheel h1 {
+        font-size: 7rem;
+        margin-top: -10rem;
+    }
+
+    .bts h2 {
+        font-size: 3.1rem;
+        margin-left: -3rem;
+        margin-top: 1.9rem;
+    }
+
+    .bts p {
+        font-size: 1.25rem;
+        width: 60vw;
+        margin-left: -4rem;
     }
 
     .wheel img {
-        margin-left: 0;
+        width: 19rem;
+    }
+
+    .right-cont p {
+        width: 60vw;
+    }
+
+    .pics {
+        margin-top: 18vh;
+    }
+
+    .pics h1 {
+        font-size: 1.5rem;
+    }
+
+    .img1 {
+        margin-top: -.2rem;
+        margin-left: 3.5rem;
+    }
+
+    .rect1,
+    .rect2,
+    .rect3,
+    .rect4,
+    .rect5 {
+        height: 9rem;
+    }
+
+    .rect3 {
+        margin-top: -2rem;
+    }
+
+    .r-man h1 {
+        margin-left: 1.7rem;
+    }
+    .fantasy-head{
+        margin-top: -22.5rem;
+    }
+
+}
+
+@media(max-width: 1290px) {
+    .fantasy-head img {
+        height: 6.4rem;
+    }
+
+    .head-img {
+        gap: .4rem;
+        margin-left: -5rem;
+    }
+
+    .img1 {
+        height: 30rem;
+        width: 19rem;
+        margin-top: -1.5rem;
+    }
+
+    .rect1,
+    .rect2,
+    .rect3,
+    .rect4,
+    .rect5 {
+        height: 9rem;
+    }
+
+    .rect6 {
+        margin-top: 4rem;
+        margin-left: 68vw;
+        margin-bottom: -6.5rem;
+    }
+
+    .wheel {
+        margin-top: -1.5rem;
+    }
+
+    .bts h2 {
+        margin-top: 2.1rem;
+    }
+
+    .wheel img {
+        width: 20.5rem;
+    }
+
+    .fantasy-head{
+        margin-top: -22rem;
     }
 }
 
-@media(max-width:1550px) {
+@media(max-width: 1250px) {
+
+    .title h1{
+        font-size: 4rem;
+    }
+
+    .title p{
+        font-size: 1.5rem;
+        margin-top: 2.8rem;
+        margin-left: -2.5rem;
+    }
+
+    .right p {
+        margin-left: -2rem;
+    }
+
+    .apps img {
+        height: 4rem;
+        width: 13.5rem;
+    }
+
+    .apps {
+        margin-left: 0rem;
+    }
+
+    .rect2,
+    .rect3 {
+        height: 8.5rem;
+    }
+
+    .left-rect {
+        margin-top: 29rem;
+    }
+
+    .rect2 {
+        margin-left: 1rem;
+    }
+
+    .rect3 {
+        margin-top: -2.5rem;
+    }
+
+    .r-man h1 {
+        margin-left: -1vw;
+        font-size: 4.8rem;
+        transform: scaleY(.8);
+        margin-top: -3.4rem;
+    }
+
+    .right-most h1 {
+        margin-left: -8.6rem;
+        margin-top: 3rem;
+    }
+
+    .right-most p {
+        margin-top: 11rem;
+        margin-left: -4.4rem;
+    }
+
+    .right-most img {
+        height: 26rem;
+        width: 7rem;
+    }
+
+    .center img {
+        height: 39.5rem;
+        width: 18.5rem;
+    }
+
+    .center p {
+        line-height: 17px;
+    }
+
+    .left-most img {
+        width: 8rem;
+        height: 25rem;
+    }
+
+    .left-most h1 {
+        margin-top: 3.3rem;
+    }
+
+    .left img {
+        height: 27rem;
+    }
+
+    .center h1 {
+        margin-top: 1rem;
+    }
+
+    .center p {
+        margin-top: 9rem;
+    }
+
+    .right p {
+        margin-left: -3rem;
+        margin-top: -2.5rem;
+    }
+
+    .right h1 {
+        margin-top: .8rem;
+        margin-left: -.3rem;
+    }
+
+    .right img {
+        height: 27rem;
+        width: 14rem;
+    }
+
+    .img1 {
+        height: 29.6rem;
+        margin-top: 4rem;
+        margin-left: 4rem;
+    }
+
+    .rect1 {
+        height: 8rem;
+        margin-left: 12rem;
+    }
+
+    .right-rect img {
+        height: 8rem;
+    }
+
+    .right-rect {
+        margin-top: 19.5rem;
+        margin-right: -5.1rem;
+    }
+
+    .rect4 {
+        margin-top: 8rem;
+        margin-right: -5.1rem;
+    }
+
+    .arrow {
+        font-size: 2.5rem;
+    }
+
+    .fantasy-head {
+        margin-top: -22rem;
+    }
+
+    .head-img {
+        margin-left: -3rem;
+    }
+
+    .wheel {
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 1230px) {
+    .r-man h1 {
+        margin-left: 1vw;
+    }
+
+    .head-img {
+        margin-left: -.4rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .r-man h1 {
+        font-size: 4.6rem;
+    }
+}
+
+@media (max-width: 1180px) {
+    .r-man h1 {
+        font-size: 6vw;
+    }
+
+    .apps img {
+        width: 12.5rem;
+    }
+
+    .head-img {
+        margin-right: 1.4rem;
+        margin-left: 2.5rem;
+    }
+
+    .right p {
+        margin-left: -1.8rem;
+    }
+
+    .left p {
+        margin-left: 4.4rem;
+        width: 10rem;
+    }
+
+    .arrow {
+        margin-left: 53.5vw;
+    }
+
+    .center img {
+        margin-left: 1rem;
+    }
+
+    .right p {
+        margin-top: -3rem;
+    }
+
+    .right h1 {
+        margin-left: 3rem;
+        width: 13rem;
+    }
+
+    .right img {
+        margin-left: 3rem;
+    }
+
+    .right-most p {
+        margin-left: -5.5rem;
+    }
+
+    .right-most img {
+        width: 5.6rem;
+        height: 25rem;
+    }
+
+    .img1 {
+        margin-top: 4.6rem;
+    }
+
+    .top-X {
+        margin-top: -14rem;
+    }
+
+}
+
+@media (max-width: 1140px) {
+    .head-img {
+        margin-left: 4.5rem;
+    }
+
+    .img1 {
+        margin-left: 6rem;
+    }
+
+    .r-man h1 {
+        margin-top: -3rem;
+        margin-left: 3rem;
+    }
+
+    .rect1 {
+        margin-left: 14rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .top-X {
+        margin-top: -12.5rem;
+        font-size: 15rem;
+    }
+
+    .center img {
+        margin-left: .2rem;
+    }
+
+    .right p {
+        margin-left: 0;
+    }
+
+    .pics h1 {
+        font-size: 1.3rem;
+    }
+
+    .pics p {
+        font-size: 12px;
+    }
+
+    .left-most img {
+        width: 6rem;
+    }
+
+    .center img {
+        width: 19rem;
+        height: 38rem;
+    }
+
+    .left img {
+        height: 25rem;
+        margin-left: 1.4rem;
+    }
+
+    .left h1 {
+        margin-left: 3.5rem;
+    }
+
+    .left p {
+        margin-left: 5rem;
+    }
+
+    .right img {
+        height: 24.5rem;
+        width: 13rem;
+        margin-top: .2rem;
+    }
+
+    .right p {
+        margin-top: -5rem;
+    }
+
+    .right-most p {
+        margin-top: 9.5rem;
+    }
+
+    .right-most img {
+        height: 24rem;
+    }
+
+    .right-most {
+        margin-left: 1rem;
+    }
+
+    .left-rect {
+        margin-top: 28rem;
+    }
+
+    .cmg-soon {
+        margin-top: -26rem;
+    }
+
+    .img1 {
+        height: 27rem;
+        width: 17rem;
+    }
+
+
+    .r-man h1 {
+        margin-top: -2rem;
+    }
+
+    .right-rect {
+        margin-top: 17rem;
+    }
+
+    .apps img {
+        height: 3.5rem;
+        width: 12rem;
+    }
+
+    .apps {
+        margin-left: 2rem;
+    }
+
+    .arrow {
+        margin-top: -.4rem;
+        font-size: 2.3rem;
+    }
+
+    .nav-menu li {
+        font-size: 1rem;
+    }
+
+    .head-txt h1 {
+        font-size: 1.3rem;
+    }
+
+    .head-txt h2 {
+        font-size: 2.6rem;
+        margin-left: 1.3rem;
+    }
+
+    .fantasy-head {
+        margin-left: -15rem;
+    }
+
+    .fantasy-head img {
+        height: 6rem;
+    }
+
+    .heading h2 {
+        font-size: 3.6rem;
+    }
+
+    .heading h1 {
+        font-size: 4.5rem;
+    }
+
+}
+
+@media (max-width: 1060px) {
+    .r-man h1 {
+        margin-left: 4.5rem;
+    }
+
+    .img1 {
+        margin-top: 4.6rem;
+    }
+
+    .fantasy-head {
+        margin-left: -13rem;
+    }
+
+    .apps img {
+        height: 3rem;
+        width: 10.5rem;
+    }
+
+}
+
+@media (max-width: 1045px){
+    .wheel h1{
+        font-size: 6rem;
+        margin-top: -8rem;
+    }
+
+    .wheel h2{
+        font-size: 2.8rem;
+        margin-top: 2.5rem;
+    }
+
+    .wheel img{
+        height: 12rem;
+        margin-left: 24rem; 
+        width: 18rem;
+    }
+
+    .wheel p{
+        width: 70vw;
+        font-size: 18px;
+    }
+
+    .left-rect{
+        margin-left: -3.2rem;
+    }
+
+    .arrow {
+        font-size: 2rem;
+    }
+
+    .fantasy-head{
+        margin-left: -11rem;
+        margin-top: -21rem;
+    }
+
+    .center p{
+        margin-left: -10rem;
+    }
+    .center{
+        margin-left: -.5rem;
+    }
+
+    .right img{
+        margin-left: 2.5rem;
+    }
+}
+
+@media(max-width: 1020px){
+    .fantasy-head h1{
+        font-size: 1.3rem;
+    }
+
+    .fantasy-head h2{
+        font-size: 2.3rem;
+    }
+
+    .fantasy-head{
+        margin-left: -12rem;
+    }
+
+    .arrow{
+        font-size: 1.9rem;
+    }
+
+    .r-man h1{
+        margin-left: 5.8rem;
+    }
+}
+
+@media(max-width: 1000px){
+    .wheel img{
+        margin-left: 22rem;
+    }
+
+    .fantasy-head{
+        margin-left: -11rem;
+    }
+
+    .r-shift{
+        margin-right: -14rem;
+    }
+
+    .center img{
+        width: 17rem;
+        height: 34rem;
+    }
+
+    .center p{
+        margin-top: 6rem;
+    }
+
+    .left-most img{
+        height: 21rem;
+        width: 5rem;
+    }
+
+    .left-most p{
+        margin-top: 6.5rem;
+    }
+
+    .left img{
+        height: 22rem;
+    }
+
+    .right img{
+        height: 22rem;
+        width: 12rem;
+    }
+
+    .left{
+        margin-top: 13rem;
+    }
+
+    .right-most{
+        margin-top: 3rem;
+    }
+
+    .right{
+        margin-top: 20rem;
+    }
+
+    .pics h1{
+        font-size: 1.1rem;
+    }
+
+    .rect2,.rect3{
+        height: 7rem;
+    }
+    .left-rect{
+        margin-left: -2.4rem;
+        margin-top: 27.3rem;
+    }
+
+    .right-rect img{
+        height: 7rem;
+    }
+
+    .rect4{
+        margin-right: -4.4rem;
+        margin-top: 7rem;
+    }
+
+    .right-rect{
+        margin-right: -4.4rem;
+    }
+
+    .rect1{
+        height: 7rem;
+        margin-left: 10rem;
+    }
+    
+    .rect3{
+        margin-top: -4rem;
+    }
+
+    .r-man{
+        margin-top: 1.5rem;
+    }
+
+    .img1{
+        height: 22rem;
+        width: 12rem;
+    }
+
+    .apps img{
+        height: 3rem;
+        width: 9.5rem;
+    }
+}
+
+@media(max-width: 950px){
+    .fantasy-head h1{
+        font-size: 1.2rem;
+    }
+
+    .fantasy-head h2{
+        font-size: 2.2rem;
+    }
+
+    .head-img img{
+        height: 5.5rem;
+    }
+
+    .fantasy-head{
+        margin-left: -9rem;
+    }
+
+    .wheel h1{
+        font-size: 5rem;
+        margin-top: -7rem;
+    }
+
+    .bts h2{
+        font-size: 2.2rem;
+        margin-top: 3rem;
+    }
+
+    .bts p{
+        font-size: 14px;
+        width: 60vw;
+    }
+
+    .wheel img{
+        width: 16rem;
+        height: 12rem;
+    }
+
+    .pics p{
+        font-size: 11px;
+    }
+
+    .right p{
+        margin-left: 1.2rem;
+    }
+
+    .right-most p{
+        margin-left: -6rem;
+    }
+
+    .right-most h1{
+        margin-left: -7.5rem;
+    }
+
+    .right-most img{
+        width: 5rem;
+    }
+}
+
+@media(max-width: 920px){
+    .head-txt{
+        margin-left: -.4rem;
+    }
+
+    .fantasy-head{
+        margin-left: -7rem;
+    }
+
+    .pics p{
+        font-size: 10px;
+    }
+
+    .center p{
+        margin-top: 7.5rem;
+        margin-left: -9rem;
+    }
+
+    .pics h1{
+        font-size: 1rem;
+    }
+
+    .center img{
+        width: 15rem;
+    }
+
+    .right img{
+        width: 10.7rem;
+    }
+}
+
+@media (max-width: 870px){
+    .img1{
+        margin-top: 5rem;
+    }
+
+    .rect1{
+        margin-top: 4rem;
+    }
+
+    .r-man h1{
+        font-size: 3rem;
+    }
+
+    .left img{
+        margin-left: 2.4rem;
+    }
+
+    .right-most h1{
+        margin-left: -8rem;
+    }
+
+    .top-X{
+        font-size: 13rem;
+        margin-top: -10rem;
+    }
+
+    .fantasy-head{
+        margin-top: -19rem;
+    }
+
+    .head-txt h1{
+        font-size: 1rem;
+    }
+
+    .head-txt h2{
+        font-size: 1.9rem;
+    }
+
+    .head-img img{
+        height: 5rem;
+    }
+
+    .fantasy-head{
+        margin-left: -12rem;
+    }
+
+    .wheel img{
+        margin-left: 20rem;
+        height: 10rem;
+        width: 15rem;
+        margin-top: 1rem;
+    }
+
+    .wheel h1{
+        margin-top: -7rem;
+    }
+}
+
+@media (max-width: 830px){
+    .left-most img{
+        width: 4rem;
+    }
+
+    .pics p{
+        font-size: 9px;
+    }
+
+    .center p{
+        margin-left: -8rem;
+    }
+
+    .right-most{
+        margin-left: 0rem;
+    }
+
+    .r-man h1{
+        font-size: 2.7rem;
+    }
+
+    .fantasy-head{
+        margin-left: -9rem;
+        margin-top: -18.5rem;
+    }
+
+    .arrow {
+        font-size: 1.7rem;
+    }
+
+    .wheel h1{
+        margin-top: -6rem;
+        font-size: 4rem;
+    }
+
+    .bts h2{
+        font-size: 1.8rem;
+        margin-top: 3.5rem;
+    }
+
+    .bts p{
+        font-size: 13px;
+        width: 58vw;
+    }
+
+    .wheel img{
+        margin-top: 1.5rem;
+        height: 9rem;
+        width: 12rem;
+    }
+}
+
+@media(max-width: 800px){
+    .fantasy-head{
+        margin-left: -7rem;
+    }
+
+    .r-man h1{
+        font-size: 2.5rem;
+    }
+
+    .apps img{
+        height: 2.7rem;
+        width: 7.3rem;
+    }
+
+    .left{
+        margin-left: -7rem;
+    }
+
+    .center img {
+        width: 14rem;
+        margin-left: -.4rem;
+    }
+
+    .right img{
+        width: 10rem;
+    }
+}
+
+ 
+
+@media(min-width:1550px) {
     .r-shift {
         margin-right: -22rem;
     }
@@ -707,7 +1705,7 @@ header {
     }
 }
 
-@media(max-width:1600px) {
+@media(min-width:1600px) {
     .nav-menu li {
         font-size: 1.4rem;
     }
@@ -737,20 +1735,1002 @@ header {
 
 }
 
-@media(max-width: 1650px) {
-    .wheel h1 {
-        font-size: 11rem;
+
+/********************* Mobile View *******************/
+
+
+@media(max-width: 780px){
+    .top-X{
+        display: none;
     }
 
-    .right-most h1 {
-        margin-left: -13.5rem;
+    .fantasy-head{
+        margin-top: 2.5rem;
+        margin-left: -10rem;
     }
 
-    .top-X {
-        font-size: 350px;
+    .head-txt h1{
+        font-size: 1.4rem;
     }
 
-    .r-shift {
-        margin-right: -23rem;
+    .head-txt h2{
+        font-size: 2.1rem;
+        margin-left: 1rem;
     }
-} */
+
+    .head-img img{
+        height: 4.6rem;
+    }
+
+    .arrow{
+        font-size: 1.6rem;
+        margin-left: 43vw;
+    }
+
+    .wheel{
+        margin-top: -2rem;
+    }
+
+    .wheel h1{
+        font-size: 6.5rem;
+        margin-top: -8.4rem;
+    }
+
+    .wheel h2{
+        margin-top: -3rem;
+        font-size: 2.2rem;
+    }
+
+    .bts p{
+        margin-top: 6rem;
+        font-size: 16px;
+        text-align: left;
+        margin-left: -2rem;
+        width: 24rem;
+        font-weight: bolder;
+        line-height: 1.3rem;
+    }
+
+    .wheel img{
+        width: 20rem;
+        height: 15rem;
+        margin-left: 30vw;
+    }
+
+    .bg-text{
+        color: #242424;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: rotate(-47deg);
+        margin-top: 10rem;
+        margin-left: 8rem;
+    }
+
+    .bg-text h1{
+        font-size: 3rem;
+    }
+
+    .bg-text h3{
+        font-size: 2rem;
+    }
+
+    .bg-img img{
+        position: absolute;
+        height: 100rem;
+        width: 42rem;
+        margin-left: 2rem;
+        overflow: hidden;
+    }
+
+    .content p{
+        position: relative;
+    }
+
+    .left-cont img{
+        position: relative;
+    }
+
+    .top1, .top2, .top3{
+        position: relative;
+    }
+
+    .details{
+        margin-top: 10rem;
+    }
+
+    .left-cont{
+        margin-top: -15rem;
+    }
+
+    .left-cont img{
+        width: 70vw;
+        margin-bottom: -1rem;
+    }
+
+    .top1, .top2, .top3{
+        width: 20vw;
+        margin-bottom: .7rem;
+    }
+
+    .btm1, .btm2, .btm3{
+        width: 40vw;
+    }
+
+    .title h1{
+        margin-left: 10vw;
+        font-size: 6rem;
+    }
+
+    .title p{
+        margin-left: -25rem;
+        font-size: 2.5rem;
+        margin-top: 5rem;
+    }
+
+    .right-cont p{
+        font-size: 1.2rem;
+        width: 70vw;
+        line-height: 1.5rem;
+        margin-left: -29rem;
+    }
+
+    .m-t2 h1{
+        margin-left: 24vw;
+    }
+
+    .m-t2 p{
+        margin-left: -20rem;
+    }
+
+    .m-t3 h1{
+        margin-left: 17vw;
+    }
+
+    .m-t3 p{
+        margin-left: -22.5rem;
+    }
+
+    .poster{
+        margin-top: 10rem;
+    }
+
+    .left-rect, .right-rect, .rect1, .rect6{
+        display: none;
+    }
+
+    .center {
+        margin-top: -10rem;
+        margin-left: -7rem;
+    }
+
+    .center img{
+        height: 28rem;
+        width: 15rem;
+    }
+
+    .pics{
+        display: none;
+    }
+
+    .r-man h1{
+        display: none;
+    }
+
+    .pics-m{
+        display: flex;
+        flex-direction: column;
+        margin-top: -1.5rem;
+    }
+
+    .m-1{
+        margin-left: 24vw;
+        display: flex;
+    }
+
+    .m-1 img{
+        width: 15rem;
+        height: 28rem;
+    }
+
+    .m-1 h1{
+        margin-top: 3rem;
+    }
+
+    .pics-m h1{
+        color: red;
+        font-size: 1.4rem;
+    }
+
+    .m-txt h1{
+        width: 9rem;
+    }
+
+    .pics-m p{
+        margin-left: 10px;
+    }
+
+    .bg-fade{
+        display: none;
+    }
+
+    .pics-m p{
+        font-size: 1rem;
+        font-family: Montserrat;
+    }
+
+    .m-txt p{
+        width: 10rem;
+    }
+
+    .m-2{
+        margin-top: -9rem;
+        width: 100%;
+        margin-left: 2rem;
+    }
+
+    .m-2 h1{
+        width: 5rem;
+        margin-left: 77vw;
+        text-align: right;
+    }
+
+    .m-2 img{
+        height: 17rem;
+        width: 9rem;
+    }
+
+    .m2-txt{
+        display: flex;
+        margin-left: 47.5vw;
+    }
+
+    .m2-txt p{
+        width: 10rem;
+        margin-top: 5rem;
+    }
+
+    .m-3{
+        margin-top: -10.5rem;
+        margin-left: 3rem;
+    }
+
+    .m-3 h1{
+        margin-left: 2rem;
+        margin-bottom: -5px;
+    }
+
+    .m3-txt{
+        display: flex;
+    }
+
+    .m-3 img{
+        width: 14rem;
+        height: 28rem;
+    }
+
+    .m3-txt p{
+        width: 12rem;
+        margin-top: 9rem;
+        margin-left: -5px;
+    }
+
+    .m-4{
+        margin-left: 75vw;
+        margin-top: -12rem;
+    }
+
+    .m-4 p{
+        width: 10rem;
+        margin-left: -6.5rem;
+    }
+
+    .m4-txt{
+        display: flex;
+        margin-left: 13vw;
+    }
+
+    .m4-txt h1{
+        transform:rotate(270deg);
+        margin-right: -25rem;
+        margin-top: -12rem;
+        
+    }
+
+    .m4-txt img{
+        width: 16rem;
+        height: 28rem;
+    }
+
+    .m-5{
+        margin-top: -18rem;
+        margin-left: 5rem;
+    }
+
+    .m-5 h1{
+        margin-left: 6rem;
+        margin-bottom: -5px;
+    }
+
+    .m5-txt{
+        display: flex;
+    }
+
+    .m5-txt img{
+        width: 11rem;
+        height: 20rem;
+    }
+
+    .m5-txt h1{
+        margin-top: 1.7rem;
+        margin-left: -5px;
+    }
+
+    .m5-txt p{
+        width: 8rem;
+        margin-top: 2.5rem;
+        margin-left: 2rem;
+    }
+
+    .img1{
+        margin-left: 57vw;
+        height: 30rem;
+        width: 22rem;
+        margin-top: 11.5rem;
+        z-index: 1;
+    }
+
+    .apps{
+        flex-direction: column;
+        margin-left: 37vw;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+
+    .apps img{
+        height: 4.5rem;
+        width: 14rem;
+    }
+}
+
+@media(max-width: 740px){
+    .right-cont p{
+        margin-left: -29rem;
+        width: 80vw;
+    }
+}
+
+@media (max-width: 670px){
+
+    .m-5{
+        margin-left: 2rem;
+        margin-top: -21rem;
+    }
+    .m5-txt p{
+        margin-left: 1rem;
+    }
+    .m3-txt p{
+        margin-left: 0;
+    }
+    .right-cont p{
+        margin-left: -29rem;
+        width: 85vw;
+        font-size: 1.1rem;
+    }
+    .bg-img img{
+        height: 90rem;
+        width: 36rem;
+        margin-left: 2rem;
+    }
+    .bg-text{
+        margin-top: 9rem;
+        margin-left: 5rem;
+    }
+    .img1{
+        margin-left: 52vw;
+        margin-top: 14.5rem;
+    }
+    .m-1{
+        margin-left: 22vw;
+    }
+    .m3-txt img{
+        height: 24rem;
+        width: 13rem;
+    }
+    .m-4{
+        margin-top: -9rem;
+    }
+}
+
+@media (max-width: 620px){
+    .m-1{
+        margin-left: 20vw;
+    }
+
+    .m-4{
+        margin-left: 80vw;
+    }
+
+    .m-3{
+        margin-left: 3vw;
+    }
+
+    .img1{
+        margin-left: 54vw;
+    }
+
+    .title h1{
+        margin-left: 2rem;
+    }
+
+    .m-t2{
+        margin-left: 10rem;
+    }
+
+    .m-t3{
+        margin-left: 5rem;
+    }
+
+    .right-cont p{
+        margin-left: -28rem;
+        width: 90vw;
+    }
+
+    .wheel img{
+        margin-left: 9rem;
+    }
+}
+
+@media (max-width: 580px){
+    .title h1{
+        font-size: 4.5rem;
+        margin-left: 4rem;
+    }
+    .title p{
+        font-size: 2rem;
+        margin-left: -19.7rem;
+        margin-top: 3.7rem;
+    }
+    .m-t2{
+        margin-left: 21vw;
+    }
+    .m-t2 p{
+        margin-left: -15rem;
+    }
+    .m-t3{
+        margin-left: 20vw;
+    }
+    .m-t3 p{
+        margin-left: -17rem;
+    }
+    .poster{
+        margin-top: 15rem;
+    }
+    .right-cont p{
+        font-size: 1rem;
+        margin-left: -26rem;
+    }
+    .bg-img img{
+        height: 86rem;
+        width: 30rem;
+    }
+    .bg-text{
+        margin-top: 8rem;
+        margin-left: 2rem;
+    }
+    .fantasy-head h1{
+        font-size: 1rem;
+    }
+    .fantasy-head h2{
+        font-size: 1.6rem;
+    }
+    .head-img img{
+        height: 4rem;
+    }
+    .arrow{
+        font-size: 1.4rem;
+    }
+    .m-1{
+        margin-top: .4rem;
+        margin-left: 24vw;
+    }
+    .m-1 img{
+        height: 24.6rem;
+        width: 12rem;
+    }
+    .heading h1{
+        font-size: 3.5rem;
+        margin-top: -1.8rem;
+    }
+    .heading h2{
+        font-size: 2.6rem;
+    }
+    .pics-m h1{
+        font-size: 18px;
+    }
+    .pics-m p{
+        font-size: 14px;
+    }
+    .m-1 h1{
+        width: 7rem;
+        margin-top: 2rem;
+    }
+    .m-1 p{
+        width: 8rem;
+    }
+    .m-2{
+        margin-left: 2rem;
+    }
+    .m-2 h1{
+        margin-left: 74.5vw;
+    }
+    .m-2 img{
+        height: 12.9rem;
+        width: 102px;
+        margin-left: -10px;
+    }
+    .m-2 p{
+        width: 9rem;
+        margin-top: 3.5rem;
+    }
+    .m-3{
+        margin-top: -8rem;
+    }
+    .m-3 img{
+        height: 22rem;
+        width: 10.8rem;
+    }
+    .m-3 p{
+        width: 10rem;
+        margin-top: 7rem;
+    }
+    .m4-txt{
+        margin-top: 1rem;
+    }
+    .m-4 img{
+        height: 23rem;
+        width: 11.8rem;
+    }
+    .m4-txt h1{
+        margin-right: -20.3rem;
+        margin-top: -10rem;
+    }
+    .m-5{
+        margin-top: -17.5rem;
+    }
+    .m-5 h1{
+        margin-left: 4rem;
+    }
+    .m5-txt h1{
+        margin-left: -5px;
+        position: absolute;
+    }
+    .m-5 img{
+        height: 227px;
+        width: 112px;
+        position: relative;
+        z-index: 4;
+    }
+    .m-5 p{
+        width: 6rem;
+        margin-top: 5rem;
+    }
+    .img1{
+        margin-top: 18rem;
+        margin-left: 53vw;
+    }
+}
+
+@media (max-width: 530px){
+    .wheel h1{
+        font-size: 86.6px;
+    }
+    .wheel img{
+        height: 252.52px;
+        width: 19rem;
+        margin-left: 7.5rem;
+    }
+    .bts h2{
+        font-size: 32px;
+        margin-top: -1.4rem;
+    }
+    .bts p{
+        font-size: 14px;
+        width: 60vw;
+        margin-left: -3rem;
+        margin-top: 5rem;
+    }
+    .right-cont p{
+        font-size: 14px;
+        margin-left: -20.5rem;
+        width: 73.5vw;
+    }
+    .m-t2{
+        margin-left: 6rem;
+    }
+    .m-t3{
+        margin-left: 4rem;
+    }
+    .bg-img img{
+        width: 28rem;
+        height: 94rem;
+    }
+}
+
+@media (max-width: 490px){
+    .wheel img{
+        margin-left: 6rem;
+    }
+    .title h1{
+        margin-left: 7vw;
+    }
+    .right-cont p{
+        width: 80vw;
+    }
+    .m-1{
+        margin-left: 20vw;
+    }
+    .m-2{
+        margin-left: .5rem;
+        margin-top: -8.5rem;
+    }
+    .m-2 h1{
+        margin-left: 80vw;
+    }
+    .m-3{
+        margin-left: -1rem;
+    }
+    .m-4{
+        margin-left: 26rem;
+    }
+    .m-5{
+        margin-left: -1rem;
+    }
+    .poster{
+        margin-top: 12rem;
+    }
+    .apps{
+        margin-left: 30vw;
+    }
+}
+
+@media (max-width: 460px){
+    .fantasy-head{
+        margin-left: -7rem;
+    }
+    .wheel img{
+        margin-left: 4rem;
+    }
+    .title h1{
+        margin-left: 4vw;
+    }
+    .bg-img img{
+        width: 24rem;
+    }
+    .bg-text {
+        margin-left: 0;
+    }
+    .m-4 p{
+        margin-left: -7.5rem;
+    }
+    .m-4{
+        margin-left: 25rem;
+    }
+    .m-1{
+        margin-left: 15vw;
+    }
+}
+
+@media (max-width: 420px){
+    .head-txt{
+        margin-left: -1rem;
+    }
+    .fantasy-head{
+        margin-left: -8rem;
+    }
+    .fantasy-head h1{
+        font-size: .8rem;
+    }
+    .fantasy-head h2{
+        font-size: 1.4rem;
+    }
+    .wheel h1{
+        font-size: 4.6rem;
+    }
+    .bts h2{
+        font-size: 1.7rem;
+        margin-top: -1rem;
+    }
+    .bts p{
+        width: 74vw;
+        margin-left: -2rem;
+        font-size: 11px;
+    }
+    .right-cont p{
+        margin-left: -19rem;
+        width: 90vw;
+    }
+    .title h1{
+        margin-left: 0;
+    }
+    .m-2 h1{
+        margin-left: 71.8vw;
+    }
+    .m-2{
+        margin-left: 2rem;
+    }
+    .m-2 p{
+        width: 9rem;
+        margin-left: -2rem;
+    }
+    .m-3 h1{
+        margin-left: 16px;
+    }
+    .m-3 p{
+        margin-top: 8rem;
+    }
+    .m-4{
+        margin-left: 24rem;
+    }
+    .m-5{
+        margin-left: -2.25rem;
+    }
+    .img1{
+        margin-left: 52vw;
+    }
+    .apps{
+        margin-left: 25vw;
+    }
+    .heading h2{
+        font-size: 2.3rem;
+    }
+    .heading h1{
+        font-size: 3.2rem;
+    }
+    .m-1 img{
+        width: 11rem;
+    }
+    .arrow{
+        margin-left: 9rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width: 400px){
+    .wheel img{
+        height: 12rem;
+        width: 17rem;
+    }
+    .wheel h1{
+        margin-top: -6.5rem;
+    }
+    .head-img img{
+        height: 3.7rem;
+    }
+    .arrow{
+        font-size: 1.1rem;
+        margin-left: 10rem;
+    }
+    .fantasy-head{
+        margin-left: -8rem;
+    }
+    .title h1{
+        font-size: 4rem;
+        margin-left: 1.6rem;
+    }
+    .title p{
+        font-size: 1.7rem;
+        margin-left: -17rem;
+    }
+    .right-cont p{
+        font-size: 12px;
+        margin-left: -18rem;
+        width: 82.5vw;
+    }
+    .m-t2 p{
+        margin-left: -14rem;
+    }
+    .m-t3 p{
+        margin-left: -15rem;
+    }
+    .bg-img img{
+        height: 92rem;
+        width: 22rem;
+    }
+    .bg-text {
+        transform: rotate(-62deg);
+    }
+    .m-2{
+        margin-left: 1.15rem;
+    }
+    .m-2 h1{
+        margin-left: 75vw;
+    }
+    .m-4{
+        margin-left: 23rem;
+    }
+    .img1{
+        margin-left: 50vw;
+    }
+}
+
+@media (max-width: 380px){
+    .fantasy-head h2{
+        font-size: 1.2rem;
+        margin-left: .7rem;
+    }
+    .fantasy-head{
+        margin-left: -9rem;
+    }
+    .arrow{
+        margin-left: 9rem;
+    }
+    .title h1{
+        margin-left: 0rem;
+    }
+    .m-t2 p{
+        margin-left: -13rem;
+    }
+    .right-cont p{
+        margin-left: -17rem;
+    }
+    .heading h2{
+        font-size: 1.7rem;
+    }
+    .heading h1{
+        font-size: 3rem;
+        margin-top: -1.3rem;
+    }
+    .pics-m p{
+        font-size: 12px;
+    }
+    .m-1 img{
+        width: 165px;
+        height: 384px;
+    }
+    .m-2{
+        margin-left: 2rem;
+    }
+    .m-2 p{
+        width: 7.5rem;
+    }
+    .m-2 h1{
+        margin-left: 68.5vw;
+    }
+    .m-4 {
+        margin-left: 21.5rem;
+    }
+    .m-4 p{
+        width: 7rem;
+    }
+    .m-5 {
+        margin-top: -16.4rem;
+    }
+    .img1{
+        width: 328px;
+        margin-top: 17rem;
+    }
+    .bg-img img{
+        width: 20rem;
+    }
+}
+
+@media(max-width: 350px){
+    .fantasy-head{
+        margin-left: -7.5rem;
+    }
+    .arrow{
+        font-size: 1rem;
+        margin-left: 8.5rem;
+    }
+    .wheel img{
+        width: 15rem;
+        height: 10rem;
+    }
+    .wheel h1{
+        font-size: 4.2rem;
+        margin-top: -5.5rem;
+    }
+    .wheel h2{
+        font-size: 1.55rem;
+        margin-top: -.3rem;
+    }
+    .title h1{
+        font-size: 3.5rem;
+    }
+    .title p{
+        font-size: 1.6rem;
+        margin-left: -15.4rem;
+        margin-top: 3rem;
+    }
+    .bg-img img{
+        margin-top: -1rem;
+        width: 18rem;
+        height: 83rem;
+    }
+    .bg-text h1{
+        font-size: 2.3rem;
+    }
+    .bg-text h3{
+        font-size: 1.5rem;
+    }
+    .right-cont p{
+        line-height: 1.1rem;
+        margin-left: -16.5rem;
+        width: 86vw;
+    }
+    .m-t2 p{
+        margin-left: -12.5rem;
+    }
+    .m-t3 p{
+        margin-left: -13.3rem;
+    }
+    .heading h1{
+        font-size: 2.7rem;
+        margin-top: -1.2rem;
+    }
+    .m-1 img{
+        width: 150px;
+        height: 320px;
+        margin-top: 0;
+    }
+    .m-1 p{
+        width: 6rem;
+    }
+    .pics-m h1{
+        font-size: .9rem;
+    }
+    .pics-m p{
+        font-size: 10px;
+    }
+    .m-2{
+        margin-top: -6.5rem;
+        margin-left: 2rem;
+    }
+    .m-2 h1{
+        margin-left: 66.5vw;
+    }
+    .m-2 p{
+        width: 6.5rem;
+        margin-right: 2px;
+    }
+    .m-3 img{
+        width: 155px;
+        height: 335px;
+    }
+    .m-3 p{
+        width: 6rem;
+    }
+    .m-4{
+        margin-left: 22.5rem;
+    }
+    .m-4 img{
+        width: 170px;
+        height: 370px;
+    }
+    .m4-txt h1{
+        margin-top: -11rem;
+    }
+    .m-4 p{
+        margin-left: -9rem;
+    }
+    .m-5 p{
+        width: 5rem;
+    }
+    .img1{
+        width: 320px;
+        margin-top: 17.3rem;
+    }
+    .apps{
+        margin-left: 20vw;
+    }
+}
+
+
+
+@media(min-width: 781px){
+    .bg-img{
+        display: none;
+    }
+}

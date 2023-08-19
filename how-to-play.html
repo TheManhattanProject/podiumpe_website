@@ -34,6 +34,7 @@
 
                 </div>
             </ul>
+            
         </nav>
         <div id="hamburger-menu-wrapper">
             <span class="menu-bar"></span>
@@ -41,6 +42,7 @@
             <span class="menu-bar"></span>
         </div>
     </header>
+
     <div class="top-X">
         <h1>X</h1>
         <h1 class="r-shift">X</h1>
@@ -71,6 +73,14 @@
         </div>
     </div>
     <div class="details">
+        <div class="bg-img">
+            <div class="bg-text">
+                <h1>SUZUKA</h1>
+                <h3>JAPAN</h3>
+                <h1>CIRCUIT</h1>
+            </div>
+            <img src="./assets/images/Group 9213(1).png" alt="">
+        </div>
         <div class="title">
             <h1>CHOOSE</h1>
             <p>the right game</p>
@@ -92,7 +102,7 @@
     </div>
 
     <div class="details">
-        <div class="title">
+        <div class="title m-t2">
             <h1>PICK</h1>
             <p>the best options.</p>
         </div>
@@ -113,7 +123,7 @@
     </div>
 
     <div class="details">
-        <div class="title">
+        <div class="title m-t3">
             <h1>TRACK</h1>
             <p>your progress.</p>
         </div>
@@ -151,7 +161,7 @@
             </div>
             <div class="center">
                 <img src="./assets/images/center-p.png" alt="">
-                <h1>RACES YOU DON'T WANT TO MISS OUT ON.</h1>
+                <h1>RACES YOU DON'T WANT TO MISS OUT <br> ON.</h1>
                 <p>Get all the information you need to make the right decisions.</p>
             </div>
             <div class="right">
@@ -166,6 +176,50 @@
                     MORE</h1>
                 <img src="./assets/images/right-most-p.png" alt="">
             </div>
+        </div>
+
+        <div class="pics-m">
+            <div class="m-1">
+                <img src="./assets/images/p-1.png" alt="">
+                <div class="m-txt">
+                    <h1>RACES <br> YOU <br> DON'T WANT TO MISS OUT ON.</h1>
+                    <p>Get all the information you need to make the right decisions.</p>
+                </div>
+            </div>
+            <div class="m-2">
+                <h1>PLAY MORE
+                    WIN
+                    MORE</h1>
+                <div class="m2-txt">
+                    <p>The more you play, the more likely you are to win.</p>
+                    <img src="./assets/images/p-2.png" alt="">
+                </div>
+            </div>
+            <div class="m-3">
+                <h1>BIG PRIZES</h1>
+                <div class="m3-txt">
+                    <img src="./assets/images/p-3.png" alt="">
+                    <p>Organized ranking systems to secure your position</p>
+                </div>
+            </div>
+            <div class="m-4">
+                <p>Stay updated with races through the game.</p>
+                <div class="m4-txt">
+                    <h1>STAY UPDATED</h1>
+                    <img src="./assets/images/p-4.png" alt="">
+                </div>
+            </div>
+            <div class="m-5">
+                <h1>WIN BIG</h1>
+                <div class="m5-txt">
+                    <img src="./assets/images/p-5.png" alt="">
+                    <div>
+                        <h1>DRAW <br>MORE</h1>
+                        <p>Secure payments & withdrawals</p>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
 
@@ -194,12 +248,6 @@
         <img src="./assets/images/Group 9163.png" alt="">
     </div>
     <img class="rect6" src="./assets/images/Rectangle 40756.png" alt="">
-
-
-
-
-
-
 
     <footer>
         <!-- <img src="./assets/images/footer.png" id="footer-img" /> -->
@@ -280,5 +328,17 @@
     </footer>
 
 </body>
+
+<script>
+    const menu = document.querySelector("#hamburger-menu-wrapper");
+    const close = document.querySelector(".close");
+    const nav = document.querySelector("nav");
+    menu.addEventListener("click", () => {
+      nav.classList.add("open-nav");
+    });
+    close.addEventListener("click", () => {
+      nav.classList.remove("open-nav");
+    });
+  </script>
 
 </html>
