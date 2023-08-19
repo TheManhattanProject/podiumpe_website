@@ -434,7 +434,7 @@
   }
 
   #final {
-    margin-top: 35px;
+    margin-top: 20px;
     height: auto;
   }
 
@@ -808,15 +808,15 @@
   /* changes done */
   .phone-s-download {
     display: block;
-    height: 500px;
+    height: 441px;
     max-width: 100%;
     /* border: 2px solid red; */
     overflow: hidden;
     position: relative;
   }
   .phone-img-mobile {
-    width: 185px;
-    height: 375px;
+    width: 206px;
+    height: 395px;
     position: absolute;
     top: 8%;
     left: 50%;
@@ -879,6 +879,8 @@
   .phone-middle-strip {
     height: 63.736px;
     position: relative;
+    display: flex;
+    align-items: center;
   }
   .phone-middle-strip > p {
     color: #fff;
@@ -888,6 +890,7 @@
     text-align: center;
     padding:17px 0;
     transform: scaleX(2.2);
+    width: 420px;
   }
   .cm-text-mobile{
     display: flex;
@@ -1085,7 +1088,7 @@
   }
 
   #footer-subcard {
-    margin-top: 2.2rem;
+    margin-top: 2.6rem;
     margin-left: 0.8rem;
     margin-right: 0.8rem;
   }
@@ -1180,7 +1183,7 @@
 }
 @media (min-width:450px) and (max-width:500px) {
   .phone-s-x-section > p {
-    transform: scaleX(2.1);
+    transform: scaleX(2.3);
   }
   .phone-strip-mobile {
     top:50%;
@@ -1228,10 +1231,10 @@
 }
 @media (min-width:550px) and (max-width:630px) {
   .phone-s-download{
-    height: 550px;
+    /* height: 550px; */
   }
   .phone-s-x-section > p {
-    transform: scaleX(2.65);
+    transform: scaleX(2.8);
   }
   .phone-strip-mobile {
     top:46%;
@@ -1258,7 +1261,7 @@
 }
 @media (min-width:630px) and (max-width:700px) {
   .phone-s-download{
-    height: 580px;
+    /* height: 580px; */
   }
   .phone-s-x-section > p {
     transform: scaleX(2.9);
@@ -1289,7 +1292,7 @@
 }
 @media (min-width:700px) and (max-width:780px) {
   .phone-s-download{
-    height: 620px;
+    /* height: 620px; */
   }
   .phone-s-x-section > p {
     transform: scaleX(3.4);
@@ -1321,5 +1324,17 @@
 @media (min-width:300px) and (max-width:359px){
   .phone-strip-mobile-2{
     width:450px;
+  }
+}
+@media screen and (max-width:515px) {
+  .phone-middle-strip > p{
+    transform: scaleX(1.6);
+    width:242px;
+  }
+  
+}
+@media (min-width:515px) and (max-width:590px){
+  .phone-middle-strip > p{
+    width:355px;
   }
 }
