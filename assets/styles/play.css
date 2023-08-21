@@ -1,3 +1,15 @@
+body{
+    max-width: 1803px;
+    margin: auto;
+}
+
+
+@font-face {
+    font-family: "Poppins1";
+    src: url("../font/Poppins-ExtraLight.ttf") format("truetype");
+  }
+  
+
 .active {
     color: white;
 }
@@ -87,7 +99,7 @@ header {
 }
 
 .arrow {
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins1;
     font-size: 3.2rem;
     transform: scaleX(0.58);
     color: red;
@@ -124,7 +136,7 @@ header {
 }
 
 .bts h2 {
-    color: red;
+    color: #BE0E0E;
     font-size: 3.9rem;
 }
 
@@ -248,11 +260,12 @@ header {
 }
 
 .pics h1 {
-    color: red;
+    color: #D21717;
 }
 
 .pics p {
     font-family: Montserrat;
+    color: #C9C9C9;
 }
 
 .center img {
@@ -260,6 +273,12 @@ header {
     margin-top: -1.8rem;
     height: 48.5rem;
     /* margin-left: 11vw; */
+}
+
+.poster{
+    max-width: 1803px;
+    margin: auto;
+    overflow-x: hidden;
 }
 
 .center {
@@ -480,16 +499,109 @@ header {
     margin-left: -1.3rem;
 }
 
+@media (min-width: 1810px){
+    .right-most img{
+        max-width: 15rem;
+        margin-left: -.1vw;
+    }
+}
+
+@media (min-width: 1800px){
+    .poster{
+        position: static;
+    }
+    .right img{
+        width: 19rem;
+    }
+    .right-most img{
+        width: 15rem;
+        position: sticky;
+        margin-right: -2rem;
+    }
+    .right-most{
+        position: sticky;
+        right: 0;
+        margin-left: 1rem;
+    }
+    .right-most p{
+        max-width: 14rem;
+    }
+    .right-most h1{
+        max-width: 8rem;
+    }
+    .top-X{
+        margin: auto;
+        position: sticky;
+        overflow: hidden;
+    }
+    .fantasy-head{
+        z-index: 1;
+        position: relative;
+        margin-left: auto;
+        margin-top: -29rem;
+    }
+    .wheel {
+        margin-left: 10%;
+        margin-top: 1rem;
+    }
+    .wheel img{
+        margin-left: 35%;
+    }
+    .center{
+        position: relative;
+        margin-left: -2vw;
+    }
+    .center img{
+        max-width: 25rem;
+        position: sticky;
+    }
+    .center h1{
+        max-width: 15rem;
+    }
+    .center p{
+        max-width: 12rem;
+        margin-right: 5rem;
+    }
+    .left img{
+        max-width: 19rem;
+    }
+    .left p{
+        max-width: 13rem;
+    }
+    .left-most img{
+        max-width: 11rem;
+    }
+    .right p{
+        max-width: 13rem;
+    }
+    .left{
+        margin-left: -6vw;
+        margin-right: 2vw;
+    }
+    .right{
+        margin-left: -13rem;
+    }
+}
+
 @media (max-width: 1800px){
     .fantasy-head{
         margin-top: -28rem;
-        margin-left: -24rem;
+        margin-left: -25rem;
     }
     .wheel h1{
         font-size: 11.8rem;
     }
     .poster{
         overflow: hidden;
+    }
+    .right{
+        margin-left: -12rem;
+    }
+    .right img{
+        width: 19rem;
+    }
+    .right-most img{
+        width: 15.5rem;
     }
 }
 
@@ -504,6 +616,9 @@ header {
     .bts h2{
         margin-top: 1.5rem;
     }
+    .right{
+        margin-left: -11.5rem;
+    }
 }
 
 @media(max-width: 1700px){
@@ -514,6 +629,9 @@ header {
     .wheel h1{
         font-size: 11rem;
     }
+    .right{
+        margin-left: -10rem;
+    }
 }
 
 @media (max-width: 1650px){
@@ -523,6 +641,9 @@ header {
     }
     .wheel h1{
         font-size: 10.4rem;
+    }
+    .right{
+        margin-left: -9rem;
     }
     /* .wheel h1 {
         font-size: 11rem;
@@ -554,6 +675,12 @@ header {
     .fantasy-head{
         margin-top: -27rem;
     }
+    .right{
+        margin-left: -7rem;
+    }
+    .right-most{
+        margin-left: -2rem;
+    }
 }
 
 
@@ -578,6 +705,9 @@ header {
 
     .poster {
         overflow: hidden;
+    }
+    .right-most{
+        margin-left: -2rem;
     }
 
     .right-most h1 {
@@ -710,6 +840,10 @@ header {
     .right-most p {
         margin-top: 12rem;
         margin-left: -6rem;
+    }
+
+    .right img{
+        width: 17rem;
     }
 
 }
@@ -954,7 +1088,7 @@ header {
 
     .right-most img {
         height: 26rem;
-        width: 7rem;
+        width: 17rem;
     }
 
     .center img {
@@ -1110,7 +1244,7 @@ header {
     }
 
     .right-most img {
-        width: 5.6rem;
+        width: 12rem;
         height: 25rem;
     }
 
@@ -1140,6 +1274,22 @@ header {
 
     .rect1 {
         margin-left: 14rem;
+    }
+
+    .right p{
+        margin-left: -0.8rem;
+    }
+
+    .right{
+        margin-left: -9rem;
+    }
+
+    .right-most img{
+        width: 10rem;
+    }
+
+    .right-most{
+        margin-left: 0rem;
     }
 }
 
@@ -1415,6 +1565,7 @@ header {
 
     .right{
         margin-top: 20rem;
+        margin-left: -7rem;
     }
 
     .pics h1{
@@ -1520,7 +1671,15 @@ header {
     }
 
     .right-most img{
-        width: 5rem;
+        width: 10rem;
+    }
+
+    .right{
+        margin-left: -8rem;
+    }
+
+    .right-most{
+        margin-left: 0rem;
     }
 }
 
@@ -1832,10 +1991,6 @@ header {
         position: relative;
     }
 
-    .top1, .top2, .top3{
-        position: relative;
-    }
-
     .details{
         margin-top: 10rem;
     }
@@ -1845,11 +2000,12 @@ header {
     }
 
     .left-cont img{
-        width: 70vw;
+        width: 60vw;
         margin-bottom: -1rem;
     }
 
     .top1, .top2, .top3{
+        position: relative;
         width: 20vw;
         margin-bottom: .7rem;
     }
@@ -1873,7 +2029,7 @@ header {
         font-size: 1.2rem;
         width: 70vw;
         line-height: 1.5rem;
-        margin-left: -29rem;
+        margin-left: -25rem;
     }
 
     .m-t2 h1{
@@ -1939,7 +2095,7 @@ header {
     }
 
     .pics-m h1{
-        color: red;
+        color: #D21717;
         font-size: 1.4rem;
     }
 
@@ -1949,6 +2105,7 @@ header {
 
     .pics-m p{
         margin-left: 10px;
+        color: #C9C9C9;
     }
 
     .bg-fade{
@@ -1979,6 +2136,7 @@ header {
     .m-2 img{
         height: 17rem;
         width: 9rem;
+        overflow: hidden;
     }
 
     .m2-txt{
@@ -2041,6 +2199,7 @@ header {
     .m4-txt img{
         width: 16rem;
         height: 28rem;
+        overflow: hidden;
     }
 
     .m-5{
@@ -2096,7 +2255,7 @@ header {
 
 @media(max-width: 740px){
     .right-cont p{
-        margin-left: -29rem;
+        /* margin-left: -29rem; */
         width: 80vw;
     }
 }
@@ -2114,7 +2273,7 @@ header {
         margin-left: 0;
     }
     .right-cont p{
-        margin-left: -29rem;
+        margin-left: -24rem;
         width: 85vw;
         font-size: 1.1rem;
     }
@@ -2173,12 +2332,19 @@ header {
     }
 
     .right-cont p{
-        margin-left: -28rem;
+        /* margin-left: -28rem; */
         width: 90vw;
     }
 
     .wheel img{
         margin-left: 9rem;
+    }
+
+    .m4-txt h1{
+        margin-right: -26rem;
+        margin-top: -12rem;
+        margin-bottom: -2.5rem;
+        
     }
 }
 
@@ -2209,7 +2375,7 @@ header {
     }
     .right-cont p{
         font-size: 1rem;
-        margin-left: -26rem;
+        margin-left: -22rem;
     }
     .bg-img img{
         height: 86rem;
@@ -2295,6 +2461,7 @@ header {
     .m4-txt h1{
         margin-right: -20.3rem;
         margin-top: -10rem;
+        margin-bottom: 0;
     }
     .m-5{
         margin-top: -17.5rem;
@@ -2343,7 +2510,7 @@ header {
     }
     .right-cont p{
         font-size: 14px;
-        margin-left: -20.5rem;
+        margin-left: -18rem;
         width: 73.5vw;
     }
     .m-t2{
@@ -2384,6 +2551,11 @@ header {
     .m-4{
         margin-left: 26rem;
     }
+    .m4-txt h1{
+        margin-right: -22rem;
+        margin-top: -11rem;
+        margin-bottom: -2rem;
+    }
     .m-5{
         margin-left: -1rem;
     }
@@ -2418,7 +2590,13 @@ header {
         margin-left: 25rem;
     }
     .m-1{
-        margin-left: 15vw;
+        margin-left: 12vw;
+    }
+    .right-cont p{
+        margin-left: -16.5rem;
+    }
+    .arrow{
+        margin-left: 10rem;
     }
 }
 
@@ -2448,7 +2626,7 @@ header {
         font-size: 11px;
     }
     .right-cont p{
-        margin-left: -19rem;
+        /* margin-left: -16rem; */
         width: 90vw;
     }
     .title h1{
@@ -2483,7 +2661,7 @@ header {
         margin-left: 25vw;
     }
     .heading h2{
-        font-size: 2.3rem;
+        font-size: 2.4rem;
     }
     .heading h1{
         font-size: 3.2rem;
@@ -2525,7 +2703,7 @@ header {
     }
     .right-cont p{
         font-size: 12px;
-        margin-left: -18rem;
+        margin-left: -15rem;
         width: 82.5vw;
     }
     .m-t2 p{
@@ -2572,11 +2750,8 @@ header {
     .m-t2 p{
         margin-left: -13rem;
     }
-    .right-cont p{
-        margin-left: -17rem;
-    }
     .heading h2{
-        font-size: 1.7rem;
+        font-size: 2.2rem;
     }
     .heading h1{
         font-size: 3rem;
@@ -2657,7 +2832,7 @@ header {
     }
     .right-cont p{
         line-height: 1.1rem;
-        margin-left: -16.5rem;
+        margin-left: -14rem;
         width: 86vw;
     }
     .m-t2 p{
@@ -2703,7 +2878,7 @@ header {
         width: 6rem;
     }
     .m-4{
-        margin-left: 22.5rem;
+        margin-left: 24.5rem;
     }
     .m-4 img{
         width: 170px;
@@ -2711,6 +2886,7 @@ header {
     }
     .m4-txt h1{
         margin-top: -11rem;
+        margin-bottom: -4rem;
     }
     .m-4 p{
         margin-left: -9rem;
@@ -2724,6 +2900,9 @@ header {
     }
     .apps{
         margin-left: 20vw;
+    }
+    .heading h2{
+        font-size: 2rem;
     }
 }
 
