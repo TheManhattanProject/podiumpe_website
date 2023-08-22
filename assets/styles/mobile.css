@@ -187,6 +187,7 @@
 
   .open-nav {
     transform: translateX(0%);
+    position: fixed;
   }
 
   .res-link {
