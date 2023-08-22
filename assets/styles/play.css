@@ -506,7 +506,7 @@ header {
     }
 }
 
-@media (min-width: 1800px){
+@media (min-width: 1801px){
     .poster{
         position: static;
     }
@@ -588,8 +588,14 @@ header {
         margin-top: -28rem;
         margin-left: -25rem;
     }
+    .wheel{
+        text-align: center;
+    }
+    .wheel img{
+        margin-left: 0;
+    }
     .wheel h1{
-        font-size: 11.8rem;
+        font-size: 10.6rem;
     }
     .poster{
         overflow: hidden;
@@ -602,6 +608,10 @@ header {
     }
     .right-most img{
         width: 15.5rem;
+    }
+    .fantasy-head h2{
+        transform: scaleX(1.2);
+        margin-left: 5rem;
     }
 }
 
@@ -645,21 +655,15 @@ header {
     .right{
         margin-left: -9rem;
     }
-    /* .wheel h1 {
-        font-size: 11rem;
+    .wheel h1{
+        /* transform: scaleX(1.1); */
+        overflow: hidden;
     }
-
-    .right-most h1 {
-        margin-left: -13.5rem;
+    .wheel img{
+        position: relative;
+        z-index: 2;
     }
-
-    .top-X {
-        font-size: 350px;
-    }
-
-    .r-shift {
-        margin-right: -23rem;
-    } */
+    
 }
 
 @media (max-width: 1600px){
@@ -685,13 +689,18 @@ header {
 
 
 @media(max-width: 1500px) {
+    .wheel{
+        margin-top: -1rem;
+    }
     .wheel h1 {
         font-size: 9rem;
         text-align: center;
+        margin-top: -11rem;
     }
 
     .top-X {
         font-size: 18.5rem;
+        margin-top: -11rem;
     }
 
     .right-cont {
@@ -724,13 +733,25 @@ header {
         margin-right: 2.5rem;
     }
     .fantasy-head{
-        margin-top: -26rem;
+        margin-top: -27rem;
+        margin-left: -6rem;
+    }
+    .fantasy-head h2{
+        transform: scaleX(1.1);
+        margin-left: 2.4rem;
     }
 }
 
 @media (max-width: 1460px) {
     .right p {
         margin-left: -3rem;
+    }
+    .fantasy-head {
+        margin-left: -5rem;
+    }
+    .fantasy-head h2{
+        transform: scaleX(1);
+        margin-left: 0;
     }
 }
 
@@ -753,6 +774,10 @@ header {
 
     .right h1 {
         margin-left: 1rem;
+    }
+
+    .fantasy-head {
+        margin-left: -3rem;
     }
 }
 
@@ -851,6 +876,7 @@ header {
 @media (max-width: 1340px) {
     .top-X {
         font-size: 17rem;
+        margin-top: -10rem;
     }
 
     .head-txt h1 {
@@ -870,8 +896,8 @@ header {
     }
 
     .fantasy-head {
-        margin-top: -24rem;
-        margin-left: -16vw;
+        margin-top: -25rem;
+        margin-left: -12rem;
     }
 
     .nav-menu li {
@@ -896,9 +922,22 @@ header {
         font-size: 1.7rem;
         width: 70vw;
     }
+
+    .wheel{
+        margin-top: 0rem;
+    }
 }
 
 @media (max-width: 1312px) {
+
+    .fantasy-head{
+        margin-left: -10rem;
+        margin-top: -30rem;
+    }
+
+    .fantasy-head h2{
+        transform: scaleX(1.1);
+    }
 
     .head-txt h2 {
         font-size: 3rem;
@@ -1295,8 +1334,8 @@ header {
 
 @media (max-width: 1100px) {
     .top-X {
-        margin-top: -12.5rem;
-        font-size: 15rem;
+        margin-top: -9rem;
+        font-size: 14rem;
     }
 
     .center img {
@@ -1459,7 +1498,7 @@ header {
 
     .wheel img{
         height: 12rem;
-        margin-left: 24rem; 
+        /* margin-left: 24rem;  */
         width: 18rem;
     }
 
@@ -1516,12 +1555,13 @@ header {
 }
 
 @media(max-width: 1000px){
-    .wheel img{
-        margin-left: 22rem;
-    }
 
+    .top-X{
+        font-size: 12rem;
+    }
     .fantasy-head{
-        margin-left: -11rem;
+        margin-left: -17rem;
+        margin-top: -18rem;
     }
 
     .r-shift{
@@ -1631,11 +1671,11 @@ header {
     }
 
     .fantasy-head{
-        margin-left: -9rem;
+        margin-left: -15rem;
     }
 
     .wheel h1{
-        font-size: 5rem;
+        font-size: 6rem;
         margin-top: -7rem;
     }
 
@@ -1689,7 +1729,11 @@ header {
     }
 
     .fantasy-head{
-        margin-left: -7rem;
+        margin-left: -12rem;
+    }
+
+    .fantasy-head h2{
+        margin-left: 2.5rem;
     }
 
     .pics p{
@@ -1736,12 +1780,17 @@ header {
     }
 
     .top-X{
-        font-size: 13rem;
-        margin-top: -10rem;
+        font-size: 11rem;
+        margin-top: -8.5rem;
     }
 
     .fantasy-head{
-        margin-top: -19rem;
+        margin-top: -16rem;
+        margin-left: -16rem;
+    }
+
+    .fantasy-head h2{
+        margin-left: 2rem;
     }
 
     .head-txt h1{
@@ -1756,12 +1805,7 @@ header {
         height: 5rem;
     }
 
-    .fantasy-head{
-        margin-left: -12rem;
-    }
-
     .wheel img{
-        margin-left: 20rem;
         height: 10rem;
         width: 15rem;
         margin-top: 1rem;
@@ -1769,6 +1813,7 @@ header {
 
     .wheel h1{
         margin-top: -7rem;
+        font-size: 5.5rem;
     }
 }
 
@@ -1794,8 +1839,7 @@ header {
     }
 
     .fantasy-head{
-        margin-left: -9rem;
-        margin-top: -18.5rem;
+        margin-left: -13rem;
     }
 
     .arrow {
@@ -1804,7 +1848,7 @@ header {
 
     .wheel h1{
         margin-top: -6rem;
-        font-size: 4rem;
+        font-size: 5rem;
     }
 
     .bts h2{
@@ -1822,11 +1866,15 @@ header {
         height: 9rem;
         width: 12rem;
     }
+
+    .wheel{
+        margin-top: -1.5rem;
+    }
 }
 
 @media(max-width: 800px){
     .fantasy-head{
-        margin-left: -7rem;
+        margin-left: -11rem;
     }
 
     .r-man h1{
@@ -1953,7 +2001,7 @@ header {
     .wheel img{
         width: 20rem;
         height: 15rem;
-        margin-left: 30vw;
+        /* margin-left: 30vw; */
     }
 
     .bg-text{
@@ -2336,10 +2384,6 @@ header {
         width: 90vw;
     }
 
-    .wheel img{
-        margin-left: 9rem;
-    }
-
     .m4-txt h1{
         margin-right: -26rem;
         margin-top: -12rem;
@@ -2494,9 +2538,8 @@ header {
         font-size: 86.6px;
     }
     .wheel img{
-        height: 252.52px;
+        height: 220px;
         width: 19rem;
-        margin-left: 7.5rem;
     }
     .bts h2{
         font-size: 32px;
@@ -2526,9 +2569,6 @@ header {
 }
 
 @media (max-width: 490px){
-    .wheel img{
-        margin-left: 6rem;
-    }
     .title h1{
         margin-left: 7vw;
     }
@@ -2565,14 +2605,14 @@ header {
     .apps{
         margin-left: 30vw;
     }
+    .wheel h1{
+        margin-top: -7rem;
+    }
 }
 
 @media (max-width: 460px){
     .fantasy-head{
         margin-left: -7rem;
-    }
-    .wheel img{
-        margin-left: 4rem;
     }
     .title h1{
         margin-left: 4vw;
@@ -2615,6 +2655,7 @@ header {
     }
     .wheel h1{
         font-size: 4.6rem;
+        margin-top: -6rem;
     }
     .bts h2{
         font-size: 1.7rem;
@@ -2672,6 +2713,9 @@ header {
     .arrow{
         margin-left: 9rem;
         font-size: 1.3rem;
+    }
+    .wheel img{
+        height: 210px;
     }
 }
 
