@@ -1552,7 +1552,7 @@ footer {
   } */
 
   .pm-nav-items {
-    font-size: 16px;
+    font-size: 15px;
     word-break: break-all;
   }
 
@@ -1898,7 +1898,7 @@ footer {
 
 @media (max-width: 820px) {
   #pm-nav {
-    width: 95%;
+    width: 100%;
   }
 
   #gm-car {
@@ -2504,7 +2504,9 @@ footer {
     gap:0rem;
   }
   #pm-nav{
-    gap:0.5rem;
-
+    gap:1.5rem;
+  }
+  .pm-nav-items{
+    font-size: 13px;
   }
 }

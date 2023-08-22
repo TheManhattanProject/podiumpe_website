@@ -1701,7 +1701,7 @@ body {
   }
   .core-title > p{
     font-size:6rem;
-    margin-left: -45px;
+    margin-left: -15px;
   }
   .core-title-2{
     width:799px;
@@ -1715,13 +1715,13 @@ body {
     margin-right:53px;
   }
   .core-2{
-    margin-right:-6px;
+    margin-right:28px;
   }
   .core-description > p {
     font-size: 1rem;
   }
   .coresection-content {
-    right: 28%;
+    right: 27%;
     top:13%;
   }
   .cs-content1{
@@ -1973,10 +1973,10 @@ body {
     font-size: 1.5rem;
   }
   .core-1{
-    margin-right:53px;
+    margin-right:26px;
   }
   .core-2{
-    margin-right:-6px;
+    margin-right:13px;
   }
   .core-description > p {
     font-size: 1rem;
@@ -1999,17 +1999,17 @@ body {
   .aboutline-1 {
     width: 75px;
     height: 92px;
-    top: 42%;
+    top: 40%;
   }
   .aboutline-2 {
     width: 116px;
     height: 173px;
-    top: 42%;
+    top: 40%;
   }
   .aboutline-3 {
     width: 82px;
     height: 137px;
-    top: 44%;
+    top: 42%;
   }
   .about-last {
     height: unset;
@@ -2248,9 +2248,10 @@ body {
     font-size: 1.3rem;
   }
   .core-1{
-    margin-right:-12px;
+    margin-right:18px;
     margin-left: -67px;
     margin-top:-87px;
+    width: 226px;
   }
   .core-value-1{
     font-size:12rem;
@@ -2276,7 +2277,11 @@ body {
     margin-top:70px;
   }
   .core-2{
-    margin-right:29px;
+    margin-right:97px;
+    width:226px;
+  }
+  .core-3{
+    width:226px;
   }
   .core-description > p {
     font-size: 1rem;
