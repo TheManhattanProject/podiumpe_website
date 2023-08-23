@@ -3,11 +3,15 @@ body{
     margin: auto;
 }
 
+@font-face {
+    font-family: "Montserrat-1";
+    src: url("../font/montserrat.bold.ttf") format("truetype");
+}
 
 @font-face {
     font-family: "Poppins1";
     src: url("../font/Poppins-ExtraLight.ttf") format("truetype");
-  }
+}
   
 
 .active {
@@ -422,14 +426,14 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Montserrat;
+    font-family: Montserrat-1;
     margin-left: -10rem;
 }
 
 .r-man h1 {
     margin-top: -2.4rem;
     font-size: 5rem;
-    font-weight: 700;
+    font-weight: 900;
     position: relative;
     z-index: 2;
     transform: scaleX(1.2);
@@ -2214,12 +2218,16 @@ header {
     .m-3 img{
         width: 14rem;
         height: 28rem;
+        position: relative;
+        z-index: 1;
     }
 
     .m3-txt p{
         width: 12rem;
         margin-top: 9rem;
         margin-left: -5px;
+        position: relative;
+        z-index: 0;
     }
 
     .m-4{
@@ -2267,11 +2275,15 @@ header {
     .m5-txt img{
         width: 11rem;
         height: 20rem;
+        position: relative;
+        z-index: 1;
     }
 
     .m5-txt h1{
         margin-top: 1.7rem;
         margin-left: -5px;
+        position: relative;
+        z-index: 0;
     }
 
     .m5-txt p{
@@ -2415,7 +2427,7 @@ header {
         margin-left: -17rem;
     }
     .poster{
-        margin-top: 15rem;
+        margin-top: 12rem;
     }
     .right-cont p{
         font-size: 1rem;
@@ -2531,6 +2543,9 @@ header {
         margin-top: 18rem;
         margin-left: 53vw;
     }
+    .apps{
+        margin-left: 31vw;
+    }
 }
 
 @media (max-width: 530px){
@@ -2565,6 +2580,12 @@ header {
     .bg-img img{
         width: 28rem;
         height: 94rem;
+    }
+    .apps{
+        margin-left: 28vw;
+    }
+    .top1, .top2, .top3{
+        margin-bottom: .5rem;
     }
 }
 
@@ -2608,6 +2629,12 @@ header {
     .wheel h1{
         margin-top: -7rem;
     }
+    .apps{
+        margin-left: 28vw;
+    }
+    .bg-img img{
+        width: 27rem;
+    }
 }
 
 @media (max-width: 460px){
@@ -2618,7 +2645,7 @@ header {
         margin-left: 4vw;
     }
     .bg-img img{
-        width: 24rem;
+        width: 25rem;
     }
     .bg-text {
         margin-left: 0;
@@ -2637,6 +2664,21 @@ header {
     }
     .arrow{
         margin-left: 10rem;
+    }
+    .poster{
+        margin-top: 11rem;
+    }
+    .top1, .top2, .top3{
+        margin-bottom: 0.3rem;
+    }
+}
+
+@media(max-width: 440px){
+    .bg-img img{
+        width: 24rem;
+    }
+    .poster{
+        margin-top: 10.5rem;
     }
 }
 
@@ -2716,6 +2758,12 @@ header {
     }
     .wheel img{
         height: 210px;
+    }
+    .bg-img img{
+        width: 23rem;
+    }
+    .top1, .top2, .top3{
+        margin-bottom: 0.1rem;
     }
 }
 
@@ -2833,6 +2881,18 @@ header {
     .bg-img img{
         width: 20rem;
     }
+    .apps{
+        margin-left: 23vw;
+    }
+}
+
+@media(max-width: 370px){
+    .poster{
+        margin-top: 9rem;
+    }
+    .top1, .top2, .top3{
+        margin-bottom: 0rem;
+    }
 }
 
 @media(max-width: 350px){
@@ -2943,7 +3003,7 @@ header {
         margin-top: 17.3rem;
     }
     .apps{
-        margin-left: 20vw;
+        margin-left: 18.5vw;
     }
     .heading h2{
         font-size: 2rem;
