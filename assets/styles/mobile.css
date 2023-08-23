@@ -187,6 +187,7 @@
 
   .open-nav {
     transform: translateX(0%);
+    position: fixed;
   }
 
   .res-link {
@@ -434,7 +435,7 @@
   }
 
   #final {
-    margin-top: 20px;
+    margin-top: 32px;
     height: auto;
   }
 
@@ -459,7 +460,7 @@
 
   footer {
     max-height: 560px;
-    min-height: 260px;
+    min-height: 272px;
     /* height: auto; */
     position: relative;
   }
@@ -874,6 +875,7 @@
     line-height: normal;
     transform: scaleX(2.2);
     text-transform: uppercase;
+    white-space: nowrap;
     /* text-align: center; */
   }
   .phone-middle-strip {
@@ -1154,11 +1156,11 @@
 }
 @media (min-width:365px) and (max-width:415px){
   .phone-strip-mobile{
-    top:47%;
+    top:58%;
     transform: rotate(-11deg);
   }
   .phone-strip-mobile-2{
-    top:51%;
+    top:63%;
     transform: rotate(11deg);
   }
 }
@@ -1167,11 +1169,11 @@
     transform: scaleX(2.1);
   }
   .phone-strip-mobile {
-    top:48%;
+    top:62%;
     transform: rotate(-10deg);
   }
   .phone-strip-mobile-2{
-    top:51%;
+    top:65%;
     transform: rotate(10deg);
   }
   .strip-slash1{
