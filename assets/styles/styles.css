@@ -378,6 +378,7 @@ header > nav > ul {
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
+  z-index: -1;
 }
 
 .x-container-left {
