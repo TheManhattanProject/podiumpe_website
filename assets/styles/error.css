@@ -1,0 +1,213 @@
+body {
+    margin: auto;
+}
+
+@font-face {
+    font-family: "Poppins1";
+    src: url("../font/Poppins-ExtraLight.ttf") format("truetype");
+}
+
+
+@media (max-width: 780px) {
+    .err-cont-m {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 6rem;
+    }
+
+    .err-cont-m h1 {
+        font-size: 6rem;
+        transform: scaleX(1.4);
+        z-index: 1;
+        font-weight: normal;
+    }
+
+    .err-cont-m h2 {
+        font-size: 12rem;
+        color: #D21717;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 2px;
+        margin-top: -4rem;
+        z-index: 2;
+    }
+
+    .err-cont-m p {
+        color: #FFFFFF;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: Poppins1;
+        font-weight: bold;
+        margin-top: 1.5rem;
+    }
+
+    .home-arr {
+        margin-top: 4rem;
+    }
+
+    .home-arr a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .home-arr p {
+        color: #D21717;
+        font-style: italic;
+        font-family: Poppins1;
+        font-weight: bolder;
+        font-size: 3rem;
+    }
+
+    .home-arr img {
+        height: 2.5rem;
+        margin-top: 25px;
+    }
+
+    .err-btm {
+        margin-top: 2rem;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .err-cont-m h1 {
+        font-size: 5rem;
+    }
+
+    .err-cont-m h2 {
+        font-size: 11rem;
+    }
+
+    .err-cont-m p {
+        font-size: 1.3rem;
+    }
+
+    .home-arr p {
+        font-size: 2.7rem;
+    }
+
+    .home-arr img {
+        height: 2.2rem;
+        margin-top: 25px;
+    }
+
+}
+
+@media (max-width: 580px) {
+
+    .err-cont-m h1 {
+        font-size: 4.5rem;
+    }
+
+    .err-cont-m h2 {
+        font-size: 10rem;
+        margin-top: -3.5rem;
+    }
+
+    .err-cont-m p {
+        font-size: 1.2rem;
+    }
+
+    .home-arr p {
+        font-size: 2.7rem;
+    }
+
+}
+
+@media (max-width: 510px) {
+
+    .err-cont-m h1 {
+        font-size: 4rem;
+    }
+
+    .err-cont-m h2 {
+        font-size: 9rem;
+        margin-top: -3.5rem;
+    }
+
+    .err-cont-m p {
+        font-size: 1.1rem;
+    }
+
+    .home-arr p {
+        font-size: 2.4rem;
+    }
+
+    .home-arr img {
+        height: 2rem;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .err-cont-m h1 {
+        font-size: 3.5rem;
+    }
+
+    .err-cont-m h2 {
+        font-size: 8rem;
+        margin-top: -3rem;
+    }
+
+    .err-cont-m p {
+        font-size: .9rem;
+    }
+
+    .home-arr {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .home-arr p {
+        font-size: 2.2rem;
+    }
+
+}
+
+@media (max-width: 410px) {
+
+    .err-cont-m h1 {
+        font-size: 3rem;
+    }
+
+    .err-cont-m h2 {
+        font-size: 7rem;
+        margin-top: -2.5rem;
+    }
+
+}
+
+@media (max-width: 410px) {
+
+    .err-cont-m h1 {
+        font-size: 3rem;
+    }
+
+    .err-cont-m h2 {
+        font-size: 7rem;
+        margin-top: -2.5rem;
+    }
+
+}
+
+@media (max-width: 370px) {
+
+    .err-cont-m h1 {
+        font-size: 2.5rem;
+    }
+
+    .err-cont-m h2 {
+        font-size: 6rem;
+        margin-top: -2rem;
+    }
+
+    .home-arr p {
+        font-size: 1.9rem;
+    }
+
+}

@@ -2586,3 +2586,11 @@ footer {
     font-size: 13px;
   }
 }
+
+
+@media(min-width: 780px){
+
+  .dow-arrow p{
+    display: none;
+  }
+}
