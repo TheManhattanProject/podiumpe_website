@@ -273,9 +273,10 @@ header {
 }
 
 .center img {
-    width: 23vw;
+    /* width: 23vw; */
     margin-top: -1.8rem;
     height: 48.5rem;
+    width: auto;
     /* margin-left: 11vw; */
 }
 
@@ -287,7 +288,7 @@ header {
 
 .center {
     display: flex;
-    margin-left: 1rem;
+    margin-left: 4rem;
 }
 
 .center h1 {
@@ -306,13 +307,14 @@ header {
 }
 
 .left-most {
-    margin-top: 3rem;
+    margin-top: 5.5rem;
     display: flex;
 }
 
 .left-most img {
     height: 29rem;
-    width: 10vw;
+    /* width: 10vw; */
+    width: auto;
 }
 
 .left-most h1 {
@@ -347,7 +349,9 @@ header {
 }
 
 .left img {
-    width: 18vw;
+    /* width: 18vw; */
+    height: 581.15px;
+    width: auto;
 }
 
 .right {
@@ -356,7 +360,8 @@ header {
 }
 
 .right img {
-    width: 19vw;
+    /* width: 19vw; */
+    width: auto;
     height: 34rem;
 }
 
@@ -391,7 +396,8 @@ header {
 
 .right-most img {
     height: 29.5rem;
-    width: 9.5vw;
+    /* width: 9.5vw; */
+    width: auto;
 }
 
 .bg-fade {
@@ -609,10 +615,12 @@ header {
         margin-left: -12rem;
     }
     .right img{
-        width: 19rem;
+        /* width: 19rem; */
+        width: auto;
     }
     .right-most img{
-        width: 15.5rem;
+        /* width: 15.5rem; */
+        width: auto;
     }
     .fantasy-head h2{
         transform: scaleX(1.2);
@@ -633,6 +641,12 @@ header {
     }
     .right{
         margin-left: -11.5rem;
+    }
+}
+
+@media (max-width: 1720px){
+    .pics h1{
+        font-size: 1.7rem;
     }
 }
 
@@ -690,10 +704,16 @@ header {
     .right-most{
         margin-left: -2rem;
     }
+    .center{
+        margin-left: 3rem;
+    }
+    .right p{
+        margin-left: -7rem;
+    }
 }
 
 
-@media(max-width: 1500px) {
+@media(max-width: 1490px) {
     .wheel{
         margin-top: -1rem;
     }
@@ -727,7 +747,7 @@ header {
     .right-most h1 {
         text-align: right;
         margin-top: 3rem;
-        margin-left: -9rem;
+        margin-left: -11rem;
         width: 10vw;
     }
 
@@ -749,7 +769,7 @@ header {
 
 @media (max-width: 1460px) {
     .right p {
-        margin-left: -3rem;
+        margin-left: -6rem;
     }
     .fantasy-head {
         margin-left: -5rem;
@@ -771,6 +791,18 @@ header {
 
     .pics h1 {
         font-size: 1.8rem;
+    }
+
+    .r-man{
+        margin-left: -7rem;
+    }
+
+    .center{
+        margin-left: 2rem;
+    }
+
+    .right{
+        margin-left: -9rem;
     }
 
     .right p {
@@ -835,12 +867,8 @@ header {
 
     .center img {
         height: 42rem;
-        width: 20rem;
+        
         margin-left: 2rem;
-    }
-
-    .left-most img {
-        width: 7rem;
     }
 
     .left img {
@@ -856,7 +884,7 @@ header {
     }
 
     .pics h1 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     .pics p {
@@ -872,8 +900,8 @@ header {
         margin-left: -6rem;
     }
 
-    .right img{
-        width: 17rem;
+    .right-most{
+        margin-left: 2.5rem;
     }
 
 }
@@ -1022,6 +1050,34 @@ header {
         margin-top: -22.5rem;
     }
 
+    .left{
+        margin-top: 18rem;
+    }
+    .left h1{
+        margin-top: 20px;
+    }
+
+    .center{
+        margin-left: .5rem;
+    }
+
+    .right p{
+        width: 9rem;
+        margin-left: -4.5rem;
+    }
+
+    .right{
+        margin-left: -7rem;
+    }
+    
+    .right-most{
+        margin-left: 0rem;
+    }
+
+    .r-man{
+        margin-left: -13rem;
+    }
+
 }
 
 @media(max-width: 1290px) {
@@ -1129,12 +1185,12 @@ header {
 
     .right-most img {
         height: 26rem;
-        width: 17rem;
+        /* width: 17rem; */
     }
 
     .center img {
         height: 39.5rem;
-        width: 18.5rem;
+        /* width: 18.5rem; */
     }
 
     .center p {
@@ -1142,7 +1198,7 @@ header {
     }
 
     .left-most img {
-        width: 8rem;
+        /* width: 8rem; */
         height: 25rem;
     }
 
@@ -1285,7 +1341,7 @@ header {
     }
 
     .right-most img {
-        width: 12rem;
+        /* width: 12rem; */
         height: 25rem;
     }
 
@@ -1325,12 +1381,8 @@ header {
         margin-left: -9rem;
     }
 
-    .right-most img{
-        width: 10rem;
-    }
-
     .right-most{
-        margin-left: 0rem;
+        margin-left: 1rem;
     }
 }
 
@@ -1376,6 +1428,7 @@ header {
 
     .left p {
         margin-left: 5rem;
+        line-height: 16px;
     }
 
     .right img {
@@ -1482,6 +1535,10 @@ header {
         width: 10.5rem;
     }
 
+    .right p{
+        margin-left: 2rem;
+    }
+
 }
 
 @media (max-width: 1045px){
@@ -1568,7 +1625,7 @@ header {
     }
 
     .center img{
-        width: 17rem;
+        width: auto;
         height: 34rem;
     }
 
@@ -1576,9 +1633,13 @@ header {
         margin-top: 6rem;
     }
 
+    .left-most{
+        margin-top: 3.5rem;
+    }
+
     .left-most img{
         height: 21rem;
-        width: 5rem;
+        width: auto;
     }
 
     .left-most p{
@@ -1591,7 +1652,7 @@ header {
 
     .right img{
         height: 22rem;
-        width: 12rem;
+        width: auto;
     }
 
     .left{
@@ -1697,8 +1758,13 @@ header {
         font-size: 11px;
     }
 
+    .left p{
+        width: 9rem;
+    }
+
     .right p{
         margin-left: 1.2rem;
+        width: 8rem;
     }
 
     .right-most p{
@@ -1709,8 +1775,9 @@ header {
         margin-left: -7.5rem;
     }
 
-    .right-most img{
-        width: 10rem;
+    .center p{
+        margin-top: 7rem;
+        margin-left: -9rem;
     }
 
     .right{
@@ -1746,14 +1813,6 @@ header {
 
     .pics h1{
         font-size: 1rem;
-    }
-
-    .center img{
-        width: 15rem;
-    }
-
-    .right img{
-        width: 10.7rem;
     }
 }
 
@@ -1868,6 +1927,10 @@ header {
 
     .wheel{
         margin-top: -1.5rem;
+    }
+
+    .center img{
+        height: 520px;
     }
 }
 
