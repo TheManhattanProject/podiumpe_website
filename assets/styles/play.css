@@ -1,4 +1,4 @@
-body{
+body {
     max-width: 1803px;
     margin: auto;
 }
@@ -12,13 +12,13 @@ body{
     font-family: "Poppins1";
     src: url("../font/Poppins-ExtraLight.ttf") format("truetype");
 }
-  
+
 
 .active {
     color: white;
 }
 
-.pics-m{
+.pics-m {
     display: none;
 }
 
@@ -273,13 +273,16 @@ header {
 }
 
 .center img {
-    width: 23vw;
+    /* width: 23vw; */
     margin-top: -1.8rem;
     height: 48.5rem;
+    width: auto;
+    z-index: 2;
+    position: relative;
     /* margin-left: 11vw; */
 }
 
-.poster{
+.poster {
     max-width: 1803px;
     margin: auto;
     overflow-x: hidden;
@@ -287,7 +290,7 @@ header {
 
 .center {
     display: flex;
-    margin-left: 1rem;
+    margin-left: 4rem;
 }
 
 .center h1 {
@@ -295,6 +298,7 @@ header {
     font-size: 1.7rem;
     margin-top: 2.4rem;
     margin-left: -5px;
+    z-index: 1;
 }
 
 .center p {
@@ -306,13 +310,15 @@ header {
 }
 
 .left-most {
-    margin-top: 3rem;
+    margin-top: 5.5rem;
     display: flex;
 }
 
 .left-most img {
     height: 29rem;
-    width: 10vw;
+    /* width: 10vw; */
+    width: auto;
+    z-index: 2;
 }
 
 .left-most h1 {
@@ -347,7 +353,9 @@ header {
 }
 
 .left img {
-    width: 18vw;
+    /* width: 18vw; */
+    height: 581.15px;
+    width: auto;
 }
 
 .right {
@@ -356,7 +364,8 @@ header {
 }
 
 .right img {
-    width: 19vw;
+    /* width: 19vw; */
+    width: auto;
     height: 34rem;
 }
 
@@ -391,7 +400,8 @@ header {
 
 .right-most img {
     height: 29.5rem;
-    width: 9.5vw;
+    /* width: 9.5vw; */
+    width: auto;
 }
 
 .bg-fade {
@@ -418,7 +428,7 @@ header {
     margin-top: -0.7rem;
     margin-left: -1rem;
     position: relative;
-    z-index: 1;
+    z-index: 4;
 }
 
 .r-man {
@@ -435,7 +445,7 @@ header {
     font-size: 5rem;
     font-weight: 900;
     position: relative;
-    z-index: 2;
+    z-index: 6;
     transform: scaleX(1.2);
     margin-left: -6rem;
 }
@@ -504,199 +514,342 @@ header {
     margin-left: -1.3rem;
 }
 
-@media (min-width: 1810px){
-    .right-most img{
+@media (min-width: 1810px) {
+    .right-most img {
         max-width: 15rem;
         margin-left: -.1vw;
     }
 }
 
-@media (min-width: 1801px){
-    .poster{
+@media (min-width: 1801px) {
+    .poster {
         position: static;
     }
-    .right img{
+
+    .right img {
         width: 19rem;
     }
-    .right-most img{
+
+    .right-most img {
         width: 15rem;
         position: sticky;
         margin-right: -2rem;
     }
-    .right-most{
+
+    .right-most {
         position: sticky;
         right: 0;
         margin-left: 1rem;
     }
-    .right-most p{
+
+    .right-most p {
         max-width: 14rem;
     }
-    .right-most h1{
+
+    .right-most h1 {
         max-width: 8rem;
     }
-    .top-X{
+
+    .top-X {
         margin: auto;
         position: sticky;
         overflow: hidden;
     }
-    .fantasy-head{
+
+    .fantasy-head {
         z-index: 1;
         position: relative;
         margin-left: auto;
         margin-top: -29rem;
     }
+
     .wheel {
         margin-left: 10%;
         margin-top: 1rem;
     }
-    .wheel img{
+
+    .wheel img {
         margin-left: 35%;
     }
-    .center{
+
+    .center {
         position: relative;
         margin-left: -2vw;
     }
-    .center img{
+
+    .center img {
         max-width: 25rem;
         position: sticky;
     }
-    .center h1{
+
+    .center h1 {
         max-width: 15rem;
     }
-    .center p{
+
+    .center p {
         max-width: 12rem;
         margin-right: 5rem;
     }
-    .left img{
+
+    .left img {
         max-width: 19rem;
     }
-    .left p{
+
+    .left p {
         max-width: 13rem;
     }
-    .left-most img{
+
+    .left-most img {
         max-width: 11rem;
     }
-    .right p{
+
+    .right p {
         max-width: 13rem;
     }
-    .left{
+
+    .left {
         margin-left: -6vw;
         margin-right: 2vw;
     }
-    .right{
+
+    .right {
         margin-left: -13rem;
     }
 }
 
-@media (max-width: 1800px){
-    .fantasy-head{
+@media (max-width: 1800px) {
+    .fantasy-head {
         margin-top: -28rem;
         margin-left: -25rem;
     }
-    .wheel{
+
+    .wheel {
         text-align: center;
     }
-    .wheel img{
+
+    .wheel img {
         margin-left: 0;
     }
-    .wheel h1{
+
+    .wheel h1 {
         font-size: 10.6rem;
     }
-    .poster{
+
+    .poster {
         overflow: hidden;
     }
-    .right{
+
+    .right {
         margin-left: -12rem;
     }
-    .right img{
-        width: 19rem;
+
+    .right img {
+        /* width: 19rem; */
+        width: auto;
+        height: 650px;
     }
-    .right-most img{
-        width: 15.5rem;
+
+    .right-most img {
+        /* width: 15.5rem; */
+        width: auto;
+        height: 528.08px;
     }
-    .fantasy-head h2{
+
+    .fantasy-head h2 {
         transform: scaleX(1.2);
         margin-left: 5rem;
     }
+
+    .left img {
+        height: 650px;
+    }
+
+    .left {
+        margin-left: -10rem;
+    }
+
+    .pics h1 {
+        font-size: 2rem;
+    }
+
+    .center img {
+        height: 850px;
+    }
+
+    .left-most img {
+        height: 521.92px;
+    }
+
+    .r-man {
+        margin-top: -2.5rem;
+    }
+
+    .img1 {
+        height: 600px;
+        width: auto;
+    }
 }
 
-@media (max-width: 1750px){
-    .fantasy-head{
+@media (max-width: 1750px) {
+    .fantasy-head {
         margin-top: -29rem;
         margin-left: -19rem;
     }
-    .wheel h1{
+
+    .wheel h1 {
         font-size: 11.4rem;
     }
-    .bts h2{
+
+    .bts h2 {
         margin-top: 1.5rem;
     }
-    .right{
+
+    .right {
         margin-left: -11.5rem;
     }
 }
 
-@media(max-width: 1700px){
-    .fantasy-head{
+@media (max-width: 1720px) {
+    .pics h1 {
+        font-size: 1.7rem;
+    }
+}
+
+@media(max-width: 1700px) {
+    .fantasy-head {
         margin-top: -28rem;
         margin-left: -16rem;
     }
-    .wheel h1{
+
+    .wheel h1 {
         font-size: 11rem;
     }
-    .right{
+
+    .right {
         margin-left: -10rem;
     }
 }
 
-@media (max-width: 1650px){
-    .fantasy-head{
+@media (max-width: 1650px) {
+    .fantasy-head {
         margin-top: -28rem;
         margin-left: -13rem;
     }
-    .wheel h1{
+
+    .wheel h1 {
         font-size: 10.4rem;
     }
-    .right{
+
+    .right {
         margin-left: -9rem;
     }
-    .wheel h1{
+
+    .wheel h1 {
         /* transform: scaleX(1.1); */
         overflow: hidden;
     }
-    .wheel img{
+
+    .wheel img {
         position: relative;
         z-index: 0;
     }
-    
-}
 
-@media (max-width: 1600px){
-    .fantasy-head{
-        margin-left: -9.5rem;
+    .left img {
+        height: 625px;
     }
-}
 
-@media(max-width: 1540px){
-    .wheel h1{
-        font-size: 10rem;
+    .left {
+        margin-left: -9rem;
     }
-    .fantasy-head{
-        margin-top: -27rem;
+
+    .center img {
+        height: 820px;
     }
-    .right{
-        margin-left: -7rem;
+
+    .left-most img {
+        height: 500px;
     }
-    .right-most{
+
+    .r-man {
+        margin-top: -1.8rem;
+    }
+
+    .img1 {
+        height: 570px;
+        width: auto;
+    }
+
+    .right img {
+        height: 620px;
         margin-left: -2rem;
     }
+
+}
+
+@media (max-width: 1600px) {
+    .fantasy-head {
+        margin-left: -9.5rem;
+    }
+
+    .left img {
+        height: 610px;
+    }
+
+    .left {
+        margin-left: -9rem;
+    }
+
+    .center img {
+        height: 800px;
+    }
+
+    .left-most img {
+        height: 470px;
+    }
+
+    .right img {
+        height: 600px;
+        margin-left: -2rem;
+    }
+
+    .right-most img {
+        height: 490px;
+    }
+
+}
+
+@media(max-width: 1540px) {
+    .wheel h1 {
+        font-size: 10rem;
+    }
+
+    .fantasy-head {
+        margin-top: -27rem;
+    }
+
+    .right {
+        margin-left: -7rem;
+    }
+
+    .right-most {
+        margin-left: -2rem;
+    }
+
+    .center {
+        margin-left: 3rem;
+    }
+
+    .right p {
+        margin-left: -7rem;
+    }
 }
 
 
-@media(max-width: 1500px) {
-    .wheel{
+@media(max-width: 1490px) {
+    .wheel {
         margin-top: -1rem;
     }
+
     .wheel h1 {
         font-size: 9rem;
         text-align: center;
@@ -720,14 +873,15 @@ header {
     .poster {
         overflow: hidden;
     }
-    .right-most{
+
+    .right-most {
         margin-left: -2rem;
     }
 
     .right-most h1 {
         text-align: right;
         margin-top: 3rem;
-        margin-left: -9rem;
+        margin-left: -11rem;
         width: 10vw;
     }
 
@@ -737,24 +891,32 @@ header {
         margin-left: -5rem;
         margin-right: 2.5rem;
     }
-    .fantasy-head{
+
+    .fantasy-head {
         margin-top: -27rem;
         margin-left: -6rem;
     }
-    .fantasy-head h2{
+
+    .fantasy-head h2 {
         transform: scaleX(1.1);
         margin-left: 2.4rem;
+    }
+
+    .r-man {
+        margin-left: -6rem;
     }
 }
 
 @media (max-width: 1460px) {
     .right p {
-        margin-left: -3rem;
+        margin-left: -6rem;
     }
+
     .fantasy-head {
         margin-left: -5rem;
     }
-    .fantasy-head h2{
+
+    .fantasy-head h2 {
         transform: scaleX(1);
         margin-left: 0;
     }
@@ -771,6 +933,18 @@ header {
 
     .pics h1 {
         font-size: 1.8rem;
+    }
+
+    .r-man {
+        margin-left: -7rem;
+    }
+
+    .center {
+        margin-left: 2rem;
+    }
+
+    .right {
+        margin-left: -9rem;
     }
 
     .right p {
@@ -835,12 +1009,8 @@ header {
 
     .center img {
         height: 42rem;
-        width: 20rem;
-        margin-left: 2rem;
-    }
 
-    .left-most img {
-        width: 7rem;
+        margin-left: 2rem;
     }
 
     .left img {
@@ -856,7 +1026,7 @@ header {
     }
 
     .pics h1 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     .pics p {
@@ -872,8 +1042,8 @@ header {
         margin-left: -6rem;
     }
 
-    .right img{
-        width: 17rem;
+    .right-most {
+        margin-left: 2.5rem;
     }
 
 }
@@ -928,19 +1098,19 @@ header {
         width: 70vw;
     }
 
-    .wheel{
+    .wheel {
         margin-top: 0rem;
     }
 }
 
 @media (max-width: 1312px) {
 
-    .fantasy-head{
+    .fantasy-head {
         margin-left: -10rem;
         margin-top: -30rem;
     }
 
-    .fantasy-head h2{
+    .fantasy-head h2 {
         transform: scaleX(1.1);
     }
 
@@ -1018,8 +1188,38 @@ header {
     .r-man h1 {
         margin-left: 1.7rem;
     }
-    .fantasy-head{
+
+    .fantasy-head {
         margin-top: -22.5rem;
+    }
+
+    .left {
+        margin-top: 18rem;
+    }
+
+    .left h1 {
+        margin-top: 20px;
+    }
+
+    .center {
+        margin-left: .5rem;
+    }
+
+    .right p {
+        width: 9rem;
+        margin-left: -4.5rem;
+    }
+
+    .right {
+        margin-left: -7rem;
+    }
+
+    .right-most {
+        margin-left: 0rem;
+    }
+
+    .r-man {
+        margin-left: -13rem;
     }
 
 }
@@ -1066,18 +1266,18 @@ header {
         width: 20.5rem;
     }
 
-    .fantasy-head{
+    .fantasy-head {
         margin-top: -22rem;
     }
 }
 
 @media(max-width: 1250px) {
 
-    .title h1{
+    .title h1 {
         font-size: 4rem;
     }
 
-    .title p{
+    .title p {
         font-size: 1.5rem;
         margin-top: 2.8rem;
         margin-left: -2.5rem;
@@ -1129,12 +1329,12 @@ header {
 
     .right-most img {
         height: 26rem;
-        width: 17rem;
+        /* width: 17rem; */
     }
 
     .center img {
         height: 39.5rem;
-        width: 18.5rem;
+        /* width: 18.5rem; */
     }
 
     .center p {
@@ -1142,7 +1342,7 @@ header {
     }
 
     .left-most img {
-        width: 8rem;
+        /* width: 8rem; */
         height: 25rem;
     }
 
@@ -1285,7 +1485,7 @@ header {
     }
 
     .right-most img {
-        width: 12rem;
+        /* width: 12rem; */
         height: 25rem;
     }
 
@@ -1317,20 +1517,16 @@ header {
         margin-left: 14rem;
     }
 
-    .right p{
+    .right p {
         margin-left: -0.8rem;
     }
 
-    .right{
+    .right {
         margin-left: -9rem;
     }
 
-    .right-most img{
-        width: 10rem;
-    }
-
-    .right-most{
-        margin-left: 0rem;
+    .right-most {
+        margin-left: 1rem;
     }
 }
 
@@ -1376,6 +1572,7 @@ header {
 
     .left p {
         margin-left: 5rem;
+        line-height: 16px;
     }
 
     .right img {
@@ -1482,31 +1679,35 @@ header {
         width: 10.5rem;
     }
 
+    .right p {
+        margin-left: 2rem;
+    }
+
 }
 
-@media (max-width: 1045px){
-    .wheel h1{
+@media (max-width: 1045px) {
+    .wheel h1 {
         font-size: 6rem;
         margin-top: -8rem;
     }
 
-    .wheel h2{
+    .wheel h2 {
         font-size: 2.8rem;
         margin-top: 2.5rem;
     }
 
-    .wheel img{
+    .wheel img {
         height: 12rem;
         /* margin-left: 24rem;  */
         width: 18rem;
     }
 
-    .wheel p{
+    .wheel p {
         width: 70vw;
         font-size: 18px;
     }
 
-    .left-rect{
+    .left-rect {
         margin-left: -3.2rem;
     }
 
@@ -1514,330 +1715,336 @@ header {
         font-size: 2rem;
     }
 
-    .fantasy-head{
+    .fantasy-head {
         margin-left: -11rem;
         margin-top: -21rem;
     }
 
-    .center p{
+    .center p {
         margin-left: -10rem;
     }
-    .center{
+
+    .center {
         margin-left: -.5rem;
     }
 
-    .right img{
+    .right img {
         margin-left: 2.5rem;
     }
 }
 
-@media(max-width: 1020px){
-    .fantasy-head h1{
+@media(max-width: 1020px) {
+    .fantasy-head h1 {
         font-size: 1.3rem;
     }
 
-    .fantasy-head h2{
+    .fantasy-head h2 {
         font-size: 2.3rem;
     }
 
-    .fantasy-head{
+    .fantasy-head {
         margin-left: -12rem;
     }
 
-    .arrow{
+    .arrow {
         font-size: 1.9rem;
     }
 
-    .r-man h1{
+    .r-man h1 {
         margin-left: 5.8rem;
     }
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1000px) {
 
-    .top-X{
+    .top-X {
         font-size: 12rem;
     }
-    .fantasy-head{
+
+    .fantasy-head {
         margin-left: -17rem;
         margin-top: -18rem;
     }
 
-    .r-shift{
+    .r-shift {
         margin-right: -14rem;
     }
 
-    .center img{
-        width: 17rem;
+    .center img {
+        width: auto;
         height: 34rem;
     }
 
-    .center p{
+    .center p {
         margin-top: 6rem;
     }
 
-    .left-most img{
-        height: 21rem;
-        width: 5rem;
+    .left-most {
+        margin-top: 3.5rem;
     }
 
-    .left-most p{
+    .left-most img {
+        height: 21rem;
+        width: auto;
+    }
+
+    .left-most p {
         margin-top: 6.5rem;
     }
 
-    .left img{
+    .left img {
         height: 22rem;
     }
 
-    .right img{
+    .right img {
         height: 22rem;
-        width: 12rem;
+        width: auto;
     }
 
-    .left{
+    .left {
         margin-top: 13rem;
     }
 
-    .right-most{
+    .right-most {
         margin-top: 3rem;
     }
 
-    .right{
+    .right {
         margin-top: 20rem;
         margin-left: -7rem;
     }
 
-    .pics h1{
+    .pics h1 {
         font-size: 1.1rem;
     }
 
-    .rect2,.rect3{
+    .rect2,
+    .rect3 {
         height: 7rem;
     }
-    .left-rect{
+
+    .left-rect {
         margin-left: -2.4rem;
         margin-top: 27.3rem;
     }
 
-    .right-rect img{
+    .right-rect img {
         height: 7rem;
     }
 
-    .rect4{
+    .rect4 {
         margin-right: -4.4rem;
         margin-top: 7rem;
     }
 
-    .right-rect{
+    .right-rect {
         margin-right: -4.4rem;
     }
 
-    .rect1{
+    .rect1 {
         height: 7rem;
         margin-left: 10rem;
     }
-    
-    .rect3{
+
+    .rect3 {
         margin-top: -4rem;
     }
 
-    .r-man{
+    .r-man {
         margin-top: 1.5rem;
     }
 
-    .img1{
+    .img1 {
         height: 22rem;
         width: 12rem;
     }
 
-    .apps img{
+    .apps img {
         height: 3rem;
         width: 9.5rem;
     }
 }
 
-@media(max-width: 950px){
-    .fantasy-head h1{
+@media(max-width: 950px) {
+    .fantasy-head h1 {
         font-size: 1.2rem;
     }
 
-    .fantasy-head h2{
+    .fantasy-head h2 {
         font-size: 2.2rem;
     }
 
-    .head-img img{
+    .head-img img {
         height: 5.5rem;
     }
 
-    .fantasy-head{
+    .fantasy-head {
         margin-left: -15rem;
     }
 
-    .wheel h1{
+    .wheel h1 {
         font-size: 6rem;
         margin-top: -7rem;
     }
 
-    .bts h2{
+    .bts h2 {
         font-size: 2.2rem;
         margin-top: 3rem;
     }
 
-    .bts p{
+    .bts p {
         font-size: 14px;
         width: 60vw;
     }
 
-    .wheel img{
+    .wheel img {
         width: 16rem;
         height: 12rem;
     }
 
-    .pics p{
+    .pics p {
         font-size: 11px;
     }
 
-    .right p{
-        margin-left: 1.2rem;
+    .left p {
+        width: 9rem;
     }
 
-    .right-most p{
+    .right p {
+        margin-left: 1.2rem;
+        width: 8rem;
+    }
+
+    .right-most p {
         margin-left: -6rem;
     }
 
-    .right-most h1{
+    .right-most h1 {
         margin-left: -7.5rem;
     }
 
-    .right-most img{
-        width: 10rem;
+    .center p {
+        margin-top: 7rem;
+        margin-left: -9rem;
     }
 
-    .right{
+    .right {
         margin-left: -8rem;
     }
 
-    .right-most{
+    .right-most {
         margin-left: 0rem;
     }
 }
 
-@media(max-width: 920px){
-    .head-txt{
+@media(max-width: 920px) {
+    .head-txt {
         margin-left: -.4rem;
     }
 
-    .fantasy-head{
+    .fantasy-head {
         margin-left: -12rem;
     }
 
-    .fantasy-head h2{
+    .fantasy-head h2 {
         margin-left: 2.5rem;
     }
 
-    .pics p{
+    .pics p {
         font-size: 10px;
     }
 
-    .center p{
+    .center p {
         margin-top: 7.5rem;
         margin-left: -9rem;
     }
 
-    .pics h1{
+    .pics h1 {
         font-size: 1rem;
-    }
-
-    .center img{
-        width: 15rem;
-    }
-
-    .right img{
-        width: 10.7rem;
     }
 }
 
-@media (max-width: 870px){
-    .img1{
+@media (max-width: 870px) {
+    .img1 {
         margin-top: 5rem;
     }
 
-    .rect1{
+    .rect1 {
         margin-top: 4rem;
     }
 
-    .r-man h1{
+    .r-man h1 {
         font-size: 3rem;
     }
 
-    .left img{
+    .left img {
         margin-left: 2.4rem;
     }
 
-    .right-most h1{
+    .right-most h1 {
         margin-left: -8rem;
     }
 
-    .top-X{
+    .top-X {
         font-size: 11rem;
         margin-top: -8.5rem;
     }
 
-    .fantasy-head{
+    .fantasy-head {
         margin-top: -16rem;
         margin-left: -16rem;
     }
 
-    .fantasy-head h2{
+    .fantasy-head h2 {
         margin-left: 2rem;
     }
 
-    .head-txt h1{
+    .head-txt h1 {
         font-size: 1rem;
     }
 
-    .head-txt h2{
+    .head-txt h2 {
         font-size: 1.9rem;
     }
 
-    .head-img img{
+    .head-img img {
         height: 5rem;
     }
 
-    .wheel img{
+    .wheel img {
         height: 10rem;
         width: 15rem;
         margin-top: 1rem;
     }
 
-    .wheel h1{
+    .wheel h1 {
         margin-top: -7rem;
         font-size: 5.5rem;
     }
 }
 
-@media (max-width: 830px){
-    .left-most img{
+@media (max-width: 830px) {
+    .left-most img {
         width: 4rem;
     }
 
-    .pics p{
+    .pics p {
         font-size: 9px;
     }
 
-    .center p{
+    .center p {
         margin-left: -8rem;
     }
 
-    .right-most{
+    .right-most {
         margin-left: 0rem;
     }
 
-    .r-man h1{
+    .r-man h1 {
         font-size: 2.7rem;
     }
 
-    .fantasy-head{
+    .fantasy-head {
         margin-left: -13rem;
     }
 
@@ -1845,47 +2052,51 @@ header {
         font-size: 1.7rem;
     }
 
-    .wheel h1{
+    .wheel h1 {
         margin-top: -6rem;
         font-size: 5rem;
     }
 
-    .bts h2{
+    .bts h2 {
         font-size: 1.8rem;
         margin-top: 3.5rem;
     }
 
-    .bts p{
+    .bts p {
         font-size: 13px;
         width: 58vw;
     }
 
-    .wheel img{
+    .wheel img {
         margin-top: 1.5rem;
         height: 9rem;
         width: 12rem;
     }
 
-    .wheel{
+    .wheel {
         margin-top: -1.5rem;
+    }
+
+    .center img {
+        height: 520px;
     }
 }
 
-@media(max-width: 800px){
-    .fantasy-head{
+@media(max-width: 800px) {
+    .fantasy-head {
         margin-left: -11rem;
     }
 
-    .r-man h1{
+    .r-man h1 {
         font-size: 2.5rem;
     }
 
-    .apps img{
+    .apps img {
         height: 2.7rem;
         width: 7.3rem;
     }
 
-    .left{
+    .left {
         margin-left: -7rem;
     }
 
@@ -1894,12 +2105,12 @@ header {
         margin-left: -.4rem;
     }
 
-    .right img{
+    .right img {
         width: 10rem;
     }
 }
 
- 
+
 
 @media(min-width:1550px) {
     .r-shift {
@@ -1952,55 +2163,55 @@ header {
 
 
 
-@media(max-width: 600px){
+@media(max-width: 600px) {
 
-    #header-hr{
+    #header-hr {
         border: none;
         border-top: 2px solid #D21717;
     }
 
-    .top-X{
+    .top-X {
         display: none;
     }
 
-    .fantasy-head{
+    .fantasy-head {
         margin-top: 2.5rem;
         margin-left: -10rem;
     }
 
-    .head-txt h1{
+    .head-txt h1 {
         font-size: 1.4rem;
     }
 
-    .head-txt h2{
+    .head-txt h2 {
         font-size: 2.1rem;
         margin-left: 1rem;
     }
 
-    .head-img img{
+    .head-img img {
         height: 4.6rem;
     }
 
-    .arrow{
+    .arrow {
         font-size: 1.6rem;
         margin-left: 43vw;
     }
 
-    .wheel{
+    .wheel {
         margin-top: -2rem;
     }
 
-    .wheel h1{
+    .wheel h1 {
         font-size: 6.5rem;
         margin-top: -8.4rem;
     }
 
-    .wheel h2{
+    .wheel h2 {
         margin-top: -3rem;
         font-size: 2.2rem;
     }
 
-    .bts p{
+    .bts p {
         margin-top: 6rem;
         font-size: 16px;
         text-align: left;
@@ -2010,13 +2221,13 @@ header {
         line-height: 1.3rem;
     }
 
-    .wheel img{
+    .wheel img {
         width: 20rem;
         height: 15rem;
         /* margin-left: 30vw; */
     }
 
-    .bg-text{
+    .bg-text {
         color: #242424;
         position: absolute;
         display: flex;
@@ -2027,15 +2238,15 @@ header {
         margin-left: 8rem;
     }
 
-    .bg-text h1{
+    .bg-text h1 {
         font-size: 3rem;
     }
 
-    .bg-text h3{
+    .bg-text h3 {
         font-size: 2rem;
     }
 
-    .bg-img img{
+    .bg-img img {
         position: absolute;
         height: 100rem;
         width: 34rem;
@@ -2043,76 +2254,83 @@ header {
         overflow: hidden;
     }
 
-    .content p{
+    .content p {
         position: relative;
     }
 
-    .left-cont img{
+    .left-cont img {
         position: relative;
     }
 
-    .details{
+    .details {
         margin-top: 10rem;
     }
 
-    .left-cont{
+    .left-cont {
         margin-top: -15rem;
     }
 
-    .left-cont img{
+    .left-cont img {
         width: 60vw;
         margin-bottom: -1rem;
     }
 
-    .top1, .top2, .top3{
+    .top1,
+    .top2,
+    .top3 {
         position: relative;
         width: 20vw;
         margin-bottom: .7rem;
     }
 
-    .btm1, .btm2, .btm3{
+    .btm1,
+    .btm2,
+    .btm3 {
         width: 40vw;
     }
 
-    .title h1{
+    .title h1 {
         margin-left: 2rem;
         font-size: 6rem;
     }
 
-    .title p{
+    .title p {
         margin-left: -25rem;
         font-size: 2.5rem;
         margin-top: 5rem;
     }
 
-    .right-cont p{
+    .right-cont p {
         font-size: 1.2rem;
         width: 30rem;
         line-height: 1.5rem;
         margin-left: -21rem;
     }
 
-    .m-t2 h1{
+    .m-t2 h1 {
         margin-left: 22vw;
     }
 
-    .m-t2 p{
+    .m-t2 p {
         margin-left: -20rem;
     }
 
-    .m-t3 h1{
+    .m-t3 h1 {
         margin-left: 15vw;
     }
 
-    .m-t3 p{
+    .m-t3 p {
         margin-left: -22.5rem;
     }
 
-    .poster{
+    .poster {
         margin-top: 10rem;
     }
 
-    .left-rect, .right-rect, .rect1, .rect6{
+    .left-rect,
+    .right-rect,
+    .rect1,
+    .rect6 {
         display: none;
     }
 
@@ -2121,24 +2339,24 @@ header {
         margin-left: -7rem;
     }
 
-    .center img{
+    .center img {
         height: 28rem;
         width: 15rem;
     }
 
-    .pics{
+    .pics {
         display: none;
     }
 
-    .r-man{
+    .r-man {
         margin-left: -12rem;
     }
 
-    .r-man h1{
+    .r-man h1 {
         display: none;
     }
 
-    .r-man p{
+    .r-man p {
         font-size: 64px;
         margin-left: 50%;
         margin-top: -3.5rem;
@@ -2147,103 +2365,103 @@ header {
         text-align: center;
     }
 
-    .pics-m{
+    .pics-m {
         display: flex;
         flex-direction: column;
         margin-top: -1.5rem;
     }
 
-    .m-1{
+    .m-1 {
         margin-left: 24vw;
         display: flex;
     }
 
-    .m-1 img{
+    .m-1 img {
         width: 15rem;
         height: 28rem;
     }
 
-    .m-1 h1{
+    .m-1 h1 {
         margin-top: 3rem;
     }
 
-    .pics-m h1{
+    .pics-m h1 {
         color: #D21717;
         font-size: 1.4rem;
     }
 
-    .m-txt h1{
+    .m-txt h1 {
         width: 9rem;
     }
 
-    .pics-m p{
+    .pics-m p {
         margin-left: 10px;
         color: #C9C9C9;
     }
 
-    .bg-fade{
+    .bg-fade {
         display: none;
     }
 
-    .pics-m p{
+    .pics-m p {
         font-size: 1rem;
         font-family: Montserrat;
     }
 
-    .m-txt p{
+    .m-txt p {
         width: 10rem;
     }
 
-    .m-2{
+    .m-2 {
         margin-top: -9rem;
         width: 100%;
         margin-left: 2rem;
     }
 
-    .m-2 h1{
+    .m-2 h1 {
         width: 5rem;
         margin-left: 77vw;
         text-align: right;
     }
 
-    .m-2 img{
+    .m-2 img {
         height: 17rem;
         width: 9rem;
         overflow: hidden;
     }
 
-    .m2-txt{
+    .m2-txt {
         display: flex;
         margin-left: 47.5vw;
     }
 
-    .m2-txt p{
+    .m2-txt p {
         width: 10rem;
         margin-top: 5rem;
     }
 
-    .m-3{
+    .m-3 {
         margin-top: -10.5rem;
         margin-left: 3rem;
     }
 
-    .m-3 h1{
+    .m-3 h1 {
         margin-left: 2rem;
         margin-bottom: -5px;
     }
 
-    .m3-txt{
+    .m3-txt {
         display: flex;
     }
 
-    .m-3 img{
+    .m-3 img {
         width: 14rem;
         height: 28rem;
         position: relative;
         z-index: 1;
     }
 
-    .m3-txt p{
+    .m3-txt p {
         width: 12rem;
         margin-top: 9rem;
         margin-left: -5px;
@@ -2251,1029 +2469,1265 @@ header {
         z-index: 0;
     }
 
-    .m-4{
+    .m-4 {
         margin-left: 82vw;
         margin-top: -10rem;
     }
 
-    .m-4 p{
+    .m-4 p {
         width: 10rem;
         margin-left: -7rem;
     }
 
-    .m4-txt{
+    .m4-txt {
         display: flex;
         margin-left: 13vw;
     }
 
-    .m4-txt h1{
-        transform:rotate(270deg);
+    .m4-txt h1 {
+        transform: rotate(270deg);
         margin-right: -25rem;
         margin-top: -12.5rem;
         z-index: 1;
     }
 
-    .m4-txt img{
+    .m4-txt img {
         width: 14rem;
         height: 28rem;
         overflow: hidden;
         z-index: 2;
     }
 
-    .m-5{
+    .m-5 {
         margin-top: -20rem;
         margin-left: 0rem;
     }
 
-    .m-5 h1{
+    .m-5 h1 {
         margin-left: 6rem;
         margin-bottom: -5px;
         position: relative;
         z-index: 1;
     }
 
-    .m5-txt{
+    .m5-txt {
         display: flex;
     }
 
-    .m5-txt img{
+    .m5-txt img {
         width: 9rem;
         height: 17rem;
         position: relative;
         z-index: 2;
     }
 
-    .m5-txt h1{
+    .m5-txt h1 {
         margin-top: 1.7rem;
         margin-left: -5px;
         position: relative;
         z-index: 0;
     }
 
-    .m5-txt p{
+    .m5-txt p {
         width: 8rem;
         margin-top: 2.5rem;
         margin-left: 2rem;
     }
 
-    .img1{
+    .img1 {
         margin-left: 57vw;
         height: 30rem;
         width: 22rem;
         margin-top: 16.7rem;
         z-index: 5;
     }
-    .r-man p{
+
+    .r-man p {
         z-index: 10;
     }
 
-    .apps{
+    .apps {
         flex-direction: column;
         margin-bottom: 5rem;
         margin-top: 0;
     }
 
-    .apps img{
+    .apps img {
         height: 4.5rem;
         width: 14rem;
     }
 
 
-    .heading h1{
+    .heading h1 {
         -webkit-text-stroke-width: 1px;
     }
 }
 
-@media (max-width: 580px){
-    .title h1{
+@media (max-width: 580px) {
+    .title h1 {
         font-size: 4.5rem;
         margin-left: 4rem;
     }
-    .title p{
+
+    .title p {
         font-size: 2rem;
         margin-left: -19.7rem;
         margin-top: 3.7rem;
     }
-    .m-t2{
+
+    .m-t2 {
         margin-left: 21vw;
     }
-    .m-t2 p{
+
+    .m-t2 p {
         margin-left: -15rem;
     }
-    .m-t3{
+
+    .m-t3 {
         margin-left: 20vw;
     }
-    .m-t3 p{
+
+    .m-t3 p {
         margin-left: -17rem;
     }
-    .poster{
+
+    .poster {
         margin-top: 12rem;
     }
-    .right-cont p{
+
+    .right-cont p {
         font-size: 1rem;
         margin-left: -22rem;
     }
-    .bg-img img{
+
+    .bg-img img {
         height: 86rem;
         width: 30rem;
     }
-    .bg-text{
+
+    .bg-text {
         margin-top: 8rem;
         margin-left: 2rem;
     }
-    .fantasy-head h1{
+
+    .fantasy-head h1 {
         font-size: 1rem;
     }
-    .fantasy-head h2{
+
+    .fantasy-head h2 {
         font-size: 1.6rem;
     }
-    .head-img img{
+
+    .head-img img {
         height: 4rem;
     }
-    .arrow{
+
+    .arrow {
         font-size: 1.4rem;
     }
-    .m-1{
+
+    .m-1 {
         margin-top: .4rem;
         margin-left: 24vw;
     }
-    .m-1 img{
+
+    .m-1 img {
         height: 24.6rem;
         width: 12rem;
     }
-    .heading h1{
+
+    .heading h1 {
         font-size: 3.5rem;
         margin-top: -1.8rem;
     }
-    .heading h2{
+
+    .heading h2 {
         font-size: 2.6rem;
     }
-    .pics-m h1{
+
+    .pics-m h1 {
         font-size: 18px;
     }
-    .pics-m p{
+
+    .pics-m p {
         font-size: 14px;
     }
-    .m-1 h1{
+
+    .m-1 h1 {
         width: 7rem;
         margin-top: 2rem;
     }
-    .m-1 p{
+
+    .m-1 p {
         width: 8rem;
     }
-    .m-2{
+
+    .m-2 {
         margin-left: 2rem;
     }
-    .m-2 h1{
+
+    .m-2 h1 {
         margin-left: 74.5vw;
     }
-    .m-2 img{
+
+    .m-2 img {
         height: 12.9rem;
         width: 102px;
         margin-left: -10px;
     }
-    .m-2 p{
+
+    .m-2 p {
         width: 9rem;
         margin-top: 3.5rem;
     }
-    .m-3{
+
+    .m-3 {
         margin-top: -8rem;
     }
-    .m-3 img{
+
+    .m-3 img {
         height: 22rem;
         width: 10.8rem;
     }
-    .m-3 p{
+
+    .m-3 p {
         width: 10rem;
         margin-top: 7rem;
     }
-    .m4-txt{
+
+    .m4-txt {
         margin-top: 1rem;
     }
-    .m-4 img{
+
+    .m-4 img {
         height: 23rem;
         width: 11.8rem;
     }
-    .m4-txt h1{
+
+    .m4-txt h1 {
         margin-right: -20.3rem;
         margin-top: -10rem;
         margin-bottom: 0;
     }
-    .m-5{
+
+    .m-5 {
         margin-top: -16rem;
         margin-left: 1rem;
     }
-    .m-5 h1{
+
+    .m-5 h1 {
         margin-left: 4rem;
     }
-    .m5-txt h1{
+
+    .m5-txt h1 {
         margin-left: -5px;
         position: absolute;
     }
-    .m-5 img{
+
+    .m-5 img {
         height: 227px;
         width: 112px;
         position: relative;
         z-index: 4;
     }
-    .m-5 p{
+
+    .m-5 p {
         width: 6rem;
         margin-top: 5rem;
     }
-    .img1{
+
+    .img1 {
         /* margin-top: 18rem; */
         margin-left: 53vw;
     }
 
 }
 
-@media (max-width: 530px){
-    .wheel h1{
+@media (max-width: 530px) {
+    .wheel h1 {
         font-size: 86.6px;
     }
-    .wheel img{
+
+    .wheel img {
         height: 220px;
         width: 19rem;
     }
-    .bts h2{
+
+    .bts h2 {
         font-size: 32px;
         margin-top: -1.4rem;
     }
-    .bts p{
+
+    .bts p {
         font-size: 14px;
         width: 60vw;
         margin-left: -3rem;
         margin-top: 5rem;
     }
-    .right-cont p{
+
+    .right-cont p {
         font-size: 14px;
         margin-left: -18rem;
         width: 73.5vw;
     }
-    .m-t2{
+
+    .m-t2 {
         margin-left: 6rem;
     }
-    .m-t3{
+
+    .m-t3 {
         margin-left: 4rem;
     }
-    .bg-img img{
+
+    .bg-img img {
         width: 28rem;
         height: 94rem;
     }
-    .top1, .top2, .top3{
+
+    .top1,
+    .top2,
+    .top3 {
         margin-bottom: .5rem;
     }
-    .r-man{
+
+    .r-man {
         margin-left: -13rem;
     }
-    .r-man h1{
+
+    .r-man h1 {
         margin-top: -4rem;
         width: 25vw;
         transform: scaleX(1);
     }
-    .r-man span{
+
+    .r-man span {
         margin-left: 2rem;
     }
 }
 
-@media (max-width: 490px){
-    .title h1{
+@media (max-width: 490px) {
+    .title h1 {
         margin-left: 7vw;
     }
-    .right-cont p{
+
+    .right-cont p {
         width: 80vw;
     }
-    .m-1{
+
+    .m-1 {
         margin-left: 20vw;
     }
-    .m-2{
+
+    .m-2 {
         margin-left: .5rem;
         margin-top: -8.5rem;
     }
-    .m-2 h1{
+
+    .m-2 h1 {
         margin-left: 80vw;
     }
-    .m-3{
+
+    .m-3 {
         margin-left: -1rem;
     }
-    .m-4{
+
+    .m-4 {
         margin-left: 26rem;
     }
-    .m4-txt h1{
+
+    .m4-txt h1 {
         margin-right: -22rem;
         margin-top: -11rem;
         margin-bottom: -2rem;
     }
-    .m-5{
+
+    .m-5 {
         margin-left: -1rem;
     }
-    .poster{
+
+    .poster {
         margin-top: 12rem;
     }
 
-    .wheel h1{
+    .wheel h1 {
         margin-top: -7rem;
     }
 
-    .bg-img img{
+    .bg-img img {
         width: 27rem;
     }
 }
 
-@media (max-width: 460px){
-    .fantasy-head{
+@media (max-width: 460px) {
+    .fantasy-head {
         margin-left: -7rem;
     }
-    .title h1{
+
+    .title h1 {
         margin-left: 4vw;
     }
-    .bg-img img{
+
+    .bg-img img {
         width: 25rem;
     }
+
     .bg-text {
         margin-left: 0;
     }
-    .m-4 p{
+
+    .m-4 p {
         margin-left: -7.5rem;
     }
-    .m-4{
+
+    .m-4 {
         margin-left: 25rem;
     }
-    .m-1{
+
+    .m-1 {
         margin-left: 12vw;
     }
-    .right-cont p{
+
+    .right-cont p {
         margin-left: -16.5rem;
     }
-    .arrow{
+
+    .arrow {
         margin-left: 10rem;
     }
-    .poster{
+
+    .poster {
         margin-top: 11rem;
     }
-    .top1, .top2, .top3{
+
+    .top1,
+    .top2,
+    .top3 {
         margin-bottom: 0.3rem;
     }
 }
 
-@media(max-width: 440px){
-    .bg-img img{
+@media(max-width: 440px) {
+    .bg-img img {
         width: 24rem;
     }
-    .poster{
+
+    .poster {
         margin-top: 10.5rem;
     }
-    .r-man{
+
+    .r-man {
         margin-left: -13.5rem;
     }
-    .m-2 h1{
+
+    .m-2 h1 {
         margin-left: 79.5vw;
     }
 }
 
-@media (max-width: 420px){
-    .head-txt{
+@media (max-width: 420px) {
+    .head-txt {
         margin-left: -1rem;
     }
-    .fantasy-head{
+
+    .fantasy-head {
         margin-left: -8rem;
     }
-    .fantasy-head h1{
+
+    .fantasy-head h1 {
         font-size: .8rem;
     }
-    .fantasy-head h2{
+
+    .fantasy-head h2 {
         font-size: 1.4rem;
     }
-    .wheel h1{
+
+    .wheel h1 {
         font-size: 4.6rem;
         margin-top: -6rem;
     }
-    .bts h2{
+
+    .bts h2 {
         font-size: 1.7rem;
         margin-top: -1rem;
     }
-    .bts p{
+
+    .bts p {
         width: 74vw;
         margin-left: -2rem;
         font-size: 11px;
     }
-    .right-cont p{
+
+    .right-cont p {
         /* margin-left: -16rem; */
         width: 90vw;
     }
-    .title h1{
+
+    .title h1 {
         margin-left: 0;
     }
-    .m-2 h1{
+
+    .m-2 h1 {
         margin-left: 72vw;
     }
-    .m-2{
+
+    .m-2 {
         margin-left: 2rem;
     }
-    .m-2 p{
+
+    .m-2 p {
         width: 9rem;
         margin-left: -2rem;
     }
-    .m-3 h1{
+
+    .m-3 h1 {
         margin-left: 16px;
     }
-    .m-3 p{
+
+    .m-3 p {
         margin-top: 8rem;
     }
-    .m-4{
+
+    .m-4 {
         margin-left: 24rem;
     }
-    .m-5{
+
+    .m-5 {
         margin-left: -2.25rem;
     }
-    .img1{
+
+    .img1 {
         margin-left: 52vw;
     }
 
-    .heading h2{
+    .heading h2 {
         font-size: 2.4rem;
     }
-    .heading h1{
+
+    .heading h1 {
         font-size: 3.2rem;
     }
-    .m-1 img{
+
+    .m-1 img {
         width: 11rem;
     }
-    .arrow{
+
+    .arrow {
         margin-left: 9rem;
         font-size: 1.3rem;
     }
-    .wheel img{
+
+    .wheel img {
         height: 210px;
     }
-    .bg-img img{
+
+    .bg-img img {
         width: 23rem;
     }
-    .top1, .top2, .top3{
+
+    .top1,
+    .top2,
+    .top3 {
         margin-bottom: 0.1rem;
     }
-    .r-man{
+
+    .r-man {
         margin-left: -11.8rem;
     }
-    .r-man p{
+
+    .r-man p {
         margin-left: 40%;
     }
 }
 
-@media(max-width: 400px){
-    .wheel img{
+@media(max-width: 400px) {
+    .wheel img {
         height: 12rem;
         width: 17rem;
     }
-    .wheel h1{
+
+    .wheel h1 {
         margin-top: -6.5rem;
     }
-    .head-img img{
+
+    .head-img img {
         height: 3.7rem;
     }
-    .arrow{
+
+    .arrow {
         font-size: 1.1rem;
         margin-left: 10rem;
     }
-    .fantasy-head{
+
+    .fantasy-head {
         margin-left: -8rem;
     }
-    .title h1{
+
+    .title h1 {
         font-size: 4rem;
         margin-left: 1.6rem;
     }
-    .title p{
+
+    .title p {
         font-size: 1.7rem;
         margin-left: -17rem;
     }
-    .right-cont p{
+
+    .right-cont p {
         font-size: 12px;
         margin-left: -15rem;
         width: 82.5vw;
     }
-    .m-t2 p{
+
+    .m-t2 p {
         margin-left: -14rem;
     }
-    .m-t3 p{
+
+    .m-t3 p {
         margin-left: -15rem;
     }
-    .bg-img img{
+
+    .bg-img img {
         height: 92rem;
         width: 22rem;
     }
+
     .bg-text {
         transform: rotate(-62deg);
     }
-    .m-2{
+
+    .m-2 {
         margin-left: 1.15rem;
     }
-    .m-2 h1{
+
+    .m-2 h1 {
         margin-left: 75vw;
     }
-    .m-4{
+
+    .m-4 {
         margin-left: 23rem;
     }
-    .img1{
+
+    .img1 {
         margin-left: 50vw;
     }
-    .r-man h1{
+
+    .r-man h1 {
         font-size: 64px;
         /* width: 20vw; */
-        
+
     }
 }
 
-@media (max-width: 380px){
-    .fantasy-head h2{
+@media (max-width: 380px) {
+    .fantasy-head h2 {
         font-size: 1.2rem;
         margin-left: .7rem;
     }
-    .fantasy-head{
+
+    .fantasy-head {
         margin-left: -9rem;
     }
-    .arrow{
+
+    .arrow {
         margin-left: 9rem;
     }
-    .title h1{
+
+    .title h1 {
         margin-left: 0rem;
     }
-    .m-t2 p{
+
+    .m-t2 p {
         margin-left: -13rem;
     }
-    .heading h2{
+
+    .heading h2 {
         font-size: 2.2rem;
     }
-    .heading h1{
+
+    .heading h1 {
         font-size: 3rem;
         margin-top: -1.3rem;
     }
-    .pics-m p{
+
+    .pics-m p {
         font-size: 12px;
     }
-    .m-1 img{
+
+    .m-1 img {
         width: 165px;
         height: 384px;
     }
-    .m-2{
+
+    .m-2 {
         margin-left: 2rem;
     }
-    .m-2 p{
+
+    .m-2 p {
         width: 7.5rem;
     }
-    .m-2 h1{
+
+    .m-2 h1 {
         margin-left: 68.5vw;
     }
+
     .m-4 {
         margin-left: 21.5rem;
     }
-    .m-4 p{
+
+    .m-4 p {
         width: 7rem;
     }
+
     .m-5 {
         margin-top: -15.5rem;
     }
-    .img1{
+
+    .img1 {
         width: 328px;
         margin-top: 17rem;
     }
-    .bg-img img{
+
+    .bg-img img {
         width: 20rem;
     }
-    .r-man p{
+
+    .r-man p {
         margin-left: 45%;
     }
 
 }
 
-@media(max-width: 370px){
-    .poster{
+@media(max-width: 370px) {
+    .poster {
         margin-top: 9rem;
     }
-    .top1, .top2, .top3{
+
+    .top1,
+    .top2,
+    .top3 {
         margin-bottom: 0rem;
     }
 }
 
-@media(max-width: 350px){
-    .fantasy-head{
+@media(max-width: 350px) {
+    .fantasy-head {
         margin-left: -7.5rem;
     }
-    .arrow{
+
+    .arrow {
         font-size: 1rem;
         margin-left: 8.5rem;
     }
-    .wheel img{
+
+    .wheel img {
         width: 15rem;
         height: 10rem;
     }
-    .wheel h1{
+
+    .wheel h1 {
         font-size: 4.2rem;
         margin-top: -5.5rem;
     }
-    .wheel h2{
+
+    .wheel h2 {
         font-size: 1.55rem;
         margin-top: -.3rem;
     }
-    .title h1{
+
+    .title h1 {
         font-size: 3.5rem;
     }
-    .title p{
+
+    .title p {
         font-size: 1.6rem;
         margin-left: -15.4rem;
         margin-top: 3rem;
     }
-    .bg-img img{
+
+    .bg-img img {
         margin-top: -1rem;
         width: 18rem;
         height: 83rem;
     }
-    .bg-text h1{
+
+    .bg-text h1 {
         font-size: 2.3rem;
     }
-    .bg-text h3{
+
+    .bg-text h3 {
         font-size: 1.5rem;
     }
-    .right-cont p{
+
+    .right-cont p {
         line-height: 1.1rem;
         margin-left: -14rem;
         width: 86vw;
     }
-    .m-t2 p{
+
+    .m-t2 p {
         margin-left: -12.5rem;
     }
-    .m-t3 p{
+
+    .m-t3 p {
         margin-left: -13.3rem;
     }
-    .heading h1{
+
+    .heading h1 {
         font-size: 2.7rem;
         margin-top: -1.2rem;
     }
-    .m-1 img{
+
+    .m-1 img {
         width: 150px;
         height: 320px;
         margin-top: 0;
     }
-    .m-1 p{
+
+    .m-1 p {
         width: 6rem;
     }
-    .pics-m h1{
+
+    .pics-m h1 {
         font-size: .9rem;
     }
-    .pics-m p{
+
+    .pics-m p {
         font-size: 10px;
     }
-    .m-2{
+
+    .m-2 {
         margin-top: -6.5rem;
         margin-left: 2rem;
     }
-    .m-2 h1{
+
+    .m-2 h1 {
         margin-left: 66.5vw;
     }
-    .m-2 p{
+
+    .m-2 p {
         width: 6.5rem;
         margin-right: 2px;
     }
-    .m-3 img{
+
+    .m-3 img {
         width: 155px;
         height: 335px;
     }
-    .m-3 p{
+
+    .m-3 p {
         width: 6rem;
     }
-    .m-4{
+
+    .m-4 {
         margin-left: 24.5rem;
     }
-    .m-4 img{
+
+    .m-4 img {
         width: 170px;
         height: 370px;
     }
-    .m4-txt h1{
+
+    .m4-txt h1 {
         margin-top: -11rem;
         margin-bottom: -4rem;
     }
-    .m-4 p{
+
+    .m-4 p {
         margin-left: -9rem;
     }
-    .m-5{
+
+    .m-5 {
         margin-top: -15rem;
     }
-    .m-5 p{
+
+    .m-5 p {
         width: 5rem;
     }
-    .img1{
+
+    .img1 {
         width: 320px;
         margin-top: 17.3rem;
     }
 
-    .heading h2{
+    .heading h2 {
         font-size: 2rem;
     }
-    .r-man{
+
+    .r-man {
         margin-left: -10rem;
     }
-    .r-man p{
+
+    .r-man p {
         margin-left: 35%;
     }
 }
 
 
 
-@media(min-width: 601px){
-    .bg-img{
+@media(min-width: 601px) {
+    .bg-img {
         display: none;
     }
-    #header-hr{
+
+    #header-hr {
         display: none;
     }
-    .r-man p{
+
+    .r-man p {
         display: none;
     }
 }
 
-@media (max-width: 780px) and (min-width:601px){ 
-    .top-X{
+@media (max-width: 780px) and (min-width:601px) {
+    .top-X {
         display: none;
     }
-    .fantasy-head{
+
+    .fantasy-head {
         margin-top: 3rem;
     }
-    .head-txt h1{
+
+    .head-txt h1 {
         font-size: 28px;
     }
-    .head-txt h2{
+
+    .head-txt h2 {
         font-size: 44px;
         font-weight: normal;
     }
-    .arrow{
+
+    .arrow {
         margin-left: 27rem;
         font-size: 1.6rem;
     }
-    .wheel{
+
+    .wheel {
         margin-top: 0;
     }
-    .wheel h1{
+
+    .wheel h1 {
         margin-top: -6rem;
         font-size: 67px;
     }
-    .bts h2{
+
+    .bts h2 {
         font-size: 36px;
         margin-top: 4rem;
     }
-    .bts p{
+
+    .bts p {
         font-size: 1rem;
         width: 75vw;
     }
-    .pics h1{
+
+    .pics h1 {
         font-size: 17px;
     }
-    .pics p{
+
+    .pics p {
         font-size: 11px;
     }
-    .center{
+
+    .center {
         margin-left: 1.6rem;
     }
-    .center p{
+
+    .center p {
         width: 6.8rem;
     }
-    .center img{
+
+    .center img {
         height: 450.48px;
         width: 200px;
         z-index: 2;
     }
-    .left-most img{
+
+    .left-most img {
         height: 289.75px;
         margin-left: -1.5rem;
         z-index: 2;
     }
-    .left-most h1{
+
+    .left-most h1 {
         width: 8.5rem;
     }
-    .left-most p{
+
+    .left-most p {
         width: 7rem;
         margin-top: 5.8rem;
     }
-    .left{
+
+    .left {
         margin-top: 12rem;
         margin-left: -8.5rem;
     }
-    .left img{
+
+    .left img {
         height: 280.17px;
         width: 160px;
     }
-    .left p{
+
+    .left p {
         width: 7rem;
         line-height: 14px;
     }
-    .right{
+
+    .right {
         margin-left: -8rem;
     }
-    .right p{
+
+    .right p {
         width: 8rem;
     }
-    .right img{
+
+    .right img {
         width: 170px;
     }
-    .right-most{
+
+    .right-most {
         margin-left: 0rem;
     }
-    .right-most p{
+
+    .right-most p {
         margin-right: 4rem;
     }
-    .img1{
+
+    .img1 {
         height: 476px;
         width: 359px;
         z-index: 5;
     }
-    .left-rect{
+
+    .left-rect {
         margin-left: -8rem;
     }
-    .right-rect{
+
+    .right-rect {
         margin-top: 10rem;
         /* margin-left: 10rem; */
         margin-right: -10rem;
     }
-    .r-man{
+
+    .r-man {
         margin-top: -5.5rem;
         margin-left: -12.5rem;
     }
-    .r-man h1{
+
+    .r-man h1 {
         font-size: 68px;
         margin-top: -3rem;
         z-index: 10;
     }
-    .apps img{
+
+    .apps img {
         width: 11rem;
         height: 3.5rem;
     }
-    .rect6{
+
+    .rect6 {
         margin-bottom: -8rem;
     }
-    .pics{
+
+    .pics {
         margin-top: 6rem;
     }
-    .left-most h1{
+
+    .left-most h1 {
         position: relative;
         z-index: 1;
     }
-    .heading h1{
+
+    .heading h1 {
         -webkit-text-stroke-width: 1px;
     }
 }
 
-@media (max-width: 740px) and (min-width:601px){
-    .center p{
+@media (max-width: 740px) and (min-width:601px) {
+    .center p {
         margin-left: -7rem;
     }
 }
 
-@media (max-width: 730px) and (min-width:601px){
-    .head-txt h1{
+@media (max-width: 730px) and (min-width:601px) {
+    .head-txt h1 {
         font-size: 24px;
     }
-    .head-txt h2{
+
+    .head-txt h2 {
         font-size: 40px;
         margin-left: 1.5rem;
     }
-    .arrow{
+
+    .arrow {
         margin-left: 26rem;
     }
-    .left img{
+
+    .left img {
         width: 140px;
     }
-    .left-most p{
+
+    .left-most p {
         margin-left: -6.5rem;
     }
-    .pics h1{
+
+    .pics h1 {
         font-size: 1rem;
     }
-    .img1{
+
+    .img1 {
         width: 300px;
         height: 480px;
         margin-top: 5.5rem;
     }
-    .r-man h1{
+
+    .r-man h1 {
         font-size: 3.5rem;
     }
-    .center{
+
+    .center {
         margin-left: 1rem;
     }
-    .center p{
+
+    .center p {
         margin-left: -6.5rem;
         width: 7rem;
     }
-    .right{
+
+    .right {
         margin-left: -8rem;
     }
-    .right img{
+
+    .right img {
         width: 155px;
     }
-    .heading h2{
+
+    .heading h2 {
         font-size: 3rem;
     }
-    .heading h1{
+
+    .heading h1 {
         font-size: 4rem;
     }
 }
 
-@media (max-width: 710px) and (min-width:601px){
-    .arrow{
+@media (max-width: 710px) and (min-width:601px) {
+    .arrow {
         margin-left: 24rem;
     }
 }
 
-@media (max-width: 700px) and (min-width:601px){
-    .left-most{
+@media (max-width: 700px) and (min-width:601px) {
+    .left-most {
         margin-left: -1rem;
     }
 }
 
-@media (max-width: 680px) and (min-width:601px){
-    .arrow{
+@media (max-width: 680px) and (min-width:601px) {
+    .arrow {
         margin-left: 22rem;
     }
-    .right{
+
+    .right {
         margin-left: -8rem;
     }
-    .right-most{
+
+    .right-most {
         margin-left: -1rem;
     }
-    .heading h2{
+
+    .heading h2 {
         font-size: 2.5rem;
     }
-    .heading h1{
+
+    .heading h1 {
         font-size: 3.5rem;
         margin-top: -1.6rem;
     }
 }
 
-@media (max-width: 650px) and (min-width:601px){
+@media (max-width: 650px) and (min-width:601px) {
     .fantasy-head {
         margin-left: -8.5rem;
     }
-    .arrow{
+
+    .arrow {
         font-size: 1.4rem;
         margin-left: 23rem;
     }
-    .pics h1{
+
+    .pics h1 {
         font-size: 14px;
     }
-    .pics p{
+
+    .pics p {
         font-size: 10px;
     }
-    .left-most img{
+
+    .left-most img {
         margin-top: 0rem;
         height: 260px;
     }
-    .left-most p{
+
+    .left-most p {
         margin-left: -7rem;
     }
-    .left img{
+
+    .left img {
         width: 130px;
         height: 270px;
     }
-    .center p{
+
+    .center p {
         line-height: 10px;
         width: 6rem;
     }
-    .center img{
+
+    .center img {
         margin-left: -1.5rem;
     }
-    .right p{
+
+    .right p {
         margin-left: 2rem;
         width: 6rem;
     }
-    .right{
+
+    .right {
         margin-left: -7.5rem;
     }
-    .right img{
+
+    .right img {
         width: 135px;
         height: 300px;
     }
-    .img1{
+
+    .img1 {
         width: 250px;
         margin-top: 9rem;
         height: 420px;
     }
-    .apps img{
+
+    .apps img {
         width: 9.5rem;
     }
-    .rect6{
+
+    .rect6 {
         margin-left: 26rem;
         width: 10rem;
     }
 }
 
-@media (max-width: 630px) and (min-width:601px){
-    .arrow{
+@media (max-width: 630px) and (min-width:601px) {
+    .arrow {
         margin-left: 21rem;
     }
 }
 
-@media (max-width: 610px) and (min-width:601px){
-    .wheel h1{
+@media (max-width: 610px) and (min-width:601px) {
+    .wheel h1 {
         font-size: 4rem;
     }
-    .bts h2{
+
+    .bts h2 {
         font-size: 2rem;
     }
 }
