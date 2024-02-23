@@ -10,7 +10,7 @@
 }
 
 .play-store-link {
-    margin: auto;
+    display: flex;
 }
 
 @font-face {
