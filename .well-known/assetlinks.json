@@ -2,8 +2,8 @@
 [{
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
-      "namespace": "android_app",
-      "package_name": "com.example.deeplink_cookbook",
+      "namespace": "PodiumPe",
+      "package_name": "com.podiumpe.mobilapp.podiumpe_mobileapp",
       "sha256_cert_fingerprints":
       ["75:8F:51:24:72:B1:DB:1B:44:48:7F:E4:17:8F:BC:24:41:1D:8A:7B:0F:F4:52:14:7D:4E:8B:6C:E6:F6:EA:46"]
     }
